@@ -1,5 +1,6 @@
 import telebot
 from DB_commands import *
+
 bot = telebot.TeleBot('5707824022:AAHZzhzXSm_kMQkzg8n2tVTBXEHn3qh27JM')
 
 
@@ -12,8 +13,9 @@ def get_text_messages(message):
     print(user_id, user_name, nickname)
     if message.text == '/lowprice':
         result = 'lowprice + info about order'
-        add_user_action(user_id, user_name, result)
+        url = 'https://exp.cdn-hotels.com/hotels/34000000/33460000/33457100/33457035/1ae8596b_w.jpg'
         bot.send_message(message.from_user.id, 'тут пойдет исполнение команды LP')
+        bot.send_photo(message.from_user.id, url)
     elif message.text == '/highprice':
         bot.send_message(message.from_user.id, 'тут пойдет исполнение команды HP')
     elif message.text == '/bestdeal':

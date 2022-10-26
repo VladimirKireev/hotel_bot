@@ -14,6 +14,6 @@ response = requests.request("GET", url, headers=headers, params=querystring)
 
 
 data = json.loads(response.text)
-with open('commands/list_result.json', 'w') as file:
+with open('commands/list_result_HP.json', 'w') as file:
 	json.dump(data, file, indent=4)
 
