@@ -57,7 +57,8 @@ for i_hotel in results:
 	hotel_name = i_hotel['name']
 	hotel_adress = i_hotel['address']['streetAddress']
 	center_distance = i_hotel['landmarks'][0]['distance']
-	result_text = f'{hotel_name}, расположенный по адресу: {hotel_adress}, расположенный на {center_distance} миль от центра.'
+	price = i_hotel['ratePlan']['price']['current']
+	result_text = f'{hotel_name}, расположенный по адресу: {hotel_adress}, расположенный на {center_distance} миль от центра по цене {price} за ночь.'
 	top_hotels.append(result_text)
 
 print(intro_text)
