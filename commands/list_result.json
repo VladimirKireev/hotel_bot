@@ -1,0 +1,1296 @@
+{
+    "result": "OK",
+    "data": {
+        "body": {
+            "header": "Almaty, Kazakhstan",
+            "query": {
+                "destination": {
+                    "id": "737341",
+                    "value": "Almaty, Kazakhstan",
+                    "resolvedLocation": "CITY:737341:UNKNOWN:UNKNOWN"
+                }
+            },
+            "searchResults": {
+                "totalCount": 168,
+                "results": [
+                    {
+                        "id": 1071625120,
+                        "name": "Kz-hostel",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "22 Beregovaya Street",
+                            "extendedAddress": "",
+                            "locality": "Almaty",
+                            "postalCode": "000059",
+                            "region": "",
+                            "countryName": "Kazakhstan",
+                            "countryCode": "kz",
+                            "obfuscate": false
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.0 miles"
+                            },
+                            {
+                                "label": "Shymbulak Ski Resort",
+                                "distance": "11 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$9",
+                                "exactCurrent": 9.45
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Auezov District",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13",
+                        "coordinate": {
+                            "lat": 43.222015,
+                            "lon": 76.851249
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 33457035,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/34000000/33460000/33457100/33457035/6e7269b2_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 1125821664,
+                        "name": "Hotel Tahar",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Abylay hana 27/1",
+                            "extendedAddress": "",
+                            "locality": "Almaty",
+                            "postalCode": "050004",
+                            "region": "",
+                            "countryName": "Kazakhstan",
+                            "countryCode": "kz",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 8.8,
+                            "rating": "8.8",
+                            "total": 8,
+                            "scale": 10,
+                            "badge": "fabulous",
+                            "badgeText": "Fabulous"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "5.5 miles"
+                            },
+                            {
+                                "label": "Shymbulak Ski Resort",
+                                "distance": "9.7 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$20",
+                                "exactCurrent": 19.81
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Almaly District",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 43.2692,
+                            "lon": 76.9388
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 35150677,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/36000000/35160000/35150700/35150677/952438e1_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 1454968320,
+                        "name": "Hotel Aurora",
+                        "starRating": 3.5,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Raiymbek Avenue 212 A/7",
+                            "extendedAddress": "",
+                            "locality": "Almaty",
+                            "postalCode": "050061",
+                            "region": "",
+                            "countryName": "Kazakhstan",
+                            "countryCode": "kz",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 4.6,
+                            "rating": "4.6",
+                            "total": 3,
+                            "scale": 10
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "3.4 miles"
+                            },
+                            {
+                                "label": "Shymbulak Ski Resort",
+                                "distance": "11 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$28",
+                                "exactCurrent": 28.35
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Almaly District",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "coordinate": {
+                            "lat": 43.260747,
+                            "lon": 76.892408
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 45436510,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/46000000/45440000/45436600/45436510/b18a9c90_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 186444608,
+                        "name": "Royal Palace Hotel",
+                        "starRating": 3.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Zhansugurov av., 178",
+                            "extendedAddress": "",
+                            "locality": "Almaty",
+                            "postalCode": "050066",
+                            "region": "",
+                            "countryName": "Kazakhstan",
+                            "countryCode": "kz",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 8.0,
+                            "rating": "8.0",
+                            "total": 4,
+                            "scale": 10,
+                            "badge": "very-good",
+                            "badgeText": "Very Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "6.7 miles"
+                            },
+                            {
+                                "label": "Shymbulak Ski Resort",
+                                "distance": "12 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$35",
+                                "exactCurrent": 35.42
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Turksib District",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 43.299285,
+                            "lon": 76.930772
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 5795144,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/6000000/5800000/5795200/5795144/fe8c325e_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 617558,
+                        "name": "Lessor Apartments",
+                        "starRating": 3.5,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "74 Zheltoksan St",
+                            "extendedAddress": "",
+                            "locality": "Almaty",
+                            "postalCode": "50000",
+                            "region": "",
+                            "countryName": "Kazakhstan",
+                            "countryCode": "kz",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 8.8,
+                            "rating": "8.8",
+                            "total": 22,
+                            "scale": 10,
+                            "badge": "fabulous",
+                            "badgeText": "Fabulous"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "5.2 miles"
+                            },
+                            {
+                                "label": "Shymbulak Ski Resort",
+                                "distance": "9.3 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$36",
+                                "exactCurrent": 35.69
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Almaly District",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "D13|HRW",
+                        "coordinate": {
+                            "lat": 43.261227,
+                            "lon": 76.938902
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 15862548,
+                        "vrBadge": "Apartments",
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/16000000/15870000/15862600/15862548/97a29ddb_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 1224287264,
+                        "name": "Royal Plus",
+                        "starRating": 3.5,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Kabdolova St, 14/2",
+                            "extendedAddress": "",
+                            "locality": "Almaty",
+                            "postalCode": "050066",
+                            "region": "",
+                            "countryName": "Kazakhstan",
+                            "countryCode": "kz",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 10.0,
+                            "rating": "10.0",
+                            "total": 2,
+                            "scale": 10,
+                            "badge": "exceptional",
+                            "badgeText": "Exceptional"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.0 mile"
+                            },
+                            {
+                                "label": "Shymbulak Ski Resort",
+                                "distance": "12 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$43",
+                                "exactCurrent": 42.75
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Auezov District",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13",
+                        "coordinate": {
+                            "lat": 43.236969,
+                            "lon": 76.853121
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 38227727,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/39000000/38230000/38227800/38227727/d68677cd_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 299556928,
+                        "name": "Royal Park Hotel Almaty",
+                        "starRating": 3.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Sholokhov St. 29",
+                            "extendedAddress": "",
+                            "locality": "Almaty",
+                            "postalCode": "050011",
+                            "region": "",
+                            "countryName": "Kazakhstan",
+                            "countryCode": "kz",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 9.6,
+                            "rating": "9.6",
+                            "total": 18,
+                            "scale": 10,
+                            "badge": "exceptional",
+                            "badgeText": "Exceptional"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "9.2 miles"
+                            },
+                            {
+                                "label": "Shymbulak Ski Resort",
+                                "distance": "14 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$44",
+                                "exactCurrent": 43.7
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Turksib District",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 43.336844,
+                            "lon": 76.945645
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 9329904,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/10000000/9330000/9330000/9329904/ae40618d_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 653777,
+                        "name": "Hotel Alma",
+                        "starRating": 3.5,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "4A Koshkunov St",
+                            "extendedAddress": "",
+                            "locality": "Almaty",
+                            "postalCode": "050010",
+                            "region": "",
+                            "countryName": "Kazakhstan",
+                            "countryCode": "kz",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 8.6,
+                            "rating": "8.6",
+                            "total": 36,
+                            "scale": 10,
+                            "badge": "fabulous",
+                            "badgeText": "Fabulous"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "5.7 miles"
+                            },
+                            {
+                                "label": "Shymbulak Ski Resort",
+                                "distance": "7.7 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$47",
+                                "exactCurrent": 47.25
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Medeu District",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 43.243782,
+                            "lon": 76.961075
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 17151235,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/18000000/17160000/17151300/17151235/b6def133_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 423066,
+                        "name": "Renion Hotel Almaty",
+                        "starRating": 3.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Seifullin Avenue 163 A",
+                            "extendedAddress": "",
+                            "locality": "Almaty",
+                            "postalCode": "050037",
+                            "region": "",
+                            "countryName": "Kazakhstan",
+                            "countryCode": "kz",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 7.4,
+                            "rating": "7.4",
+                            "total": 44,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "7.5 miles"
+                            },
+                            {
+                                "label": "Shymbulak Ski Resort",
+                                "distance": "12 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$49",
+                                "exactCurrent": 49.14
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Turksib District",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO|showGoldContentDescriptionHCOMUSenUS",
+                        "coordinate": {
+                            "lat": 43.309472,
+                            "lon": 76.939486
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 3640767,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/4000000/3650000/3640800/3640767/24c27182_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 675478,
+                        "name": "Hotel Otrar",
+                        "starRating": 4.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Gogolya Street 73",
+                            "extendedAddress": "",
+                            "locality": "Almaty",
+                            "postalCode": "050002",
+                            "region": "",
+                            "countryName": "Kazakhstan",
+                            "countryCode": "kz",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 6.6,
+                            "rating": "6.6",
+                            "total": 23,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "5.7 miles"
+                            },
+                            {
+                                "label": "Shymbulak Ski Resort",
+                                "distance": "8.9 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "$51",
+                                "exactCurrent": 51.03
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Medeu District",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 43.26039,
+                            "lon": 76.950983
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 17755854,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/18000000/17760000/17755900/17755854/8e3cefeb_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    }
+                ],
+                "pagination": {
+                    "currentPage": 1,
+                    "pageGroup": "EXPEDIA_IN_POLYGON",
+                    "nextPageStartIndex": 10,
+                    "nextPageNumber": 2,
+                    "nextPageGroup": "EXPEDIA_IN_POLYGON"
+                }
+            },
+            "sortResults": {
+                "options": [
+                    {
+                        "label": "Star rating",
+                        "itemMeta": "star",
+                        "choices": [
+                            {
+                                "label": "Stars (high to low)",
+                                "value": "STAR_RATING_HIGHEST_FIRST",
+                                "selected": false
+                            },
+                            {
+                                "label": "Stars (low to high)",
+                                "value": "STAR_RATING_LOWEST_FIRST",
+                                "selected": false
+                            }
+                        ],
+                        "enhancedChoices": []
+                    },
+                    {
+                        "label": "Distance",
+                        "itemMeta": "distance",
+                        "choices": [
+                            {
+                                "label": "Distance to city center",
+                                "value": "DISTANCE_FROM_LANDMARK",
+                                "selected": false
+                            }
+                        ],
+                        "enhancedChoices": [
+                            {
+                                "label": "Landmarks",
+                                "itemMeta": "landmarks",
+                                "choices": [
+                                    {
+                                        "label": "City center",
+                                        "id": 737341.0
+                                    },
+                                    {
+                                        "label": "28 Panfilov Heroes Memorial Park",
+                                        "id": 1685675.0
+                                    },
+                                    {
+                                        "label": "Almaty Cathedral",
+                                        "id": 1685664.0
+                                    },
+                                    {
+                                        "label": "Almaty Central Stadium",
+                                        "id": 1685661.0
+                                    },
+                                    {
+                                        "label": "Almaty Opera House",
+                                        "id": 1685672.0
+                                    },
+                                    {
+                                        "label": "Almaty Tower",
+                                        "id": 1685655.0
+                                    },
+                                    {
+                                        "label": "Big Almaty Lake",
+                                        "id": 1685668.0
+                                    },
+                                    {
+                                        "label": "Casino Zodiak",
+                                        "id": 10630209.0
+                                    },
+                                    {
+                                        "label": "Gvardeytsev-Panfilovtsev Park",
+                                        "id": 10670164.0
+                                    },
+                                    {
+                                        "label": "Kazakhstan Independence Monument",
+                                        "id": 10670160.0
+                                    },
+                                    {
+                                        "label": "Kazakhstan Museum of Arts",
+                                        "id": 10599171.0
+                                    },
+                                    {
+                                        "label": "Medeo",
+                                        "id": 10670161.0
+                                    },
+                                    {
+                                        "label": "Medeu Skating Rink",
+                                        "id": 10630210.0
+                                    },
+                                    {
+                                        "label": "Medeu Stadium",
+                                        "id": 1685680.0
+                                    },
+                                    {
+                                        "label": "MEGA Park",
+                                        "id": 12523923.0
+                                    },
+                                    {
+                                        "label": "National Museum of Kazakhstan",
+                                        "id": 1685671.0
+                                    },
+                                    {
+                                        "label": "Presidential Palace",
+                                        "id": 1685677.0
+                                    },
+                                    {
+                                        "label": "Republic Square",
+                                        "id": 1685674.0
+                                    },
+                                    {
+                                        "label": "Respublika Alanghy",
+                                        "id": 10599172.0
+                                    },
+                                    {
+                                        "label": "Shymbulak Ski Resort",
+                                        "id": 1685666.0
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Train stations",
+                                "itemMeta": "stations",
+                                "choices": [
+                                    {
+                                        "label": "Almaly",
+                                        "id": 12911455.0
+                                    },
+                                    {
+                                        "label": "Almaty Station",
+                                        "id": 1785910.0
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Airports",
+                                "itemMeta": "airports",
+                                "choices": [
+                                    {
+                                        "label": "Almaty (ALA-Almaty Intl.)",
+                                        "id": 1666105.0
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Guest rating",
+                        "itemMeta": "rating",
+                        "choices": [
+                            {
+                                "label": "Guest rating",
+                                "value": "GUEST_RATING",
+                                "selected": false
+                            }
+                        ],
+                        "enhancedChoices": []
+                    },
+                    {
+                        "label": "Price",
+                        "itemMeta": "price",
+                        "selectedChoiceLabel": "Price (low to high)",
+                        "choices": [
+                            {
+                                "label": "Price (high to low)",
+                                "value": "PRICE_HIGHEST_FIRST",
+                                "selected": false
+                            },
+                            {
+                                "label": "Price (low to high)",
+                                "value": "PRICE",
+                                "selected": true
+                            }
+                        ],
+                        "enhancedChoices": []
+                    }
+                ],
+                "distanceOptionLandmarkId": 737341.0
+            },
+            "filters": {
+                "applied": false,
+                "name": {
+                    "item": {
+                        "value": ""
+                    },
+                    "autosuggest": {
+                        "additionalUrlParams": {
+                            "resolved-location": "CITY:737341:UNKNOWN:UNKNOWN",
+                            "q-destination": "Almaty, Kazakhstan",
+                            "destination-id": "737341"
+                        }
+                    }
+                },
+                "starRating": {
+                    "applied": false,
+                    "items": [
+                        {
+                            "value": 5
+                        },
+                        {
+                            "value": 4
+                        },
+                        {
+                            "value": 3
+                        },
+                        {
+                            "value": 2
+                        },
+                        {
+                            "value": 1
+                        }
+                    ]
+                },
+                "guestRating": {
+                    "range": {
+                        "min": {
+                            "defaultValue": 0.0
+                        },
+                        "max": {
+                            "defaultValue": 10.0
+                        }
+                    }
+                },
+                "landmarks": {
+                    "selectedOrder": [],
+                    "items": [
+                        {
+                            "label": "City center",
+                            "value": "737341"
+                        },
+                        {
+                            "label": "Shymbulak Ski Resort",
+                            "value": "1685666"
+                        },
+                        {
+                            "label": "Almaty (ALA-Almaty Intl.)",
+                            "value": "1666105"
+                        },
+                        {
+                            "label": "Medeu Stadium",
+                            "value": "1685680"
+                        },
+                        {
+                            "label": "Big Almaty Lake",
+                            "value": "1685668"
+                        },
+                        {
+                            "label": "Medeo",
+                            "value": "10670161"
+                        },
+                        {
+                            "label": "28 Panfilov Heroes Memorial Park",
+                            "value": "1685675"
+                        },
+                        {
+                            "label": "Republic Square",
+                            "value": "1685674"
+                        },
+                        {
+                            "label": "Almaty Station",
+                            "value": "1785910"
+                        },
+                        {
+                            "label": "Kazakhstan Museum of Arts",
+                            "value": "10599171"
+                        },
+                        {
+                            "label": "Almaty Opera House",
+                            "value": "1685672"
+                        },
+                        {
+                            "label": "Presidential Palace",
+                            "value": "1685677"
+                        },
+                        {
+                            "label": "Kazakhstan Independence Monument",
+                            "value": "10670160"
+                        },
+                        {
+                            "label": "Gvardeytsev-Panfilovtsev Park",
+                            "value": "10670164"
+                        },
+                        {
+                            "label": "National Museum of Kazakhstan",
+                            "value": "1685671"
+                        },
+                        {
+                            "label": "MEGA Park",
+                            "value": "12523923"
+                        },
+                        {
+                            "label": "Almaty Cathedral",
+                            "value": "1685664"
+                        },
+                        {
+                            "label": "Medeu Skating Rink",
+                            "value": "10630210"
+                        },
+                        {
+                            "label": "Respublika Alanghy",
+                            "value": "10599172"
+                        },
+                        {
+                            "label": "Almaty Tower",
+                            "value": "1685655"
+                        }
+                    ],
+                    "distance": []
+                },
+                "neighbourhood": {
+                    "applied": false,
+                    "items": [
+                        {
+                            "label": "Samal-1",
+                            "value": "12508346"
+                        },
+                        {
+                            "label": "Alatau District",
+                            "value": "12504874"
+                        },
+                        {
+                            "label": "Bostandyk District",
+                            "value": "12477821"
+                        },
+                        {
+                            "label": "Medeu District",
+                            "value": "12479229"
+                        },
+                        {
+                            "label": "Almaly District",
+                            "value": "764553615004053504"
+                        },
+                        {
+                            "label": "Auezov District",
+                            "value": "764553607139733504"
+                        },
+                        {
+                            "label": "Jetysu District",
+                            "value": "764554256161300480"
+                        },
+                        {
+                            "label": "Nauryzbay District",
+                            "value": "764554332248543232"
+                        },
+                        {
+                            "label": "Turksib District",
+                            "value": "764554806821826560"
+                        }
+                    ]
+                },
+                "accommodationType": {
+                    "applied": false,
+                    "items": [
+                        {
+                            "label": "Apart-hotels",
+                            "value": "20"
+                        },
+                        {
+                            "label": "Apartments",
+                            "value": "15"
+                        },
+                        {
+                            "label": "B&Bs",
+                            "value": "5"
+                        },
+                        {
+                            "label": "Capsule hotels",
+                            "value": "43"
+                        },
+                        {
+                            "label": "Cottages",
+                            "value": "11"
+                        },
+                        {
+                            "label": "Guest houses",
+                            "value": "30"
+                        },
+                        {
+                            "label": "Hostels",
+                            "value": "12"
+                        },
+                        {
+                            "label": "Hotels",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Vacation homes",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Villas",
+                            "value": "14"
+                        }
+                    ]
+                },
+                "facilities": {
+                    "applied": false,
+                    "items": [
+                        {
+                            "label": "24-hour front desk",
+                            "value": "2063"
+                        },
+                        {
+                            "label": "Airport transfers",
+                            "value": "513"
+                        },
+                        {
+                            "label": "Bar",
+                            "value": "515"
+                        },
+                        {
+                            "label": "Bathtub in room",
+                            "value": "517"
+                        },
+                        {
+                            "label": "Breakfast included",
+                            "value": "2048"
+                        },
+                        {
+                            "label": "Business facilities",
+                            "value": "519"
+                        },
+                        {
+                            "label": "Casino",
+                            "value": "2112"
+                        },
+                        {
+                            "label": "Childcare",
+                            "value": "521"
+                        },
+                        {
+                            "label": "Connecting rooms available",
+                            "value": "523"
+                        },
+                        {
+                            "label": "Cribs available",
+                            "value": "525"
+                        },
+                        {
+                            "label": "Electric vehicle charging point",
+                            "value": "1073743315"
+                        },
+                        {
+                            "label": "Gym",
+                            "value": "2"
+                        },
+                        {
+                            "label": "Internet Access",
+                            "value": "8"
+                        },
+                        {
+                            "label": "Kitchen",
+                            "value": "32"
+                        },
+                        {
+                            "label": "Meeting Facilities",
+                            "value": "1"
+                        },
+                        {
+                            "label": "Non-smoking",
+                            "value": "529"
+                        },
+                        {
+                            "label": "Parking",
+                            "value": "134234112"
+                        },
+                        {
+                            "label": "Pet Friendly",
+                            "value": "64"
+                        },
+                        {
+                            "label": "Pool",
+                            "value": "128"
+                        },
+                        {
+                            "label": "Restaurant",
+                            "value": "256"
+                        },
+                        {
+                            "label": "Ski-in/ski-out",
+                            "value": "535"
+                        },
+                        {
+                            "label": "Ski shuttle",
+                            "value": "531"
+                        },
+                        {
+                            "label": "Ski storage",
+                            "value": "533"
+                        },
+                        {
+                            "label": "Smoking areas",
+                            "value": "537"
+                        },
+                        {
+                            "label": "Spa",
+                            "value": "539"
+                        },
+                        {
+                            "label": "WiFi included",
+                            "value": "527"
+                        }
+                    ]
+                },
+                "accessibility": {
+                    "applied": false,
+                    "items": [
+                        {
+                            "label": "Accessible bathroom",
+                            "value": "131072"
+                        },
+                        {
+                            "label": "Accessible parking",
+                            "value": "524288"
+                        },
+                        {
+                            "label": "Accessible path of travel",
+                            "value": "65536"
+                        },
+                        {
+                            "label": "Braille or raised signage",
+                            "value": "4194304"
+                        },
+                        {
+                            "label": "In-room accessibility",
+                            "value": "1048576"
+                        },
+                        {
+                            "label": "Roll-in shower",
+                            "value": "262144"
+                        },
+                        {
+                            "label": "Wheelchair accessible rooms",
+                            "value": "541"
+                        }
+                    ]
+                },
+                "themesAndTypes": {
+                    "applied": false,
+                    "items": [
+                        {
+                            "label": "Adventure",
+                            "value": "18"
+                        },
+                        {
+                            "label": "Boutique",
+                            "value": "4"
+                        },
+                        {
+                            "label": "Business",
+                            "value": "14"
+                        },
+                        {
+                            "label": "Casino",
+                            "value": "8"
+                        },
+                        {
+                            "label": "Family-friendly",
+                            "value": "25"
+                        },
+                        {
+                            "label": "Golf",
+                            "value": "26"
+                        },
+                        {
+                            "label": "Hot Springs",
+                            "value": "22"
+                        },
+                        {
+                            "label": "Luxury",
+                            "value": "15"
+                        },
+                        {
+                            "label": "Ski",
+                            "value": "28"
+                        },
+                        {
+                            "label": "Spa Hotel",
+                            "value": "27"
+                        }
+                    ]
+                },
+                "price": {
+                    "label": "Nightly Price",
+                    "range": {
+                        "min": {
+                            "defaultValue": 0
+                        },
+                        "max": {
+                            "defaultValue": 500
+                        },
+                        "increments": 5
+                    },
+                    "multiplier": 1
+                },
+                "paymentPreference": {
+                    "items": [
+                        {
+                            "label": "Pay with Hotels.com gift card",
+                            "value": "gc"
+                        }
+                    ]
+                },
+                "welcomeRewards": {
+                    "label": "Hotels.com\u00ae Rewards",
+                    "items": [
+                        {
+                            "label": "Collect stamps",
+                            "value": "collect"
+                        },
+                        {
+                            "label": "Redeem reward* nights",
+                            "value": "redeem"
+                        }
+                    ]
+                }
+            },
+            "pointOfSale": {
+                "currency": {
+                    "code": "USD",
+                    "symbol": "$",
+                    "separators": ",.",
+                    "format": "${0}"
+                }
+            },
+            "miscellaneous": {
+                "pageViewBeaconUrl": "/taps/v1/PageView?deviceType=App-Phone&sort-order=PRICE&rooms=1&destRegionID=737341&hotelIds=1071625120,1125821664,1454968320,186444608,617558,1224287264,299556928,653777,423066,675478&adults=1&userAgent=Hotels.com/Android%2080.0.1.9.release-80_0%20(80000660)&userGuid=8901c464-3735-4d26-ae0f-ebcd364b7158&pageName=Hotel-Search&slots=HSR_A,HSR_B,HSR_C,HSR_D,HSR_E,HSR_F,HSR_G,HSR_H,HSR_I,HSR_J&children=0&culture=en_US&testVersionOverride=4961.0,904.0,7561.0,7215.0,8218.0,8711.0,8928.1,9008.0,8347.2,9004.0,8952.0,7992.2,8915.0,9729.0,9864.0,10155.0,10185.0,10473.0,10320.0,10361.0&domain=www.hotels.com&userIP=75.190.124.180&action=pageview&publisher=expedia&programId=1",
+                "showLegalInfoForStrikethroughPrices": true,
+                "legalInfoForStrikethroughPrices": "The struck-out price is based on the property\u2019s standard rate on our app, as determined and supplied by the property."
+            },
+            "pageInfo": {
+                "pageType": "dateless"
+            }
+        },
+        "common": {
+            "pointOfSale": {
+                "numberSeparators": ",.",
+                "brandName": "Hotels.com"
+            },
+            "tracking": {
+                "omniture": {
+                    "s.prop33": "D=v33",
+                    "s.prop32": "D=v43",
+                    "s.prop74": "search result without dates | ms shown | N",
+                    "s.products": "LOCAL;33457035,LOCAL;35150677,LOCAL;45436510",
+                    "s.eVar16": "Mob :: aApp",
+                    "s.eVar40": "D=v0",
+                    "s.eVar41": "USD",
+                    "s.eVar63": "7f4e1088-5789-493b-9412-aa7d295bf293",
+                    "s.eVar42": "dateless",
+                    "s.eVar4": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
+                    "s.eVar43": "en_US|HCOM_US|www.hotels.com",
+                    "s.eVar2": "Almaty, Kazakhstan",
+                    "s.eVar24": "MCTC=20;TU=NA;PDID=NULL;MVT=",
+                    "s.eVar7": "",
+                    "s.server": "www.hotels.com",
+                    "s.eVar6": "737341",
+                    "s.prop29": "D=v42",
+                    "s.prop27": "8901c464-3735-4d26-ae0f-ebcd364b7158",
+                    "s.eVar9": "Price - low to high",
+                    "s.eVar69": "Mob :: aApp",
+                    "s.currencyCode": "USD",
+                    "s.eVar26": "US:NC:KANNAPOLIS:517",
+                    "s.eVar29": "Mob :: aApp",
+                    "s.prop9": "168",
+                    "s.eVar95": "Unknown",
+                    "s.prop7": "142",
+                    "s.eVar31": "D=v0",
+                    "s.eVar32": "D=v0",
+                    "s.eVar33": "search result without dates",
+                    "s.eVar34": "H1871:007.002,M904:000.000,M3736:000.000,M4440.2,M4869:001.000,M4952:050.001,M4961:001.000,M5184:001.000,M5342:000.000,M5663:000.000,M6388:000.000,M6775:000.000,M6779:000.000,M7015.1,M7192:000.000,M7215:000.000,M7296:000.000,M7305:000.000,M7353:000.000,M7362.1,M7552:023.001,M7870:000.000,M8336:000.000,M8347:019.002,M8692:000.000,M8698:000.000,M8718:000.000,M8915:000.000,M8928:019.001,M8952:000.000,M8976:000.000,M8992:000.000,M9035:000.000,M9220:000.000,M9297:000.000,M9351:000.000,M9431:000.000,M9469:000.000,M9549:000.000,M9729:000.000,M9752:000.000,M9864:000.000,M9924:000.000,M9961:000.000,M9971:000.000,M10001:000.000,M10007:000.000,M10013:002.001,M10121:000.000,M10137:000.000,M10155:000.000,M10185:000.000,M10248:000.000,M10259:000.000,M10268:000.000,M10282:000.000,M10300:000.000,M10320:000.000,M10361:000.000,M10473:000.000,M9215:001.001",
+                    "s.eVar13": "389367",
+                    "s.events": "event324,event320,event319",
+                    "s.prop18": "D=v6",
+                    "s.prop5": "389367",
+                    "s.prop15": "",
+                    "s.prop3": "Almaty, Kazakhstan",
+                    "s.prop14": "D=v7",
+                    "s.prop36": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
+                    "s.eVar93": "aws.us-east-1.unknown",
+                    "s.prop2": "Price - low to high"
+                }
+            }
+        }
+    }
+}
