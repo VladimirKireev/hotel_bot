@@ -44,7 +44,7 @@ def get_photo(hotel_id=1071625120):
 def hotel_list(destination_id=737341):
     url = "https://hotels4.p.rapidapi.com/properties/list"
 
-    querystring = {"destinationId": f"{destination_id}", "pageNumber": "1", "pageSize": "10",
+    querystring = {"destinationId": f"{destination_id}", "pageNumber": "1", "pageSize": "3",
                    "checkIn":"2022-09-01","checkOut":"2022-10-08", "adults1": "1", "sortOrder": "PRICE",
                    "locale": "en_US", "currency": "USD"}
 
@@ -66,12 +66,12 @@ def hotel_list(destination_id=737341):
         price = i_hotel['ratePlan']['price']['current']
         photo_urls = get_photo(hotel_id)
         result_text = f'Айди отеля {hotel_id} {hotel_name}, расположенный по адресу: {hotel_adress}, расположенный на {center_distance} миль от центра по цене {price} за ночь.'
-        top_hotels[f'{hotel_id}'] = result_text, photo_urls
+        top_hotels[f'{hotel_id}'] = {'result_message': result_text, 'photo_url_list': photo_urls}
 
     return top_hotels
 
 test = hotel_list()
-print(test.values())
+print(test.items())
 #
 # for i in test:
 #     print(i)
