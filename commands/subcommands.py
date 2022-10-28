@@ -1,7 +1,7 @@
 import json
 import requests
 
-def search_city(city='Алматы'):
+def search_city(city):
     url = "https://hotels4.p.rapidapi.com/locations/v2/search"
 
     querystring = {"query": f"{city}", "locale": "en_US", "currency": "USD"}
@@ -19,7 +19,7 @@ def search_city(city='Алматы'):
     return citi_location
 
 
-def get_photo(hotel_id=1071625120, count=10):
+def get_photo(hotel_id, count):
     url = "https://hotels4.p.rapidapi.com/properties/get-hotel-photos"
 
     querystring = {"id": f"{hotel_id}"}
@@ -40,13 +40,14 @@ def get_photo(hotel_id=1071625120, count=10):
         photos_list.append(pic_url)
         if photo_number + 1 == count:
             break
+
     return photos_list
 
 
-def hotel_list(destination_id=737341):
+def hotel_list(destination_id, hotel_count,  photo_count=0):
     url = "https://hotels4.p.rapidapi.com/properties/list"
 
-    querystring = {"destinationId": f"{destination_id}", "pageNumber": "1", "pageSize": "3",
+    querystring = {"destinationId": f"{destination_id}", "pageNumber": "1", "pageSize": f"{hotel_count}",
                    "checkIn":"2022-09-01","checkOut":"2022-10-08", "adults1": "1", "sortOrder": "PRICE",
                    "locale": "en_US", "currency": "USD"}
 
@@ -60,21 +61,35 @@ def hotel_list(destination_id=737341):
 
     result = data['data']['body']['searchResults']['results']
     top_hotels = dict()
-    for i_hotel in result:
-        hotel_id = i_hotel['id']
-        hotel_name = i_hotel['name']
-        hotel_adress = i_hotel['address']['streetAddress']
-        center_distance = i_hotel['landmarks'][0]['distance']
-        price = i_hotel['ratePlan']['price']['current']
-        photo_urls = get_photo(hotel_id)
-        result_text = f'Айди отеля {hotel_id} {hotel_name}, расположенный по адресу: {hotel_adress}, расположенный на {center_distance} миль от центра по цене {price} за ночь.'
-        top_hotels[f'{hotel_id}'] = {'result_message': result_text, 'photo_url_list': photo_urls}
 
-    return top_hotels
+    if photo_count > 0:
+        for i_hotel in result:
+            hotel_id = i_hotel['id']
+            hotel_name = i_hotel['name']
+            hotel_adress = i_hotel['address']['streetAddress']
+            center_distance = i_hotel['landmarks'][0]['distance']
+            price = i_hotel['ratePlan']['price']['current']
+            photo_urls = get_photo(hotel_id, photo_count)
+            result_text = f'{hotel_name}, расположенный по адресу: {hotel_adress}, расположенный на {center_distance} миль от центра по цене {price} за ночь.'
+            top_hotels[f'{hotel_id}'] = {'result_message': result_text, 'photo_url_list': photo_urls}
 
-test = hotel_list()
-print(test.items())
-#
+        return top_hotels
+
+    else:
+        for i_hotel in result:
+            hotel_id = i_hotel['id']
+            hotel_name = i_hotel['name']
+            hotel_adress = i_hotel['address']['streetAddress']
+            center_distance = i_hotel['landmarks'][0]['distance']
+            price = i_hotel['ratePlan']['price']['current']
+            result_text = f'{hotel_name}, расположенный по адресу: {hotel_adress}, расположенный на {center_distance} миль от центра по цене {price} за ночь.'
+            top_hotels[f'{hotel_id}'] = {'result_message': result_text}
+
+        return top_hotels
+
+# test = hotel_list()
+# print(test.items())
+# #
 # for i in test:
 #     print(i)
 

@@ -1,5 +1,5 @@
 import telebot
-from commands.lowprice import lowprice_perform
+from commands.subcommands import *
 
 
 bot = telebot.TeleBot('5707824022:AAHZzhzXSm_kMQkzg8n2tVTBXEHn3qh27JM')
@@ -18,41 +18,64 @@ user_dict = dict()
 def get_text_messages(message):
     msg = bot.reply_to(message, 'В какой город вы собираетесь?')
 
+
     bot.register_next_step_handler(msg, city_pick_step)
 
 def city_pick_step(message):
     city = message.text
-    print(city)
+    user_id = message.from_user.id
+    user_dict[user_id] = Destination(city)
+    print(user_dict[user_id].city)
     msg = bot.reply_to(message, 'Cколько вывести отелей в списке?')
     bot.register_next_step_handler(msg, hotel_count_step)
 
 
 def hotel_count_step(message):
     hotel_count = message.text
-    print(hotel_count)
+    user_id = message.from_user.id
+    user_dict[user_id].hotel_count = hotel_count
+    print(user_dict[user_id].hotel_count)
     msg = bot.reply_to(message, 'Вам нужны фотографии к отелям? (да/нет)')
     bot.register_next_step_handler(msg, need_photo_step)
 
 
 def need_photo_step(message):
     answer = message.text
-    print(answer)
+    # print(answer)
+    user_id = message.from_user.id
+
     if answer == 'да':
+        user_dict[user_id].need_photos = True
         msg = bot.reply_to(message, 'Сколько вывести картинок?')
         bot.register_next_step_handler(msg, photo_count_step)
+    else:
+        city = user_dict[user_id].city
+        hotel_count = user_dict[user_id].hotel_count
+        need_photos = user_dict[user_id].need_photos #убрать из класса Destination потом
+        desnination_id = search_city(city)
+
+        res = hotel_list(desnination_id, hotel_count)
+        for i in res.values():
+            print(i['result_message'])
+
+
 
 
 def photo_count_step(message):
-    photo_count = message.text
-    print(photo_count)
+    user_id = message.from_user.id
+    city = user_dict[user_id].city
+    photo_count = int(message.text)
+    hotel_count = user_dict[user_id].hotel_count
+    desnination_id = search_city(city)
+    res = hotel_list(desnination_id, hotel_count, photo_count)
+    for i in res.values():
+        bot.send_message(message.from_user.id, i['result_message'])
+        for i_photo in i['photo_url_list']:
+            bot.send_photo(message.from_user.id, i_photo)
 
 
-    user_name = message.from_user.first_name
-    # user_dict[f'{user_name}'] =
-    #
-    #
-    #
-    # bot.register_next_step_handler(msg, )
+
+
 
 bot.polling(none_stop=True, interval=0)
 
