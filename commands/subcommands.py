@@ -19,7 +19,7 @@ def search_city(city='Алматы'):
     return citi_location
 
 
-def get_photo(hotel_id=1071625120):
+def get_photo(hotel_id=1071625120, count=10):
     url = "https://hotels4.p.rapidapi.com/properties/get-hotel-photos"
 
     querystring = {"id": f"{hotel_id}"}
@@ -35,9 +35,11 @@ def get_photo(hotel_id=1071625120):
     pictures = data['hotelImages']
     photos_list = []
 
-    for i_photo in pictures:
-        pic_url = i_photo['baseUrl']
+    for photo_number, i_photo in enumerate(pictures):
+        pic_url = str(i_photo['baseUrl']).replace('{size}', 'z')
         photos_list.append(pic_url)
+        if photo_number + 1 == count:
+            break
     return photos_list
 
 

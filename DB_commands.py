@@ -29,4 +29,4 @@ def get_user_history():
 # add_user_action('Four seasons')
 # add_user_action('Гостиница моя')
 # add_user_action('Гостиница Россия')
-get_user_history()
+# get_user_history()
