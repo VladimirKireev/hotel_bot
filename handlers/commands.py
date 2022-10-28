@@ -61,6 +61,8 @@ def hotel_list(destination_id, hotel_count,  photo_count=0):
 
     result = data['data']['body']['searchResults']['results']
     top_hotels = dict()
+    top_hotels[f'hotels_info'] = []
+    hotels_list = ''
 
     if photo_count > 0:
         for i_hotel in result:
@@ -70,9 +72,13 @@ def hotel_list(destination_id, hotel_count,  photo_count=0):
             center_distance = i_hotel['landmarks'][0]['distance']
             price = i_hotel['ratePlan']['price']['current']
             photo_urls = get_photo(hotel_id, photo_count)
+            hotels_list += f'{hotel_name}, '
             result_text = f'{hotel_name}, расположенный по адресу: {hotel_adress}, расположенный на {center_distance} миль от центра по цене {price} за ночь.'
-            top_hotels[f'{hotel_id}'] = {'result_message': result_text, 'photo_url_list': photo_urls}
 
+            top_hotels[f'hotels_info'].extend([{'result_message': result_text, 'photo_url_list': photo_urls}])
+            # top_hotels[f'{hotel_id}'] = {'result_message': result_text, 'photo_url_list': photo_urls}
+
+        top_hotels['hotels_list'] = hotels_list
         return top_hotels
 
     else:
@@ -82,17 +88,30 @@ def hotel_list(destination_id, hotel_count,  photo_count=0):
             hotel_adress = i_hotel['address']['streetAddress']
             center_distance = i_hotel['landmarks'][0]['distance']
             price = i_hotel['ratePlan']['price']['current']
+            hotels_list += f'{hotel_name}, '
             result_text = f'{hotel_name}, расположенный по адресу: {hotel_adress}, расположенный на {center_distance} миль от центра по цене {price} за ночь.'
             top_hotels[f'{hotel_id}'] = {'result_message': result_text}
+            # top_hotels[f'hotels_info'].append({f'{hotel_id}': {'result_message': result_text}})
+            top_hotels[f'hotels_info'].append({'result_message': result_text})
 
+
+
+        top_hotels['hotels_list'] = hotels_list
         return top_hotels
 
 # test = hotel_list()
 # print(test.items())
-# #
-# for i in test:
+# print()
+# for i in test.items():
 #     print(i)
-
+#
+# print()
+# for i in test.keys():
+#     print(i)
+#
+# print()
+# for i in test.values():
+#     print(i)
 
 # search_city('Париж')
 # res = get_photo()

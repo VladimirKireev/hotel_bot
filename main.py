@@ -62,25 +62,30 @@ def need_photo_step(message):
         hotel_count = user_dict[user_id].hotel_count
         desnination_id = search_city(city)
 
-        hotels = ''
         res = hotel_list(desnination_id, hotel_count)
-        for i in res.values():
+        for i in res['hotels_info']:
             bot.send_message(message.from_user.id, i['result_message'])
-            hotels += (i['result_message'][:4])
-        add_user_action(user_id, user_name, nickname, '/lowprice', hotels)
+
+        hotels_list = res['hotels_list'][:-2]
+        add_user_action(user_id, user_name, nickname, '/lowprice', hotels_list)
 
 
 def photo_count_step(message):
     user_id = message.from_user.id
+    user_name = message.from_user.first_name
+    nickname = message.from_user.username
     city = user_dict[user_id].city
     photo_count = int(message.text)
     hotel_count = user_dict[user_id].hotel_count
     desnination_id = search_city(city)
     res = hotel_list(desnination_id, hotel_count, photo_count)
-    for i in res.values():
+    for i in res['hotels_info']:
+        # print(i)
         bot.send_message(message.from_user.id, i['result_message'])
         for i_photo in i['photo_url_list']:
             bot.send_photo(message.from_user.id, i_photo)
+    hotels_list = res['hotels_list'][:-2]
+    add_user_action(user_id, user_name, nickname, '/lowprice', hotels_list)
 
 
 
