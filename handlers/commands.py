@@ -1,5 +1,7 @@
 import json
 import requests
+from telebot import types
+
 
 def search_city(city):
     url = "https://hotels4.p.rapidapi.com/locations/v2/search"
@@ -37,7 +39,8 @@ def get_photo(hotel_id, count):
 
     for photo_number, i_photo in enumerate(pictures):
         pic_url = str(i_photo['baseUrl']).replace('{size}', 'z')
-        photos_list.append(pic_url)
+        photo_object = types.InputMediaPhoto(pic_url)
+        photos_list.append(photo_object)
         if photo_number + 1 == count:
             break
 

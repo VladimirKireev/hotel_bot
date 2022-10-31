@@ -85,9 +85,23 @@ def photo_count_step(message):
     res = hotel_list(desnination_id, hotel_count, photo_count)
     for i in res['hotels_info']:
         # print(i)
-        bot.send_message(message.from_user.id, i['result_message'])
-        for i_photo in i['photo_url_list']:
-            bot.send_photo(message.from_user.id, i_photo)
+        photo_list = [
+            types.InputMediaPhoto('https://exp.cdn-hotels.com/hotels/45000000/44120000/44117900/44117879/dfb78e94_z.jpg'),
+            types.InputMediaPhoto('https://exp.cdn-hotels.com/hotels/45000000/44120000/44117900/44117879/785b3cae_z.jpg')
+        ]
+        # for i_photo in i['photo_url_list']:
+        #     photo = types.InputMediaPhoto(i_photo)
+        #     print(photo)
+        #     print(type(photo))
+        #     photo_list.append(photo)
+        result_message = i['result_message']
+        photo_list = i['photo_url_list']
+        bot.send_message(message.from_user.id, result_message)
+        bot.send_media_group(message.from_user.id, photo_list)
+        #
+        # for i_photo in i['photo_url_list']:
+        #     print(i_photo)
+            # bot.send_photo(message.from_user.id, i_photo)
     hotels_list = res['hotels_list'][:-2]
     add_user_action(user_id, user_name, nickname, '/lowprice', hotels_list)
 
