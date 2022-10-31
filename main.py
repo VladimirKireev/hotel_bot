@@ -1,11 +1,12 @@
 import telebot
 from handlers.commands import *
 from telebot import types
+from config import BOT_TOKEN
+
 from DB_commands import add_user_action
-# from handlers.lowprice import lowprice_action
 
 
-bot = telebot.TeleBot('5603771167:AAGBbDwZJdUogTUh5Yz1DH4gV9_fdd7LL5A') #Второй бот, первый что-то не работает
+bot = telebot.TeleBot(BOT_TOKEN) #Второй бот, первый что-то не работает
 # bot = telebot.TeleBot('5707824022:AAHZzhzXSm_kMQkzg8n2tVTBXEHn3qh27JM') #Старый токен который кто-то украл
 
 # lowprice_action()
