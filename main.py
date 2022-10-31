@@ -2,9 +2,13 @@ import telebot
 from handlers.commands import *
 from telebot import types
 from DB_commands import add_user_action
+# from handlers.lowprice import lowprice_action
 
 
-bot = telebot.TeleBot('5707824022:AAHZzhzXSm_kMQkzg8n2tVTBXEHn3qh27JM')
+bot = telebot.TeleBot('5603771167:AAGBbDwZJdUogTUh5Yz1DH4gV9_fdd7LL5A') #Второй бот, первый что-то не работает
+# bot = telebot.TeleBot('5707824022:AAHZzhzXSm_kMQkzg8n2tVTBXEHn3qh27JM') #Старый токен который кто-то украл
+
+# lowprice_action()
 
 class Destination:
 
@@ -47,7 +51,6 @@ def hotel_count_step(message):
     kb.add(yes_btn, no_btn)
 
     msg = bot.send_message(message.from_user.id, 'Вам нужны фотографии к отелям?', reply_markup=kb)
-
     bot.register_next_step_handler(msg, need_photo_step)
 
 
@@ -84,32 +87,16 @@ def photo_count_step(message):
     desnination_id = user_dict[user_id].destination_id
     res = hotel_list(desnination_id, hotel_count, photo_count)
     for i in res['hotels_info']:
-        # print(i)
-        photo_list = [
-            types.InputMediaPhoto('https://exp.cdn-hotels.com/hotels/45000000/44120000/44117900/44117879/dfb78e94_z.jpg'),
-            types.InputMediaPhoto('https://exp.cdn-hotels.com/hotels/45000000/44120000/44117900/44117879/785b3cae_z.jpg')
-        ]
-        # for i_photo in i['photo_url_list']:
-        #     photo = types.InputMediaPhoto(i_photo)
-        #     print(photo)
-        #     print(type(photo))
-        #     photo_list.append(photo)
-        result_message = i['result_message']
         photo_list = i['photo_url_list']
-        # bot.send_message(message.from_user.id, result_message) Не нужно
         bot.send_media_group(message.from_user.id, photo_list)
-        #
-        # for i_photo in i['photo_url_list']:
-        #     print(i_photo)
-            # bot.send_photo(message.from_user.id, i_photo)
     hotels_list = res['hotels_list'][:-2]
     add_user_action(user_id, user_name, nickname, '/lowprice', hotels_list)
+#
+#
 
 
 
-
-
-bot.polling(none_stop=True, interval=0)
+bot.infinity_polling()
 
 
 

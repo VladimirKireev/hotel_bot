@@ -1,77 +1,104 @@
-import telebot
-
-bot = telebot.TeleBot('5707824022:AAHZzhzXSm_kMQkzg8n2tVTBXEHn3qh27JM')
-
-def lowprice_perform(message):
-	@bot.message_handler(content_types=['text'])
-	def info_request(message):
-		print('погнали')
-		bot.send_message(message.from_user.id, 'Введите город поиска')
-
-		bot.send_message(message.from_user.id, message.text)
-
-# bot.polling(none_stop=True, interval=0)
-
-# def lowprice_perform(city='Алматы', hotel_count=10, need_photos=False, photo_count=0):
-# 	print('текст')
-
-
-# city = input('Введите город ')
-# hotel_count = input('Введите количество отелей, которое необходимо вывести ')
-# foto_request = 'Нужно ли загружать и выводить фотографии для каждого отеля? '
-# if foto_request == 'да':
-#     is_photo = True
-# else:
-#     is_photo = False
+# from python_basic_diploma.main import bot
+# from commands import *
+# from python_basic_diploma.DB_commands import add_user_action
 #
-# if is_photo:
-#     foto_count = int(input('Введите количество необходимых фотографий к каждому отелю'))
-
-
-# url = "https://hotels4.p.rapidapi.com/locations/v2/search"
 #
-# querystring = {f"query":f"{city}","locale":"en_US","currency":"USD"}
 #
-# headers = {"X-RapidAPI-Key": "3b7f345943msh65de7279456f1e0p12e253jsn55b13eb898e0", "X-RapidAPI-Host": "hotels4.p.rapidapi.com"}
+# def lowprice_action():
+#     class Destination:
+#         def __init__(self, city, destination_id):
+#             self.city = city
+#             self.destination_id = destination_id
+#             self.hotel_count = 0
+#             self.photos_count = 0
 #
-# response = requests.request("GET", url, headers=headers, params=querystring)
-
-
-# with open('search_results.json', 'r') as file:
-# 	data = json.load(file)
-# citi_location = data['suggestions'][0]['entities'][0]['destinationId']
-# print(citi_location)
-
-
-# url = "https://hotels4.p.rapidapi.com/properties/list"
+#     user_dict = dict()
 #
-# querystring = {"destinationId":"737341","pageNumber":"1","pageSize":"10","checkIn":"2022-01-11","checkOut":"2022-11-11","adults1":"1","sortOrder":"PRICE","locale":"en_US","currency":"USD"}
+#     @bot.message_handler(commands=['lowprice'])
+#     def get_text_messages(message):
+#         msg = bot.reply_to(message, 'В какой город вы собираетесь?')
+#         bot.register_next_step_handler(msg, city_pick_step)
 #
-# headers = {
-# 	"X-RapidAPI-Key": "3b7f345943msh65de7279456f1e0p12e253jsn55b13eb898e0",
-# 	"X-RapidAPI-Host": "hotels4.p.rapidapi.com"
-# }
 #
-# response = requests.request("GET", url, headers=headers, params=querystring)
+#     def city_pick_step(message):
+#         city = message.text
+#         try:
+#             desnination_id = search_city(city)
+#             user_id = message.from_user.id
+#             user_dict[user_id] = Destination(city, desnination_id)
+#             print(user_dict[user_id].city)
+#             msg = bot.reply_to(message, 'Cколько вывести отелей в списке?')
+#             bot.register_next_step_handler(msg, hotel_count_step)
+#         except IndexError:
+#             bot.reply_to(message, 'Не могу найти такой город. Вам необходимо заново выбрать команду и осуществить поиск.')
 #
-# data = json.loads(response.text)
 #
-# with open('list_result.json', 'r') as file:
-# 	data = json.load(file)
 #
-# intro_text = f'По запросу {city} выведено {hotel_count} результатов:'
-# results = data['data']['body']['searchResults']['results']
-# top_hotels = []
-# for i_hotel in results:
-# 	# print(i_hotel)
-# 	hotel_name = i_hotel['name']
-# 	hotel_adress = i_hotel['address']['streetAddress']
-# 	center_distance = i_hotel['landmarks'][0]['distance']
-# 	price = i_hotel['ratePlan']['price']['current']
+#     def hotel_count_step(message):
+#         hotel_count = message.text
+#         user_id = message.from_user.id
+#         user_dict[user_id].hotel_count = hotel_count
+#         print(user_dict[user_id].hotel_count)
+#         kb = types.ReplyKeyboardMarkup(one_time_keyboard=True)
+#         yes_btn = types.KeyboardButton(text='Да')
+#         no_btn = types.KeyboardButton(text='Нет')
+#         kb.add(yes_btn, no_btn)
 #
-# 	result_text = f'{hotel_name}, расположенный по адресу: {hotel_adress}, расположенный на {center_distance} миль от центра по цене {price} за ночь.'
-# 	top_hotels.append(result_text)
+#         msg = bot.send_message(message.from_user.id, 'Вам нужны фотографии к отелям?', reply_markup=kb)
 #
-# print(intro_text)
-# for i_result in top_hotels:
-# 	print(i_result)
+#         bot.register_next_step_handler(msg, need_photo_step)
+#
+#
+#     def need_photo_step(message):
+#         answer = message.text
+#         user_name = message.from_user.first_name
+#         user_id = message.from_user.id
+#         nickname = message.from_user.username
+#
+#         if answer == 'Да':
+#             user_dict[user_id].need_photos = True
+#             msg = bot.reply_to(message, 'Сколько вывести картинок?')
+#             bot.register_next_step_handler(msg, photo_count_step)
+#         else:
+#             city = user_dict[user_id].city
+#             hotel_count = user_dict[user_id].hotel_count
+#             desnination_id = user_dict[user_id].destination_id
+#
+#             res = hotel_list(desnination_id, hotel_count)
+#             for i in res['hotels_info']:
+#                 bot.send_message(message.from_user.id, i['result_message'])
+#
+#             hotels_list = res['hotels_list'][:-2]
+#             add_user_action(user_id, user_name, nickname, '/lowprice', hotels_list)
+#
+#
+#     def photo_count_step(message):
+#         user_id = message.from_user.id
+#         user_name = message.from_user.first_name
+#         nickname = message.from_user.username
+#         city = user_dict[user_id].city
+#         photo_count = int(message.text)
+#         hotel_count = user_dict[user_id].hotel_count
+#         desnination_id = user_dict[user_id].destination_id
+#         res = hotel_list(desnination_id, hotel_count, photo_count)
+#         for i in res['hotels_info']:
+#             # print(i)
+#             # photo_list = [
+#             #     types.InputMediaPhoto('https://exp.cdn-hotels.com/hotels/45000000/44120000/44117900/44117879/dfb78e94_z.jpg'),
+#             #     types.InputMediaPhoto('https://exp.cdn-hotels.com/hotels/45000000/44120000/44117900/44117879/785b3cae_z.jpg')
+#             # ]
+#             # for i_photo in i['photo_url_list']:
+#             #     photo = types.InputMediaPhoto(i_photo)
+#             #     print(photo)
+#             #     print(type(photo))
+#             #     photo_list.append(photo)
+#             result_message = i['result_message']
+#             photo_list = i['photo_url_list']
+#             # bot.send_message(message.from_user.id, result_message) Не нужно
+#             bot.send_media_group(message.from_user.id, photo_list)
+#             #
+#             # for i_photo in i['photo_url_list']:
+#             #     print(i_photo)
+#                 # bot.send_photo(message.from_user.id, i_photo)
+#         hotels_list = res['hotels_list'][:-2]
+#         add_user_action(user_id, user_name, nickname, '/lowprice', hotels_list)
