@@ -96,7 +96,7 @@ def photo_count_step(message):
         #     photo_list.append(photo)
         result_message = i['result_message']
         photo_list = i['photo_url_list']
-        bot.send_message(message.from_user.id, result_message)
+        # bot.send_message(message.from_user.id, result_message) Не нужно
         bot.send_media_group(message.from_user.id, photo_list)
         #
         # for i_photo in i['photo_url_list']:

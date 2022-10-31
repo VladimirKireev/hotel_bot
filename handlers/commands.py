@@ -21,7 +21,7 @@ def search_city(city):
     return citi_location
 
 
-def get_photo(hotel_id, count):
+def get_photo(hotel_id, hotel_name, count):
     url = "https://hotels4.p.rapidapi.com/properties/get-hotel-photos"
 
     querystring = {"id": f"{hotel_id}"}
@@ -39,7 +39,10 @@ def get_photo(hotel_id, count):
 
     for photo_number, i_photo in enumerate(pictures):
         pic_url = str(i_photo['baseUrl']).replace('{size}', 'z')
-        photo_object = types.InputMediaPhoto(pic_url)
+        if photo_number == 0:
+            photo_object = types.InputMediaPhoto(pic_url, caption=hotel_name)
+        else:
+            photo_object = types.InputMediaPhoto(pic_url)
         photos_list.append(photo_object)
         if photo_number + 1 == count:
             break
@@ -74,9 +77,9 @@ def hotel_list(destination_id, hotel_count,  photo_count=0):
             hotel_adress = i_hotel['address']['streetAddress']
             center_distance = i_hotel['landmarks'][0]['distance']
             price = i_hotel['ratePlan']['price']['current']
-            photo_urls = get_photo(hotel_id, photo_count)
             hotels_list += f'{hotel_name}, '
             result_text = f'{hotel_name}, расположенный по адресу: {hotel_adress}, расположенный на {center_distance} миль от центра по цене {price} за ночь.'
+            photo_urls = get_photo(hotel_id, result_text, photo_count)
 
             top_hotels[f'hotels_info'].extend([{'result_message': result_text, 'photo_url_list': photo_urls}])
             # top_hotels[f'{hotel_id}'] = {'result_message': result_text, 'photo_url_list': photo_urls}
