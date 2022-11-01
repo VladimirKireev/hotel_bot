@@ -6,10 +6,10 @@ from telebot import types
 def search_city(city):
     url = "https://hotels4.p.rapidapi.com/locations/v2/search"
 
-    querystring = {"query": f"{city}", "locale": "en_US", "currency": "USD"}
+    querystring = {"query": f"{city}", "locale": "ru_RU", "currency": "RUB"}
 
     headers = {
-        "X-RapidAPI-Key": "3b7f345943msh65de7279456f1e0p12e253jsn55b13eb898e0",
+        "X-RapidAPI-Key": "bf1948fae7mshea6c4db01483900p1f0237jsn16fcf944b8bd",
         "X-RapidAPI-Host": "hotels4.p.rapidapi.com"
     }
 
@@ -27,7 +27,7 @@ def get_photo(hotel_id, hotel_name, count):
     querystring = {"id": f"{hotel_id}"}
 
     headers = {
-        "X-RapidAPI-Key": "3b7f345943msh65de7279456f1e0p12e253jsn55b13eb898e0",
+        "X-RapidAPI-Key": "bf1948fae7mshea6c4db01483900p1f0237jsn16fcf944b8bd",
         "X-RapidAPI-Host": "hotels4.p.rapidapi.com"
     }
 
@@ -50,20 +50,22 @@ def get_photo(hotel_id, hotel_name, count):
     return photos_list
 
 
-def hotel_list(destination_id, hotel_count,  photo_count=0):
+def hotel_list(destination_id=549499, hotel_count=3, sort='PRICE_HIGHEST_FIRST', photo_count=0):
     url = "https://hotels4.p.rapidapi.com/properties/list"
 
     querystring = {"destinationId": f"{destination_id}", "pageNumber": "1", "pageSize": f"{hotel_count}",
-                   "checkIn":"2022-09-01","checkOut":"2022-10-08", "adults1": "1", "sortOrder": "PRICE",
-                   "locale": "en_US", "currency": "USD"}
+                   "checkIn":"2022-09-01","checkOut":"2022-10-08", "adults1": "1", "sortOrder": f"{sort}",
+                   "locale": "en_US", "currency": "RUB"}
 
     headers = {
-        "X-RapidAPI-Key": "3b7f345943msh65de7279456f1e0p12e253jsn55b13eb898e0",
+        "X-RapidAPI-Key": "bf1948fae7mshea6c4db01483900p1f0237jsn16fcf944b8bd",
         "X-RapidAPI-Host": "hotels4.p.rapidapi.com"
     }
 
     response = requests.request("GET", url, headers=headers, params=querystring)
     data = json.loads(response.text)
+    with open('HP_RESULT.json', 'w') as file:
+        json.dump(data, file, indent=4)
 
     result = data['data']['body']['searchResults']['results']
     top_hotels = dict()
@@ -90,7 +92,9 @@ def hotel_list(destination_id, hotel_count,  photo_count=0):
     else:
         for i_hotel in result:
             hotel_id = i_hotel['id']
+            print(hotel_id)
             hotel_name = i_hotel['name']
+            print(hotel_name)
             hotel_adress = i_hotel['address']['streetAddress']
             center_distance = i_hotel['landmarks'][0]['distance']
             price = i_hotel['ratePlan']['price']['current']
@@ -105,20 +109,20 @@ def hotel_list(destination_id, hotel_count,  photo_count=0):
         top_hotels['hotels_list'] = hotels_list
         return top_hotels
 
-# test = hotel_list()
-# print(test.items())
-# print()
-# for i in test.items():
-#     print(i)
-#
-# print()
-# for i in test.keys():
-#     print(i)
-#
-# print()
-# for i in test.values():
-#     print(i)
+test = hotel_list()
+print(test.items())
+print()
+for i in test.items():
+    print(i)
 
-# search_city('Париж')
+print()
+for i in test.keys():
+    print(i)
+
+print()
+for i in test.values():
+    print(i)
+
+# search_city('Лондон')
 # res = get_photo()
 # print(res)
