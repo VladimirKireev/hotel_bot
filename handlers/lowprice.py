@@ -1,9 +1,10 @@
 from python_basic_diploma.loader import bot
-from commands import *
+from telebot import types
+from python_basic_diploma.commands import search_city, hotel_list
 from python_basic_diploma.DB_commands import add_user_action
 
 
-
+print('куку')
 
 class Destination:
     def __init__(self, city, destination_id):
