@@ -74,7 +74,7 @@ def need_photo_step(message):
             bot.send_message(message.from_user.id, i['result_message'])
 
         hotels_list = res['hotels_list'][:-2]
-        add_user_action(user_id, user_name, nickname, '/lowprice', hotels_list)
+        add_user_action(user_id, user_name, nickname, '/lowprice', city, hotels_list)
 
 
 def photo_count_step(message):
@@ -90,7 +90,7 @@ def photo_count_step(message):
         photo_list = i['photo_url_list']
         bot.send_media_group(message.from_user.id, photo_list)
     hotels_list = res['hotels_list'][:-2]
-    add_user_action(user_id, user_name, nickname, '/lowprice', hotels_list)
+    add_user_action(user_id, user_name, nickname, '/lowprice', city, hotels_list)
 
 
 bot.infinity_polling()

@@ -12,7 +12,7 @@ print('это команда хелп')
 
 @bot.message_handler(content_types=["text"])
 def bot_help(message: Message):
-    bot.send_message(message.from_user.id, 'Это команда помощи?')
+    bot.send_message(message.from_user.id, 'Это ')
 
 #
 # @bot.message_handler(commands=['help'])

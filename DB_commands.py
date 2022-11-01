@@ -6,14 +6,14 @@ import datetime
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
 DB = os.path.join(ROOT_DIR, 'database.db')
 
-def add_user_action(user_id, user_name, user_nickname, command, hotels):
+def add_user_action(user_id, user_name, user_nickname, command, city, hotels):
     dtime = str(datetime.datetime.now())[:-7]
     with sqlite3.connect((DB)) as conn:
         cursor = conn.cursor()
         cursor.execute("""
-                INSERT INTO 'users_history' (user_id, user_name, user_nickname, command, request_date, finded_hotels)
-                                    VALUES (?, ?, ?, ?, ?, ?);
-                """, (user_id, user_name, user_nickname, command, f'{dtime}', hotels))
+                INSERT INTO 'users_history' (user_id, user_name, user_nickname, command, request_date, city, finded_hotels)
+                                    VALUES (?, ?, ?, ?, ?, ?, ?);
+                """, (user_id, user_name, user_nickname, command, f'{dtime}', city, hotels))
 
 def get_user_history():
     with sqlite3.connect((DB)) as conn:
