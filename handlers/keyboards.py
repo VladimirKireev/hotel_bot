@@ -1,5 +1,4 @@
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
-print('я файл keyboard')
 def command_keyboard():
     keyboard = InlineKeyboardMarkup()
     keyboard.row_width = 1

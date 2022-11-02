@@ -53,7 +53,7 @@ def get_photo(hotel_id, hotel_name, count):
 def hotel_list(destination_id=549499, hotel_count=3, sort='PRICE_HIGHEST_FIRST', photo_count=0):
     url = "https://hotels4.p.rapidapi.com/properties/list"
 
-    querystring = {"destinationId": f"{destination_id}", "pageNumber": "1", "pageSize": f"{hotel_count}",
+    querystring = {"destinationId": f"{destination_id}", "pageNumber": "1", "pageSize": f"100",
                    "checkIn":"2022-09-01","checkOut":"2022-10-08", "adults1": "1", "sortOrder": f"{sort}",
                    "locale": "en_US", "currency": "RUB"}
 
@@ -71,40 +71,52 @@ def hotel_list(destination_id=549499, hotel_count=3, sort='PRICE_HIGHEST_FIRST',
     top_hotels = dict()
     top_hotels[f'hotels_info'] = []
     hotels_list = ''
+    count = 0
 
     if photo_count > 0:
         for i_hotel in result:
-            hotel_id = i_hotel['id']
-            hotel_name = i_hotel['name']
-            hotel_adress = i_hotel['address']['streetAddress']
-            center_distance = i_hotel['landmarks'][0]['distance']
-            price = i_hotel['ratePlan']['price']['current']
-            hotels_list += f'{hotel_name}, '
-            result_text = f'{hotel_name}, расположенный по адресу: {hotel_adress}, расположенный на {center_distance} миль от центра по цене {price} за ночь.'
-            photo_urls = get_photo(hotel_id, result_text, photo_count)
+            if count == int(hotel_count):
+                break
 
-            top_hotels[f'hotels_info'].extend([{'result_message': result_text, 'photo_url_list': photo_urls}])
-            # top_hotels[f'{hotel_id}'] = {'result_message': result_text, 'photo_url_list': photo_urls}
+            try:
+                hotel_id = i_hotel['id']
+                hotel_name = i_hotel['name']
+                hotel_adress = i_hotel['address']['streetAddress']
+                center_distance = round(float(i_hotel['landmarks'][0]['distance'][:-6]) * 1.609, 1)
+                price = i_hotel['ratePlan']['price']['current']
+                hotels_list += f'{hotel_name}, '
+                result_text = f'{hotel_name}, расположенный по адресу: {hotel_adress}, расположенный на {center_distance} км от центра по цене {price} за ночь.'
+                photo_urls = get_photo(hotel_id, result_text, photo_count)
+
+                top_hotels[f'hotels_info'].extend([{'result_message': result_text, 'photo_url_list': photo_urls}])
+                count += 1
+
+            except KeyError:
+                pass
 
         top_hotels['hotels_list'] = hotels_list
         return top_hotels
 
     else:
         for i_hotel in result:
-            hotel_id = i_hotel['id']
-            print(hotel_id)
-            hotel_name = i_hotel['name']
-            print(hotel_name)
-            hotel_adress = i_hotel['address']['streetAddress']
-            center_distance = i_hotel['landmarks'][0]['distance']
-            price = i_hotel['ratePlan']['price']['current']
-            hotels_list += f'{hotel_name}, '
-            result_text = f'{hotel_name}, расположенный по адресу: {hotel_adress}, расположенный на {center_distance} миль от центра по цене {price} за ночь.'
-            top_hotels[f'{hotel_id}'] = {'result_message': result_text}
-            # top_hotels[f'hotels_info'].append({f'{hotel_id}': {'result_message': result_text}})
-            top_hotels[f'hotels_info'].append({'result_message': result_text})
-
-
+            # print(f'count={count}, hotel_count={hotel_count}')
+            if count == int(hotel_count):
+                break
+            try:
+                hotel_id = i_hotel['id']
+                # print(hotel_id)
+                hotel_name = i_hotel['name']
+                # print(hotel_name)
+                hotel_adress = i_hotel['address']['streetAddress']
+                center_distance = round(float(i_hotel['landmarks'][0]['distance'][:-6]) * 1.609, 1)
+                price = i_hotel['ratePlan']['price']['current']
+                hotels_list += f'{hotel_name}, '
+                result_text = f'{hotel_name}, расположенный по адресу: {hotel_adress}, расположенный на {center_distance} км от центра по цене {price} за ночь.'
+                top_hotels[f'{hotel_id}'] = {'result_message': result_text}
+                top_hotels[f'hotels_info'].append({'result_message': result_text})
+                count += 1
+            except KeyError:
+                pass
 
         top_hotels['hotels_list'] = hotels_list
         return top_hotels

@@ -2,7 +2,6 @@ from telebot.types import Message
 from python_basic_diploma.handlers import keyboards
 from loader import bot
 
-print('Это хэлпер')
 
 @bot.message_handler(commands=['help', 'start'])
 def bot_help(message: Message):
