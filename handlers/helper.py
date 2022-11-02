@@ -4,7 +4,7 @@ from loader import bot
 
 print('Это хэлпер')
 
-@bot.message_handler(commands=['help'])
+@bot.message_handler(commands=['help', 'start'])
 def bot_help(message: Message):
     bot.send_message(chat_id=message.chat.id,
                      text="Вот что я умею:",
