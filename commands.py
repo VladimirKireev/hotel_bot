@@ -109,19 +109,19 @@ def hotel_list(destination_id=549499, hotel_count=3, sort='PRICE_HIGHEST_FIRST',
         top_hotels['hotels_list'] = hotels_list
         return top_hotels
 
-test = hotel_list()
-print(test.items())
-print()
-for i in test.items():
-    print(i)
-
-print()
-for i in test.keys():
-    print(i)
-
-print()
-for i in test.values():
-    print(i)
+# test = hotel_list()
+# print(test.items())
+# print()
+# for i in test.items():
+#     print(i)
+#
+# print()
+# for i in test.keys():
+#     print(i)
+#
+# print()
+# for i in test.values():
+#     print(i)
 
 # search_city('Лондон')
 # res = get_photo()
