@@ -34,9 +34,12 @@ def callback(call):
 def city_pick_step(message):
     city = message.text
     try:
-        desnination_id = search_city(city)
+        city_list = search_city(city)
+
+
+        destination_id = 0
         user_id = message.from_user.id
-        user_dict[user_id] = Destination(city, desnination_id)
+        user_dict[user_id] = Destination(city, destination_id)
         # print(user_dict[user_id].city)
         msg = bot.reply_to(message, 'Cколько вывести отелей в списке?')
         bot.register_next_step_handler(msg, hotel_count_step)
@@ -44,19 +47,23 @@ def city_pick_step(message):
         bot.reply_to(message, 'Не могу найти такой город. Вам необходимо заново выбрать команду и осуществить поиск.')
 
 
-
 def hotel_count_step(message):
-    hotel_count = message.text
-    user_id = message.from_user.id
-    user_dict[user_id].hotel_count = hotel_count
-    # print(user_dict[user_id].hotel_count)
-    kb = types.ReplyKeyboardMarkup(one_time_keyboard=True)
-    yes_btn = types.KeyboardButton(text='Да')
-    no_btn = types.KeyboardButton(text='Нет')
-    kb.add(yes_btn, no_btn)
+    try:
+        hotel_count = int(message.text)
+        user_id = message.from_user.id
+        user_dict[user_id].hotel_count = int(hotel_count)
+        if not 0 < hotel_count <= 20:
+            raise ValueError
 
-    msg = bot.send_message(message.from_user.id, 'Вам нужны фотографии к отелям?', reply_markup=kb)
-    bot.register_next_step_handler(msg, need_photo_step)
+        kb = types.ReplyKeyboardMarkup(one_time_keyboard=True, resize_keyboard=True)
+        yes_btn = types.KeyboardButton(text='Да')
+        no_btn = types.KeyboardButton(text='Нет')
+        kb.add(yes_btn, no_btn)
+
+        msg = bot.send_message(message.from_user.id, 'Вам нужны фотографии к отелям?', reply_markup=kb)
+        bot.register_next_step_handler(msg, need_photo_step)
+    except ValueError:
+        bot.reply_to(message, 'Вы либо ввели неверное количество отелей, либо произошла ошибка ввода. Повторите поиск заново.')
 
 
 def need_photo_step(message):

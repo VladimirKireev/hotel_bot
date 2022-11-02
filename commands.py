@@ -16,6 +16,9 @@ def search_city(city):
     response = requests.request("GET", url, headers=headers, params=querystring)
     result = json.loads(response.text)
 
+    with open('Cities.json', 'w') as file:
+        json.dump(result, file, indent=4)
+
     citi_location = result['suggestions'][0]['entities'][0]['destinationId']
     print(citi_location)
     return citi_location
@@ -135,6 +138,6 @@ def hotel_list(destination_id=549499, hotel_count=3, sort='PRICE_HIGHEST_FIRST',
 # for i in test.values():
 #     print(i)
 
-# search_city('Лондон')
+search_city('Лондон')
 # res = get_photo()
 # print(res)

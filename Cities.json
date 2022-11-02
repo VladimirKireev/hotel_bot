@@ -1,0 +1,210 @@
+{
+    "term": "\u041b\u043e\u043d\u0434\u043e\u043d",
+    "moresuggestions": 10,
+    "autoSuggestInstance": null,
+    "trackingID": "50111c095e69430181672b9a8ad6f3d4",
+    "misspellingfallback": false,
+    "suggestions": [
+        {
+            "group": "CITY_GROUP",
+            "entities": [
+                {
+                    "geoId": "2114",
+                    "destinationId": "549499",
+                    "landmarkCityDestinationId": null,
+                    "type": "CITY",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 51.50746,
+                    "longitude": -0.127673,
+                    "searchDetail": null,
+                    "caption": "<span class='highlighted'>\u041b\u043e\u043d\u0434\u043e\u043d</span>, \u0410\u043d\u0433\u043b\u0438\u044f, \u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f",
+                    "name": "\u041b\u043e\u043d\u0434\u043e\u043d"
+                },
+                {
+                    "geoId": "800056",
+                    "destinationId": "1649988",
+                    "landmarkCityDestinationId": null,
+                    "type": "NEIGHBORHOOD",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 51.514521098733205,
+                    "longitude": -0.0924217693961937,
+                    "searchDetail": null,
+                    "caption": "<span class='highlighted'>\u041b\u043e\u043d\u0434\u043e\u043d</span>\u0441\u043a\u0438\u0439 \u0421\u0438\u0442\u0438, \u041b\u043e\u043d\u0434\u043e\u043d, \u0410\u043d\u0433\u043b\u0438\u044f, \u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f",
+                    "name": "\u041b\u043e\u043d\u0434\u043e\u043d\u0441\u043a\u0438\u0439 \u0421\u0438\u0442\u0438"
+                },
+                {
+                    "geoId": "6195474",
+                    "destinationId": "1735370",
+                    "landmarkCityDestinationId": null,
+                    "type": "NEIGHBORHOOD",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 51.508362,
+                    "longitude": -0.129026,
+                    "searchDetail": null,
+                    "caption": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0440\u0430\u0439\u043e\u043d <span class='highlighted'>\u041b\u043e\u043d\u0434\u043e\u043d</span>\u0430, \u041b\u043e\u043d\u0434\u043e\u043d, \u0410\u043d\u0433\u043b\u0438\u044f, \u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f",
+                    "name": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0440\u0430\u0439\u043e\u043d \u041b\u043e\u043d\u0434\u043e\u043d\u0430"
+                },
+                {
+                    "geoId": "800051",
+                    "destinationId": "1762415",
+                    "landmarkCityDestinationId": null,
+                    "type": "NEIGHBORHOOD",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 51.495138817062426,
+                    "longitude": -0.13973048277012118,
+                    "searchDetail": null,
+                    "caption": "\u0412\u0438\u043a\u0442\u043e\u0440\u0438\u044f, <span class='highlighted'>\u041b\u043e\u043d\u0434\u043e\u043d</span>, \u0413\u0440\u0430\u0444\u0441\u0442\u0432\u043e \u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u041b\u043e\u043d\u0434\u043e\u043d, \u0410\u043d\u0433\u043b\u0438\u044f, \u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f",
+                    "name": "\u0412\u0438\u043a\u0442\u043e\u0440\u0438\u044f"
+                },
+                {
+                    "geoId": "800049",
+                    "destinationId": "1762406",
+                    "landmarkCityDestinationId": null,
+                    "type": "NEIGHBORHOOD",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 51.515972,
+                    "longitude": -0.174943,
+                    "searchDetail": null,
+                    "caption": "\u041f\u0430\u0434\u0434\u0438\u043d\u0433\u0442\u043e\u043d, <span class='highlighted'>\u041b\u043e\u043d\u0434\u043e\u043d</span>, \u0410\u043d\u0433\u043b\u0438\u044f, \u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f",
+                    "name": "\u041f\u0430\u0434\u0434\u0438\u043d\u0433\u0442\u043e\u043d"
+                },
+                {
+                    "geoId": "6054501",
+                    "destinationId": "1696003",
+                    "landmarkCityDestinationId": null,
+                    "type": "NEIGHBORHOOD",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 51.501011,
+                    "longitude": -0.193279,
+                    "searchDetail": null,
+                    "caption": "\u041a\u0435\u043d\u0441\u0438\u043d\u0433\u0442\u043e\u043d, <span class='highlighted'>\u041b\u043e\u043d\u0434\u043e\u043d</span>, \u0410\u043d\u0433\u043b\u0438\u044f, \u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f",
+                    "name": "\u041a\u0435\u043d\u0441\u0438\u043d\u0433\u0442\u043e\u043d"
+                },
+                {
+                    "geoId": "6047476",
+                    "destinationId": "1808499",
+                    "landmarkCityDestinationId": null,
+                    "type": "NEIGHBORHOOD",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 51.529952514458806,
+                    "longitude": -0.12402339913938097,
+                    "searchDetail": null,
+                    "caption": "\u041a\u0438\u043d\u0433\u0441-\u041a\u0440\u043e\u0441\u0441 \u0421\u0435\u043d\u0442-\u041f\u0430\u043d\u043a\u0440\u0430\u0441\u0441, <span class='highlighted'>\u041b\u043e\u043d\u0434\u043e\u043d</span>, \u0410\u043d\u0433\u043b\u0438\u044f, \u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f",
+                    "name": "\u041a\u0438\u043d\u0433\u0441-\u041a\u0440\u043e\u0441\u0441 \u0421\u0435\u043d\u0442-\u041f\u0430\u043d\u043a\u0440\u0430\u0441\u0441"
+                }
+            ]
+        },
+        {
+            "group": "HOTEL_GROUP",
+            "entities": [
+                {
+                    "geoId": "520943",
+                    "destinationId": "119918",
+                    "landmarkCityDestinationId": null,
+                    "type": "HOTEL",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 46.486967,
+                    "longitude": 30.742145,
+                    "searchDetail": null,
+                    "caption": "\u0413\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0430 \u00ab<span class='highlighted'>\u041b\u043e\u043d\u0434\u043e\u043d</span>\u0441\u043a\u0430\u044f\u00bb, \u041e\u0434\u0435\u0441\u0441\u0430, \u041e\u0434\u0435\u0441\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0423\u043a\u0440\u0430\u0438\u043d\u0430",
+                    "name": "\u0413\u043e\u0441\u0442\u0438\u043d\u0438\u0446\u0430 \u00ab\u041b\u043e\u043d\u0434\u043e\u043d\u0441\u043a\u0430\u044f\u00bb"
+                },
+                {
+                    "geoId": "7238",
+                    "destinationId": "208229",
+                    "landmarkCityDestinationId": null,
+                    "type": "HOTEL",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 51.51127,
+                    "longitude": -0.18515,
+                    "searchDetail": null,
+                    "caption": "Central Park Hotel, <span class='highlighted'>\u041b\u043e\u043d\u0434\u043e\u043d</span>, \u0410\u043d\u0433\u043b\u0438\u044f, \u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f",
+                    "name": "Central Park Hotel"
+                },
+                {
+                    "geoId": "447050",
+                    "destinationId": "186465",
+                    "landmarkCityDestinationId": null,
+                    "type": "HOTEL",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 51.506958,
+                    "longitude": -0.124813,
+                    "searchDetail": null,
+                    "caption": "Citadines Trafalgar Square London, <span class='highlighted'>\u041b\u043e\u043d\u0434\u043e\u043d</span>, \u0410\u043d\u0433\u043b\u0438\u044f, \u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f",
+                    "name": "Citadines Trafalgar Square London"
+                }
+            ]
+        },
+        {
+            "group": "LANDMARK_GROUP",
+            "entities": [
+                {
+                    "geoId": "507738",
+                    "destinationId": "1410",
+                    "landmarkCityDestinationId": "549499",
+                    "type": "LANDMARK",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 51.507267,
+                    "longitude": -0.16573,
+                    "searchDetail": null,
+                    "caption": "\u0413\u0430\u0439\u0434-\u041f\u0430\u0440\u043a, <span class='highlighted'>\u041b\u043e\u043d\u0434\u043e\u043d</span>, \u0410\u043d\u0433\u043b\u0438\u044f, \u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f",
+                    "name": "\u0413\u0430\u0439\u0434-\u041f\u0430\u0440\u043a"
+                },
+                {
+                    "geoId": "508412",
+                    "destinationId": "1653378",
+                    "landmarkCityDestinationId": "549499",
+                    "type": "LANDMARK",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 51.50787,
+                    "longitude": -0.08772,
+                    "searchDetail": null,
+                    "caption": "<span class='highlighted'>\u041b\u043e\u043d\u0434\u043e\u043d</span>\u0441\u043a\u0438\u0439 \u043c\u043e\u0441\u0442, \u041b\u043e\u043d\u0434\u043e\u043d, \u0410\u043d\u0433\u043b\u0438\u044f, \u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f",
+                    "name": "\u041b\u043e\u043d\u0434\u043e\u043d\u0441\u043a\u0438\u0439 \u043c\u043e\u0441\u0442"
+                }
+            ]
+        },
+        {
+            "group": "TRANSPORT_GROUP",
+            "entities": [
+                {
+                    "geoId": "5392460",
+                    "destinationId": "543878",
+                    "landmarkCityDestinationId": null,
+                    "type": "AIRPORT",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 51.470878,
+                    "longitude": -0.449753,
+                    "searchDetail": null,
+                    "caption": "<span class='highlighted'>\u041b\u043e\u043d\u0434\u043e\u043d</span>, \u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f (LHR-\u0425\u0438\u0442\u0440\u043e\u0443)",
+                    "name": "\u041b\u043e\u043d\u0434\u043e\u043d (LHR-\u0425\u0438\u0442\u0440\u043e\u0443)"
+                },
+                {
+                    "geoId": "5133388",
+                    "destinationId": "1644476",
+                    "landmarkCityDestinationId": null,
+                    "type": "AIRPORT",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 51.878796,
+                    "longitude": -0.376453,
+                    "searchDetail": null,
+                    "caption": "<span class='highlighted'>\u041b\u043e\u043d\u0434\u043e\u043d</span>, \u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f (LTN-\u041b\u044e\u0442\u043e\u043d)",
+                    "name": "\u041b\u043e\u043d\u0434\u043e\u043d (LTN-\u041b\u044e\u0442\u043e\u043d)"
+                },
+                {
+                    "geoId": "5133395",
+                    "destinationId": "1637132",
+                    "landmarkCityDestinationId": null,
+                    "type": "AIRPORT",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 51.889432,
+                    "longitude": 0.262148,
+                    "searchDetail": null,
+                    "caption": "<span class='highlighted'>\u041b\u043e\u043d\u0434\u043e\u043d</span>, \u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f (STN-\u0421\u0442\u0430\u043d\u0441\u0442\u0435\u0434)",
+                    "name": "\u041b\u043e\u043d\u0434\u043e\u043d (STN-\u0421\u0442\u0430\u043d\u0441\u0442\u0435\u0434)"
+                }
+            ]
+        }
+    ],
+    "geocodeFallback": false
+}
