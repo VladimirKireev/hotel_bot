@@ -2,15 +2,17 @@ from loader import bot
 from telebot import types
 from python_basic_diploma.commands import search_city, hotel_list
 from python_basic_diploma.DB_commands import add_user_action
-# print('Я файл lowprice')
+
 
 class Destination:
 
-    def __init__(self, city, destination_id):
-        self.city = city
-        self.destination_id = destination_id
+    def __init__(self):
+        self.city = None
+        self.destination_id = None
         self.hotel_count = 0
         self.photos_count = 0
+        self.city_list = dict()
+        self.sort = None
 
 user_dict = dict()
 
@@ -18,33 +20,61 @@ user_dict = dict()
 #блок для команды lowprice
 @bot.message_handler(commands=['lowprice'])
 def get_text_messages(message):
+    # user_id = message.from_user.id
+    # print(message.from_user.text)
+    # # user_dict[user_id].sort = 'PRICE'
+
     msg = bot.reply_to(message, 'В какой город вы собираетесь?')
-    bot.register_next_step_handler(msg, city_pick_step)
+    bot.register_next_step_handler(msg, pick_from_city_list_step)
 
 
 @bot.callback_query_handler(func=lambda call: call.data == 'lowprice')
-def callback(call):
+def callback(call): #доделать добавление сортировки
     # print(f'Я колбэк лопрайса в файле лоупрайс. Моё значение из 40 строки {call.message.chat.id}')
     bot.delete_message(chat_id=call.message.chat.id,
                        message_id=call.message.message_id)
     msg = bot.send_message(call.message.chat.id, 'В какой город вы собираетесь?')
-    bot.register_next_step_handler(msg, city_pick_step)
+    bot.register_next_step_handler(msg, pick_from_city_list_step)
+
+def pick_from_city_list_step(message):
+    try:
+        city_list = search_city(message.text)
+        city_keyboard = types.ReplyKeyboardMarkup(one_time_keyboard=True, resize_keyboard=True)
+        user_id = message.from_user.id
+        user_dict[user_id] = Destination()
+
+
+        for i_city in city_list:
+            destination_id = i_city['destinationId']
+            land = i_city['caption'].split()[-1]
+            city = i_city['name']
+            answer = f'{city} в стране {land}'
+            user_dict[user_id].city_list[answer] = destination_id
+            button = types.KeyboardButton(text=answer)
+            city_keyboard.row(button)
+        print(user_dict[user_id].city_list)
+        msg = bot.send_message(chat_id=message.chat.id,
+                         text="Результаты поиска:",
+                         reply_markup=city_keyboard)
+        bot.register_next_step_handler(msg, city_pick_step)
+
+
+    except :
+        bot.reply_to(message, 'Не могу найти такой город. Вам необходимо заново выбрать команду и осуществить поиск.')
+
 
 
 def city_pick_step(message):
-    city = message.text
-    try:
-        city_list = search_city(city)
+    user_id = message.from_user.id
+    destination_id = user_dict[user_id].city_list[message.text]
+    city = message.text.split()[0]
+    print(city, destination_id)
+    user_dict[user_id].city, user_dict[user_id].destination_id = city, destination_id
 
+    user_dict[user_id].city_list = dict()
 
-        destination_id = 0
-        user_id = message.from_user.id
-        user_dict[user_id] = Destination(city, destination_id)
-        # print(user_dict[user_id].city)
-        msg = bot.reply_to(message, 'Cколько вывести отелей в списке?')
-        bot.register_next_step_handler(msg, hotel_count_step)
-    except IndexError:
-        bot.reply_to(message, 'Не могу найти такой город. Вам необходимо заново выбрать команду и осуществить поиск.')
+    msg = bot.send_message(message.from_user.id, 'Cколько вывести отелей в списке?', reply_markup=types.ReplyKeyboardRemove())
+    bot.register_next_step_handler(msg, hotel_count_step)
 
 
 def hotel_count_step(message):
@@ -74,7 +104,7 @@ def need_photo_step(message):
 
     if answer == 'Да':
         user_dict[user_id].need_photos = True
-        msg = bot.reply_to(message, 'Сколько вывести картинок?')
+        msg = bot.send_message(message.from_user.id, 'Сколько вывести картинок?', reply_markup=types.ReplyKeyboardRemove())
         bot.register_next_step_handler(msg, photo_count_step)
     else:
         city = user_dict[user_id].city

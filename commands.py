@@ -1,6 +1,10 @@
 import json
 import requests
+from loader import bot
 from telebot import types
+from handlers.city_list_keyboard import list_processing
+from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
+
 
 
 def search_city(city):
@@ -19,9 +23,30 @@ def search_city(city):
     with open('Cities.json', 'w') as file:
         json.dump(result, file, indent=4)
 
-    citi_location = result['suggestions'][0]['entities'][0]['destinationId']
-    print(citi_location)
-    return citi_location
+    result_cities = result['suggestions'][0]['entities']
+    pick_cities_list = []
+    for i_elem in result_cities:
+        if i_elem['type'] == 'CITY':
+            pick_cities_list.append(i_elem)
+            # land = i_elem['caption'].split()[-1]
+            # print(land)
+
+    # city_keyboard = InlineKeyboardMarkup()
+    # for i_city in pick_cities_list:
+    #     land = i_city['caption'].split()[-1]
+    #     city = i_city['name']
+    #     city_keyboard.add(InlineKeyboardButton(text=f" {city} = {land} ", callback_data=f"Великобритания"))
+    #
+    # city_keyboard()
+    # @bot.callback_query_handler(func=lambda call: call.data == 'Великобритания')
+    # def callback(call):
+    #     bot.delete_message(chat_id=call.message.chat.id,
+    #                        message_id=call.message.message_id)
+    #
+    #
+    # citi_location = result['suggestions'][0]['entities'][0]['destinationId']
+    # # print(citi_location)
+    return pick_cities_list
 
 
 def get_photo(hotel_id, hotel_name, count):

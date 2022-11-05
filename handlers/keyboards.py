@@ -18,4 +18,3 @@ def help_keyboard():
     return keyboard
 
 kb = InlineKeyboardMarkup()
-kb.add
