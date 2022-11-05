@@ -1,10 +1,6 @@
 import json
 import requests
-from loader import bot
 from telebot import types
-from handlers.city_list_keyboard import list_processing
-from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
-
 
 
 def search_city(city):
@@ -28,24 +24,7 @@ def search_city(city):
     for i_elem in result_cities:
         if i_elem['type'] == 'CITY':
             pick_cities_list.append(i_elem)
-            # land = i_elem['caption'].split()[-1]
-            # print(land)
 
-    # city_keyboard = InlineKeyboardMarkup()
-    # for i_city in pick_cities_list:
-    #     land = i_city['caption'].split()[-1]
-    #     city = i_city['name']
-    #     city_keyboard.add(InlineKeyboardButton(text=f" {city} = {land} ", callback_data=f"Великобритания"))
-    #
-    # city_keyboard()
-    # @bot.callback_query_handler(func=lambda call: call.data == 'Великобритания')
-    # def callback(call):
-    #     bot.delete_message(chat_id=call.message.chat.id,
-    #                        message_id=call.message.message_id)
-    #
-    #
-    # citi_location = result['suggestions'][0]['entities'][0]['destinationId']
-    # # print(citi_location)
     return pick_cities_list
 
 
@@ -78,12 +57,16 @@ def get_photo(hotel_id, hotel_name, count):
     return photos_list
 
 
-def hotel_list(destination_id=549499, hotel_count=3, sort='PRICE_HIGHEST_FIRST', photo_count=0):
+def hotel_list(destination_id=549499, hotel_count=3,
+               sort='PRICE_HIGHEST_FIRST',
+               photo_count=0, max_distanse=0.1,
+               min_price=1500, max_price=3000):
     url = "https://hotels4.p.rapidapi.com/properties/list"
 
     querystring = {"destinationId": f"{destination_id}", "pageNumber": "1", "pageSize": f"100",
                    "checkIn":"2022-09-01","checkOut":"2022-10-08", "adults1": "1", "sortOrder": f"{sort}",
-                   "locale": "en_US", "currency": "RUB"}
+                   "priceMin": {min_price}, "priceMax": {max_price},
+                   "locale": "en_US", "currency": "RUB", "landmarkIds": "city_center"}
 
     headers = {
         "X-RapidAPI-Key": "bf1948fae7mshea6c4db01483900p1f0237jsn16fcf944b8bd",
@@ -115,9 +98,9 @@ def hotel_list(destination_id=549499, hotel_count=3, sort='PRICE_HIGHEST_FIRST',
                 hotels_list += f'{hotel_name}, '
                 result_text = f'{hotel_name}, расположенный по адресу: {hotel_adress}, расположенный на {center_distance} км от центра по цене {price} за ночь.'
                 photo_urls = get_photo(hotel_id, result_text, photo_count)
-
-                top_hotels[f'hotels_info'].extend([{'result_message': result_text, 'photo_url_list': photo_urls}])
-                count += 1
+                if center_distance <= max_distanse:
+                    top_hotels[f'hotels_info'].extend([{'result_message': result_text, 'photo_url_list': photo_urls}])
+                    count += 1
 
             except KeyError:
                 pass
@@ -127,7 +110,6 @@ def hotel_list(destination_id=549499, hotel_count=3, sort='PRICE_HIGHEST_FIRST',
 
     else:
         for i_hotel in result:
-            # print(f'count={count}, hotel_count={hotel_count}')
             if count == int(hotel_count):
                 break
             try:
@@ -141,8 +123,9 @@ def hotel_list(destination_id=549499, hotel_count=3, sort='PRICE_HIGHEST_FIRST',
                 hotels_list += f'{hotel_name}, '
                 result_text = f'{hotel_name}, расположенный по адресу: {hotel_adress}, расположенный на {center_distance} км от центра по цене {price} за ночь.'
                 top_hotels[f'{hotel_id}'] = {'result_message': result_text}
-                top_hotels[f'hotels_info'].append({'result_message': result_text})
-                count += 1
+                if center_distance <= max_distanse:
+                    top_hotels[f'hotels_info'].append({'result_message': result_text})
+                    count += 1
             except KeyError:
                 pass
 
@@ -163,6 +146,6 @@ def hotel_list(destination_id=549499, hotel_count=3, sort='PRICE_HIGHEST_FIRST',
 # for i in test.values():
 #     print(i)
 
-search_city('Лондон')
+# search_city('Лондон')
 # res = get_photo()
 # print(res)

@@ -24,7 +24,7 @@ def get_text_messages(message):
     user_id = message.from_user.id
     # print(message.from_user.text)
     user_dict[user_id] = Destination()
-    user_dict[user_id].sort = 'PRICE'
+    user_dict[user_id].sort = 'DISTANCE_FROM_LANDMARK'
     user_dict[user_id].command = 'lowprice'
 
     msg = bot.reply_to(message, 'В какой город вы собираетесь?')
@@ -34,7 +34,6 @@ def get_text_messages(message):
 @bot.message_handler(commands=['highprice'])
 def get_text_messages(message):
     user_id = message.from_user.id
-    # print(message.from_user.text)
     user_dict[user_id] = Destination()
     user_dict[user_id].sort = 'PRICE_HIGHEST_FIRST'
     user_dict[user_id].command = 'highprice'
@@ -42,39 +41,67 @@ def get_text_messages(message):
     bot.register_next_step_handler(msg, pick_from_city_list_step)
 
 
+@bot.message_handler(commands=['bestdeal'])
+def get_text_messages(message):
+    user_id = message.from_user.id
+    user_dict[user_id] = Destination()
+    user_dict[user_id].sort = 'DISTANCE_FROM_LANDMARK'
+    user_dict[user_id].command = 'bestdeal'
+    msg = bot.reply_to(message, 'В какой город вы собираетесь?')
+    bot.register_next_step_handler(msg, pick_from_city_list_step)
+
+
 @bot.callback_query_handler(func=lambda call: call.data == 'lowprice')
-def callback(call): #доделать добавление сортировки
-    # print(f'Я колбэк лопрайса в файле лоупрайс. Моё значение из 40 строки {call.message.chat.id}')
+def callback(call):
+    user_id = call.from_user.id
+    user_dict[user_id] = Destination()
+    user_dict[user_id].sort = 'PRICE'
+    user_dict[user_id].command = 'lowprice'
     bot.delete_message(chat_id=call.message.chat.id,
                        message_id=call.message.message_id)
     msg = bot.send_message(call.message.chat.id, 'В какой город вы собираетесь?')
     bot.register_next_step_handler(msg, pick_from_city_list_step)
+
+
+@bot.callback_query_handler(func=lambda call: call.data == 'highprice')
+def callback(call):
+    user_id = call.from_user.id
+    user_dict[user_id] = Destination()
+    user_dict[user_id].sort = 'PRICE_HIGHEST_FIRST'
+    user_dict[user_id].command = 'highprice'
+    bot.delete_message(chat_id=call.message.chat.id,
+                       message_id=call.message.message_id)
+    msg = bot.send_message(call.message.chat.id, 'В какой город вы собираетесь?')
+    bot.register_next_step_handler(msg, pick_from_city_list_step)
+
 
 def pick_from_city_list_step(message):
     try:
         city_list = search_city(message.text)
         city_keyboard = types.ReplyKeyboardMarkup(one_time_keyboard=True, resize_keyboard=True)
         user_id = message.from_user.id
-        # user_dict[user_id] = Destination()
-
 
         for i_city in city_list:
             destination_id = i_city['destinationId']
             land = i_city['caption'].split()[-1]
             city = i_city['name']
-            answer = f'{city} в стране {land}'
-            user_dict[user_id].city_list[answer] = destination_id
-            button = types.KeyboardButton(text=answer)
+            reply = f'{city} в стране {land}'
+            user_dict[user_id].city_list[reply] = destination_id
+            button = types.KeyboardButton(text=reply)
             city_keyboard.row(button)
         print(user_dict[user_id].city_list)
+        if len(city_list) == 0:
+            raise Exception
         msg = bot.send_message(chat_id=message.chat.id,
                          text="Результаты поиска:",
                          reply_markup=city_keyboard)
         bot.register_next_step_handler(msg, city_pick_step)
 
-
-    except :
+    except Exception:
         bot.reply_to(message, 'Не могу найти такой город. Вам необходимо заново выбрать команду и осуществить поиск.')
+
+def min_price_step(message): #дописать шаги с запросами минимальной и максимальной цены
+    msg = bot.send_message(call.message.chat.id, 'В какой город вы собираетесь?')
 
 
 
@@ -84,9 +111,7 @@ def city_pick_step(message):
     city = message.text.split()[0]
     print(city, destination_id)
     user_dict[user_id].city, user_dict[user_id].destination_id = city, destination_id
-
     user_dict[user_id].city_list = dict()
-
     msg = bot.send_message(message.from_user.id, 'Cколько вывести отелей в списке?', reply_markup=types.ReplyKeyboardRemove())
     bot.register_next_step_handler(msg, hotel_count_step)
 
@@ -126,6 +151,11 @@ def need_photo_step(message):
         hotel_count = user_dict[user_id].hotel_count
         desnination_id = user_dict[user_id].destination_id
         res = hotel_list(destination_id=desnination_id, hotel_count=hotel_count, sort=sort)
+        if len(res['hotels_info']) == 0:
+            bot.send_message(message.from_user.id,
+                             'По заданным параметрам ничего не найдено. '
+                             'Попробуйте изменить диапазон цены, либо расстояние от центра города.',
+                             reply_markup=types.ReplyKeyboardRemove())
         for i in res['hotels_info']:
             bot.send_message(message.from_user.id, i['result_message'], reply_markup=types.ReplyKeyboardRemove())
 
