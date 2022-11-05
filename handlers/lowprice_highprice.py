@@ -13,6 +13,7 @@ class Destination:
         self.photos_count = 0
         self.city_list = dict()
         self.sort = None
+        self.command = None
 
 user_dict = dict()
 
@@ -20,10 +21,23 @@ user_dict = dict()
 #блок для команды lowprice
 @bot.message_handler(commands=['lowprice'])
 def get_text_messages(message):
-    # user_id = message.from_user.id
+    user_id = message.from_user.id
     # print(message.from_user.text)
-    # # user_dict[user_id].sort = 'PRICE'
+    user_dict[user_id] = Destination()
+    user_dict[user_id].sort = 'PRICE'
+    user_dict[user_id].command = 'lowprice'
 
+    msg = bot.reply_to(message, 'В какой город вы собираетесь?')
+    bot.register_next_step_handler(msg, pick_from_city_list_step)
+
+
+@bot.message_handler(commands=['highprice'])
+def get_text_messages(message):
+    user_id = message.from_user.id
+    # print(message.from_user.text)
+    user_dict[user_id] = Destination()
+    user_dict[user_id].sort = 'PRICE_HIGHEST_FIRST'
+    user_dict[user_id].command = 'highprice'
     msg = bot.reply_to(message, 'В какой город вы собираетесь?')
     bot.register_next_step_handler(msg, pick_from_city_list_step)
 
@@ -41,7 +55,7 @@ def pick_from_city_list_step(message):
         city_list = search_city(message.text)
         city_keyboard = types.ReplyKeyboardMarkup(one_time_keyboard=True, resize_keyboard=True)
         user_id = message.from_user.id
-        user_dict[user_id] = Destination()
+        # user_dict[user_id] = Destination()
 
 
         for i_city in city_list:
@@ -101,6 +115,7 @@ def need_photo_step(message):
     user_name = message.from_user.first_name
     user_id = message.from_user.id
     nickname = message.from_user.username
+    sort = user_dict[user_id].sort
 
     if answer == 'Да':
         user_dict[user_id].need_photos = True
@@ -110,20 +125,21 @@ def need_photo_step(message):
         city = user_dict[user_id].city
         hotel_count = user_dict[user_id].hotel_count
         desnination_id = user_dict[user_id].destination_id
-
-        res = hotel_list(destination_id=desnination_id, hotel_count=hotel_count, sort='PRICE')
+        res = hotel_list(destination_id=desnination_id, hotel_count=hotel_count, sort=sort)
         for i in res['hotels_info']:
-            bot.send_message(message.from_user.id, i['result_message'])
+            bot.send_message(message.from_user.id, i['result_message'], reply_markup=types.ReplyKeyboardRemove())
 
+        command = user_dict[user_id].command
         hotels_list = res['hotels_list'][:-2]
-        add_user_action(user_id, user_name, nickname, '/lowprice', city, hotels_list)
+        add_user_action(user_id, user_name, nickname, command, city, hotels_list)
 
 
-def photo_count_step(message, sort='PRICE'):
+def photo_count_step(message):
     user_id = message.from_user.id
     user_name = message.from_user.first_name
     nickname = message.from_user.username
     city = user_dict[user_id].city
+    sort = user_dict[user_id].sort
     photo_count = int(message.text)
     hotel_count = user_dict[user_id].hotel_count
     desnination_id = user_dict[user_id].destination_id
@@ -132,4 +148,4 @@ def photo_count_step(message, sort='PRICE'):
         photo_list = i['photo_url_list']
         bot.send_media_group(message.from_user.id, photo_list)
     hotels_list = res['hotels_list'][:-2]
-    add_user_action(user_id, user_name, nickname, '/lowprice', city, hotels_list)
+    add_user_action(user_id, user_name, nickname, sort, city, hotels_list)

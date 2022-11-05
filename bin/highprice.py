@@ -2,7 +2,7 @@ from loader import bot
 from telebot import types
 from python_basic_diploma.commands import search_city, hotel_list
 from python_basic_diploma.DB_commands import add_user_action
-# print('Я файл lowprice')
+print('Я файл highprice')
 
 class Destination:
 
