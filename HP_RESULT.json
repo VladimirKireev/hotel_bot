@@ -11,1506 +11,8 @@
                 }
             },
             "searchResults": {
-                "totalCount": 7935,
-                "results": [
-                    {
-                        "id": 563548,
-                        "name": "Domenichino Luxury Home",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via Di San Martino ai Monti, 20/A",
-                            "extendedAddress": "",
-                            "locality": "Rome",
-                            "postalCode": "184",
-                            "region": "Lazio",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 8.8,
-                            "rating": "8.8",
-                            "total": 38,
-                            "scale": 10,
-                            "badge": "fabulous",
-                            "badgeText": "Fabulous"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.1 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "0.9 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,776 RUB",
-                                "exactCurrent": 2775.98
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Monti",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|increaseNumberOfReviewsRequired|TESCO",
-                        "coordinate": {
-                            "lat": 41.895545,
-                            "lon": 12.498444
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 12758735,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/13000000/12760000/12758800/12758735/d3f10beb_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 281917,
-                        "name": "Ferrari",
-                        "starRating": 2.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via Giovanni Amendola 95, 4th Floor",
-                            "extendedAddress": "",
-                            "locality": "Rome",
-                            "postalCode": "00185",
-                            "region": "RM",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 4.8,
-                            "rating": "4.8",
-                            "total": 45,
-                            "scale": 10
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.1 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "0.9 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,572 RUB",
-                                "exactCurrent": 2572.16
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Rome Termini Station",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "D13",
-                        "coordinate": {
-                            "lat": 41.899444,
-                            "lon": 12.500724
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 2519663,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/3000000/2520000/2519700/2519663/f013760f_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 1253968384,
-                        "name": "Sweet Dream Roma Termini",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via Principe Amedeo 94",
-                            "extendedAddress": "",
-                            "locality": "Rome",
-                            "postalCode": "00185",
-                            "region": "",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.2 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "0.9 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,637 RUB",
-                                "exactCurrent": 2637.21,
-                                "old": "2,776 RUB"
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Rome Termini Station",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13",
-                        "coordinate": {
-                            "lat": 41.898488,
-                            "lon": 12.501038
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 39155262,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/40000000/39160000/39155300/39155262/ede6c72c_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 283685,
-                        "name": "Hotel Viennese Due",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via Milazzo 3, scala B, 4th floor",
-                            "extendedAddress": "",
-                            "locality": "Rome",
-                            "postalCode": "00185",
-                            "region": "RM",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 5.4,
-                            "rating": "5.4",
-                            "total": 169,
-                            "scale": 10
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.3 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "1.1 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,692 RUB",
-                                "exactCurrent": 2691.73
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Rione XVIII Castro Pretorio",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "coordinate": {
-                            "lat": 41.90158,
-                            "lon": 12.50397
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 2524922,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/3000000/2530000/2525000/2524922/17f8cc49_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 295099,
-                        "name": "Palma Residence",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via Varese 5",
-                            "extendedAddress": "",
-                            "locality": "Rome",
-                            "postalCode": "185",
-                            "region": "RM",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 7.0,
-                            "rating": "7.0",
-                            "total": 111,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.3 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "1.1 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,887 RUB",
-                                "exactCurrent": 2886.87
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Rione XVIII Castro Pretorio",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 41.90324,
-                            "lon": 12.50492
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 2530302,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/3000000/2540000/2530400/2530302/16f2b11e_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 384664,
-                        "name": "Colazione Al Vaticano",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via Della Stazione di San Pietro 40",
-                            "extendedAddress": "",
-                            "locality": "Rome",
-                            "postalCode": "165",
-                            "region": "RM",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 8.0,
-                            "rating": "8.0",
-                            "total": 429,
-                            "scale": 10,
-                            "badge": "very-good",
-                            "badgeText": "Very Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.3 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "1.5 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,383 RUB",
-                                "exactCurrent": 2383.22
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Quartiere XIII Aurelio",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 41.896114,
-                            "lon": 12.455545
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 4487831,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/5000000/4490000/4487900/4487831/2cad9740_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 280072,
-                        "name": "Hotel Kent",
-                        "starRating": 3.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via Reggio Emilia 71",
-                            "extendedAddress": "",
-                            "locality": "Rome",
-                            "postalCode": "198",
-                            "region": "RM",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 7.6,
-                            "rating": "7.6",
-                            "total": 91,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.3 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "1.3 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,930 RUB",
-                                "exactCurrent": 2930.24
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Salario",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 41.91255,
-                            "lon": 12.50241
-                        },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 115413,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/120000/115500/115413/c57f3c80_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 421473,
-                        "name": "Affittacamere Pratinn Vatican",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via Andrea Doria 3a",
-                            "extendedAddress": "",
-                            "locality": "Rome",
-                            "postalCode": "192",
-                            "region": "RM",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 8.0,
-                            "rating": "8.0",
-                            "total": 92,
-                            "scale": 10,
-                            "badge": "very-good",
-                            "badgeText": "Very Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.3 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "1.6 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,669 RUB",
-                                "exactCurrent": 2669.43,
-                                "old": "3,814 RUB"
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Vatican",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 41.910417,
-                            "lon": 12.454638
-                        },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 5491397,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/6000000/5500000/5491400/5491397/80d9595b_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 464493,
-                        "name": "SunMoon",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via dei Mille, 41/A",
-                            "extendedAddress": "scala A, piano sesto, interno 20",
-                            "locality": "Rome",
-                            "postalCode": "185",
-                            "region": "RM",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 6.4,
-                            "rating": "6.4",
-                            "total": 81,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.4 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "1.1 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,528 RUB",
-                                "exactCurrent": 2527.56,
-                                "old": "2,836 RUB"
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Rione XVIII Castro Pretorio",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 41.90194,
-                            "lon": 12.505482
-                        },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 8386418,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/9000000/8390000/8386500/8386418/2f77e0ed_y.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 287563,
-                        "name": "Eurorooms",
-                        "starRating": 1.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via Palestro 87",
-                            "extendedAddress": "",
-                            "locality": "Rome",
-                            "postalCode": "00185",
-                            "region": "RM",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 5.2,
-                            "rating": "5.2",
-                            "total": 57,
-                            "scale": 10
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.4 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "1.2 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,710 RUB",
-                                "exactCurrent": 2709.69,
-                                "old": "3,058 RUB"
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Rione XVIII Castro Pretorio",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 41.903375,
-                            "lon": 12.506221
-                        },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 2520690,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/3000000/2530000/2520700/2520690/0a4b1bb8_y.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 495936,
-                        "name": "Dandi Domus",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via Buonarroti 39",
-                            "extendedAddress": "",
-                            "locality": "Rome",
-                            "postalCode": "185",
-                            "region": "RM",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 7.6,
-                            "rating": "7.6",
-                            "total": 100,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.4 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "1.1 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,833 RUB",
-                                "exactCurrent": 2832.97
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Rome Termini Station",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 41.893967,
-                            "lon": 12.502832
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 10095021,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/11000000/10100000/10095100/10095021/fdff3d13_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 512765,
-                        "name": "Serendipity",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Viale Castro Pretorio 25",
-                            "extendedAddress": "",
-                            "locality": "Rome",
-                            "postalCode": "185",
-                            "region": "RM",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 6.4,
-                            "rating": "6.4",
-                            "total": 143,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.4 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "1.2 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,804 RUB",
-                                "exactCurrent": 2803.86
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Rione XVIII Castro Pretorio",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "newhotel|DoubleStamps|D13|HRW|TESCO",
-                        "coordinate": {
-                            "lat": 41.903224,
-                            "lon": 12.506914
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 10654949,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/11000000/10660000/10655000/10654949/d17296d0_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 383533,
-                        "name": "Palma Residence Castro Pretorio",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Viale Castro Pretorio, 25",
-                            "extendedAddress": "",
-                            "locality": "Rome",
-                            "postalCode": "00185",
-                            "region": "",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 6.6,
-                            "rating": "6.6",
-                            "total": 271,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.4 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "1.2 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,580 RUB",
-                                "exactCurrent": 2579.6
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Rome Termini Station",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|priceRangeAU|TESCO",
-                        "coordinate": {
-                            "lat": 41.90339,
-                            "lon": 12.50694
-                        },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 4478390,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/5000000/4480000/4478400/4478390/aad79597_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 319137,
-                        "name": "Prince Inn",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via Principe Eugenio 15",
-                            "extendedAddress": "",
-                            "locality": "Rome",
-                            "postalCode": "185",
-                            "region": "RM",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 5.6,
-                            "rating": "5.6",
-                            "total": 201,
-                            "scale": 10
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.6 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "1.3 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,243 RUB",
-                                "exactCurrent": 2242.59
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Esquilino",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 41.89419,
-                            "lon": 12.50676
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 2541326,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/3000000/2550000/2541400/2541326/e2421fb7_y.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 413004,
-                        "name": "In the Center Guesthouse",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via Emanuele Filiberto 50",
-                            "extendedAddress": "",
-                            "locality": "Rome",
-                            "postalCode": "185",
-                            "region": "RM",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 7.8,
-                            "rating": "7.8",
-                            "total": 217,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.6 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "1.3 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,748 RUB",
-                                "exactCurrent": 2748.1
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Esquilino",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 41.89212,
-                            "lon": 12.505807
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 5227712,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/6000000/5230000/5227800/5227712/w1200h1599x0y0-4ec96deb_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 619240032,
-                        "name": "Aurelia Garden Rooms B&B",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via Paolo III, 10",
-                            "extendedAddress": "",
-                            "locality": "Rome",
-                            "postalCode": "00165",
-                            "region": "RM",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 8.8,
-                            "rating": "8.8",
-                            "total": 17,
-                            "scale": 10,
-                            "badge": "fabulous",
-                            "badgeText": "Fabulous"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.8 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "2.0 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,952 RUB",
-                                "exactCurrent": 2951.92,
-                                "old": "3,280 RUB"
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Quartiere XIII Aurelio",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "newhotel|DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 41.89966,
-                            "lon": 12.44518
-                        },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 19320001,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/20000000/19330000/19320100/19320001/728ca5d0_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 508160,
-                        "name": "Hotel Tempio di Pallade",
-                        "starRating": 3.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via Giovanni Giolitti, 425/427",
-                            "extendedAddress": "",
-                            "locality": "Rome",
-                            "postalCode": "185",
-                            "region": "RM",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 7.6,
-                            "rating": "7.6",
-                            "total": 189,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.8 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "1.6 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,931 RUB",
-                                "exactCurrent": 2931.47
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Esquilino",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|HRW|TESCO",
-                        "coordinate": {
-                            "lat": 41.89331,
-                            "lon": 12.51232
-                        },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 911385,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/920000/911400/911385/2c85145f_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 1641697792,
-                        "name": "Residenza Laterano",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via Emanuele Filiberto, 166",
-                            "extendedAddress": "",
-                            "locality": "Rome",
-                            "postalCode": "00185",
-                            "region": "",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 7.4,
-                            "rating": "7.4",
-                            "total": 25,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.9 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "1.6 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,696 RUB",
-                                "exactCurrent": 2696.06,
-                                "old": "2,993 RUB"
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "San Giovanni",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "D13|HRW",
-                        "coordinate": {
-                            "lat": 41.88772,
-                            "lon": 12.508282
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 51271806,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/52000000/51280000/51271900/51271806/9b335684_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 804904320,
-                        "name": "Isabel Guest House",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via Pozzuoli 7",
-                            "extendedAddress": "",
-                            "locality": "Rome",
-                            "postalCode": "182",
-                            "region": "",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 9.4,
-                            "rating": "9.4",
-                            "total": 18,
-                            "scale": 10,
-                            "badge": "exceptional",
-                            "badgeText": "Exceptional"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "2.1 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "1.9 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,187 RUB",
-                                "exactCurrent": 2186.84
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "San Giovanni",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 41.88573,
-                            "lon": 12.51291
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 25122010,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/26000000/25130000/25122100/25122010/9a3f89ec_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 483492,
-                        "name": "Radio Hotel",
-                        "starRating": 2.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via Antonio Pacinotti 8/E",
-                            "extendedAddress": "",
-                            "locality": "Rome",
-                            "postalCode": "146",
-                            "region": "RM",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 6.8,
-                            "rating": "6.8",
-                            "total": 204,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "2.3 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "2.2 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,557 RUB",
-                                "exactCurrent": 2557.3
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Quartiere XI Portuense",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 41.870951,
-                            "lon": 12.467458
-                        },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 9578388,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/10000000/9580000/9578400/9578388/f4ead811_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 1065455712,
-                        "name": "Imera Rooms",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "10 VIA IMERA",
-                            "extendedAddress": "",
-                            "locality": "Rome",
-                            "postalCode": "00183",
-                            "region": "",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 9.2,
-                            "rating": "9.2",
-                            "total": 8,
-                            "scale": 10,
-                            "badge": "superb",
-                            "badgeText": "Superb"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "2.4 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "2.1 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,322 RUB",
-                                "exactCurrent": 2321.89
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Appio Latino",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 41.87845,
-                            "lon": 12.51068
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 33264241,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/34000000/33270000/33264300/33264241/dc3ce6e4_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 686455,
-                        "name": "Le Fate Apartments",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via Pasquale Revoltella 78",
-                            "extendedAddress": "",
-                            "locality": "Rome",
-                            "postalCode": "00152",
-                            "region": "Lazio",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 8.4,
-                            "rating": "8.4",
-                            "total": 26,
-                            "scale": 10,
-                            "badge": "very-good",
-                            "badgeText": "Very Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "2.5 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "2.4 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,978 RUB",
-                                "exactCurrent": 2977.94,
-                                "old": "3,309 RUB"
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Gianicolense",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 41.87383,
-                            "lon": 12.45306
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 18086865,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/19000000/18090000/18086900/18086865/4939c261_y.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 193991,
-                        "name": "Hotel Pineta Palace",
-                        "starRating": 4.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via San Lino Papa 35",
-                            "extendedAddress": "",
-                            "locality": "Rome",
-                            "postalCode": "167",
-                            "region": "Rome",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 7.4,
-                            "rating": "7.4",
-                            "total": 1005,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "3.2 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "3.5 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,977 RUB",
-                                "exactCurrent": 2977.32
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Quartiere XXVII Primavalle",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 41.919785,
-                            "lon": 12.420915
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 83496,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/90000/83500/83496/1542bf2b_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 1185078112,
-                        "name": "Alloggio turistico Lamberto Preneste",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via Prenestina 246",
-                            "extendedAddress": "",
-                            "locality": "Rome",
-                            "postalCode": "176",
-                            "region": "Citt\u00e0 Metropolitana di Roma",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 7.8,
-                            "rating": "7.8",
-                            "total": 13,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "3.3 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "3.1 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,855 RUB",
-                                "exactCurrent": 2855.28
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Prenestino-Labicano",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 41.892518,
-                            "lon": 12.54225
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 37002441,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/38000000/37010000/37002500/37002441/3b6db23a_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 480345,
-                        "name": "Opera Don Calabria Casa per Ferie",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via Soria, 13",
-                            "extendedAddress": "",
-                            "locality": "Rome",
-                            "postalCode": "168",
-                            "region": "RM",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 7.6,
-                            "rating": "7.6",
-                            "total": 56,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "3.6 miles"
-                            },
-                            {
-                                "label": "Trevi Fountain",
-                                "distance": "3.8 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,813 RUB",
-                                "exactCurrent": 2812.53
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Quartiere XXVII Primavalle",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 41.909489,
-                            "lon": 12.410109
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 9415559,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/10000000/9420000/9415600/9415559/688cc0df_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    }
-                ],
-                "pagination": {
-                    "currentPage": 1,
-                    "pageGroup": "EXPEDIA_IN_POLYGON",
-                    "nextPageStartIndex": 25,
-                    "nextPageNumber": 2,
-                    "nextPageGroup": "EXPEDIA_IN_POLYGON"
-                }
+                "totalCount": 9766,
+                "results": []
             },
             "sortResults": {
                 "options": [
@@ -1766,6 +268,7 @@
             "filters": {
                 "applied": true,
                 "name": {
+                    "disabled": true,
                     "item": {
                         "value": ""
                     },
@@ -1785,16 +288,20 @@
                             "disabled": true
                         },
                         {
-                            "value": 4
+                            "value": 4,
+                            "disabled": true
                         },
                         {
-                            "value": 3
+                            "value": 3,
+                            "disabled": true
                         },
                         {
-                            "value": 2
+                            "value": 2,
+                            "disabled": true
                         },
                         {
-                            "value": 1
+                            "value": 1,
+                            "disabled": true
                         }
                     ]
                 },
@@ -1813,83 +320,103 @@
                     "items": [
                         {
                             "label": "City center",
-                            "value": "712491"
+                            "value": "712491",
+                            "disabled": true
                         },
                         {
                             "label": "Trevi Fountain",
-                            "value": "701966"
+                            "value": "701966",
+                            "disabled": true
                         },
                         {
                             "label": "Spanish Steps",
-                            "value": "1737636"
+                            "value": "1737636",
+                            "disabled": true
                         },
                         {
                             "label": "Rome (FCO-Fiumicino - Leonardo da Vinci Intl.)",
-                            "value": "1636097"
+                            "value": "1636097",
+                            "disabled": true
                         },
                         {
                             "label": "Pantheon",
-                            "value": "701272"
+                            "value": "701272",
+                            "disabled": true
                         },
                         {
                             "label": "Colosseum",
-                            "value": "709950"
+                            "value": "709950",
+                            "disabled": true
                         },
                         {
                             "label": "Piazza Navona",
-                            "value": "1545"
+                            "value": "1545",
+                            "disabled": true
                         },
                         {
                             "label": "Campo de' Fiori",
-                            "value": "1657396"
+                            "value": "1657396",
+                            "disabled": true
                         },
                         {
                             "label": "St. Peter's Basilica",
-                            "value": "1657491"
+                            "value": "1657491",
+                            "disabled": true
                         },
                         {
                             "label": "St. Peter's Square",
-                            "value": "1657466"
+                            "value": "1657466",
+                            "disabled": true
                         },
                         {
                             "label": "Vatican Museums",
-                            "value": "1657501"
+                            "value": "1657501",
+                            "disabled": true
                         },
                         {
                             "label": "Rome (XRJ-Termini Rail Station)",
-                            "value": "11426482"
+                            "value": "11426482",
+                            "disabled": true
                         },
                         {
                             "label": "Piazza Venezia",
-                            "value": "1657468"
+                            "value": "1657468",
+                            "disabled": true
                         },
                         {
                             "label": "Piazza di Spagna",
-                            "value": "1657462"
+                            "value": "1657462",
+                            "disabled": true
                         },
                         {
                             "label": "Piazza del Popolo",
-                            "value": "1657457"
+                            "value": "1657457",
+                            "disabled": true
                         },
                         {
                             "label": "Spagna Station",
-                            "value": "1701395"
+                            "value": "1701395",
+                            "disabled": true
                         },
                         {
                             "label": "Roman Forum",
-                            "value": "1657473"
+                            "value": "1657473",
+                            "disabled": true
                         },
                         {
                             "label": "Ciampino Airport (CIA)",
-                            "value": "1664275"
+                            "value": "1664275",
+                            "disabled": true
                         },
                         {
                             "label": "Roman Jewish Ghetto",
-                            "value": "10669818"
+                            "value": "10669818",
+                            "disabled": true
                         },
                         {
                             "label": "Basilica di Santa Maria Maggiore",
-                            "value": "1657389"
+                            "value": "1657389",
+                            "disabled": true
                         }
                     ],
                     "distance": []
@@ -1899,7 +426,8 @@
                     "items": [
                         {
                             "label": "Rome City Centre",
-                            "value": "10818945"
+                            "value": "10818945",
+                            "disabled": true
                         },
                         {
                             "label": "Trastevere",
@@ -1908,7 +436,8 @@
                         },
                         {
                             "label": "Vatican",
-                            "value": "1808834"
+                            "value": "1808834",
+                            "disabled": true
                         },
                         {
                             "label": "Policlinico",
@@ -1922,7 +451,8 @@
                         },
                         {
                             "label": "Monti",
-                            "value": "1729991"
+                            "value": "1729991",
+                            "disabled": true
                         },
                         {
                             "label": "Giardinetti",
@@ -1931,7 +461,8 @@
                         },
                         {
                             "label": "Ostia Antica",
-                            "value": "1664196"
+                            "value": "1664196",
+                            "disabled": true
                         },
                         {
                             "label": "EUR",
@@ -1980,7 +511,8 @@
                         },
                         {
                             "label": "San Giovanni",
-                            "value": "1696463"
+                            "value": "1696463",
+                            "disabled": true
                         },
                         {
                             "label": "Rione II Trevi",
@@ -2019,7 +551,8 @@
                         },
                         {
                             "label": "Rome Termini Station",
-                            "value": "1707502"
+                            "value": "1707502",
+                            "disabled": true
                         },
                         {
                             "label": "Prati",
@@ -2028,7 +561,8 @@
                         },
                         {
                             "label": "Lido di Ostia",
-                            "value": "1687652"
+                            "value": "1687652",
+                            "disabled": true
                         },
                         {
                             "label": "Flaminio",
@@ -2042,15 +576,18 @@
                         },
                         {
                             "label": "Aurelio",
-                            "value": "1690823"
+                            "value": "1690823",
+                            "disabled": true
                         },
                         {
                             "label": "Tor di Quinto",
-                            "value": "1687670"
+                            "value": "1687670",
+                            "disabled": true
                         },
                         {
                             "label": "Esquilino",
-                            "value": "1722671"
+                            "value": "1722671",
+                            "disabled": true
                         },
                         {
                             "label": "Repubblica",
@@ -2074,7 +611,8 @@
                         },
                         {
                             "label": "Pigneto",
-                            "value": "1701098"
+                            "value": "1701098",
+                            "disabled": true
                         },
                         {
                             "label": "Prima Porta",
@@ -2083,15 +621,18 @@
                         },
                         {
                             "label": "Gianicolo",
-                            "value": "1808832"
+                            "value": "1808832",
+                            "disabled": true
                         },
                         {
                             "label": "Monteverde",
-                            "value": "1690826"
+                            "value": "1690826",
+                            "disabled": true
                         },
                         {
                             "label": "Cassia",
-                            "value": "1711099"
+                            "value": "1711099",
+                            "disabled": true
                         },
                         {
                             "label": "Prenestino-Centocelle",
@@ -2100,7 +641,8 @@
                         },
                         {
                             "label": "Nomentano",
-                            "value": "1664199"
+                            "value": "1664199",
+                            "disabled": true
                         },
                         {
                             "label": "Settebagni",
@@ -2114,11 +656,13 @@
                         },
                         {
                             "label": "Quartiere XI Portuense",
-                            "value": "10990940"
+                            "value": "10990940",
+                            "disabled": true
                         },
                         {
                             "label": "Tuscolano",
-                            "value": "1696465"
+                            "value": "1696465",
+                            "disabled": true
                         },
                         {
                             "label": "Ripa",
@@ -2162,11 +706,13 @@
                         },
                         {
                             "label": "Trionfale",
-                            "value": "1690825"
+                            "value": "1690825",
+                            "disabled": true
                         },
                         {
                             "label": "Rome Tiburtina Station",
-                            "value": "1707532"
+                            "value": "1707532",
+                            "disabled": true
                         },
                         {
                             "label": "Celio",
@@ -2175,15 +721,18 @@
                         },
                         {
                             "label": "Gianicolense",
-                            "value": "1730001"
+                            "value": "1730001",
+                            "disabled": true
                         },
                         {
                             "label": "Rione XVIII Castro Pretorio",
-                            "value": "10990931"
+                            "value": "10990931",
+                            "disabled": true
                         },
                         {
                             "label": "Appio Latino",
-                            "value": "1696455"
+                            "value": "1696455",
+                            "disabled": true
                         },
                         {
                             "label": "Labaro",
@@ -2217,7 +766,8 @@
                         },
                         {
                             "label": "Salario",
-                            "value": "1696462"
+                            "value": "1696462",
+                            "disabled": true
                         },
                         {
                             "label": "Ottavia",
@@ -2231,7 +781,8 @@
                         },
                         {
                             "label": "Torraccia",
-                            "value": "1775986"
+                            "value": "1775986",
+                            "disabled": true
                         },
                         {
                             "label": "Sallustiano",
@@ -2250,11 +801,13 @@
                         },
                         {
                             "label": "Prenestino-Labicano",
-                            "value": "1696461"
+                            "value": "1696461",
+                            "disabled": true
                         },
                         {
                             "label": "Zona XXXIII Acilia Sud",
-                            "value": "12548061"
+                            "value": "12548061",
+                            "disabled": true
                         },
                         {
                             "label": "Rione XI Sant'Angelo",
@@ -2273,7 +826,8 @@
                         },
                         {
                             "label": "Ponte Galeria-La Pisana",
-                            "value": "12524328"
+                            "value": "12524328",
+                            "disabled": true
                         },
                         {
                             "label": "Zona XX Aeroporto di Ciampino",
@@ -2297,11 +851,13 @@
                         },
                         {
                             "label": "Quartiere XXIX Ponte Mammolo",
-                            "value": "12514196"
+                            "value": "12514196",
+                            "disabled": true
                         },
                         {
                             "label": "Quartiere XXXIII Lido di Ostia Ponente",
-                            "value": "12537652"
+                            "value": "12537652",
+                            "disabled": true
                         },
                         {
                             "label": "Zona XXXI Mezzocammino",
@@ -2355,7 +911,8 @@
                         },
                         {
                             "label": "Quartiere XXX San Basilio",
-                            "value": "12509131"
+                            "value": "12509131",
+                            "disabled": true
                         },
                         {
                             "label": "Camilluccia",
@@ -2384,7 +941,8 @@
                         },
                         {
                             "label": "Quartiere XIII Aurelio",
-                            "value": "12515006"
+                            "value": "12515006",
+                            "disabled": true
                         },
                         {
                             "label": "Quartiere XXVI Appio Pignatelli",
@@ -2393,7 +951,8 @@
                         },
                         {
                             "label": "Zona LVI Grottarossa",
-                            "value": "12549605"
+                            "value": "12549605",
+                            "disabled": true
                         },
                         {
                             "label": "Suburbio XI della Vittoria",
@@ -2472,7 +1031,8 @@
                         },
                         {
                             "label": "Quartiere XXVII Primavalle",
-                            "value": "12523130"
+                            "value": "12523130",
+                            "disabled": true
                         },
                         {
                             "label": "Zona XXI Torricola",
@@ -2491,7 +1051,8 @@
                         },
                         {
                             "label": "Marsala",
-                            "value": "12543881"
+                            "value": "12543881",
+                            "disabled": true
                         },
                         {
                             "label": "Roman Ghetto",
@@ -2515,7 +1076,8 @@
                         },
                         {
                             "label": "Isola Sacra",
-                            "value": "12524236"
+                            "value": "12524236",
+                            "disabled": true
                         },
                         {
                             "label": "Zona XL Magliana Vecchia",
@@ -2569,19 +1131,23 @@
                         },
                         {
                             "label": "Quartiere XXXIV Lido di Ostia Levante",
-                            "value": "12514287"
+                            "value": "12514287",
+                            "disabled": true
                         },
                         {
                             "label": "Municipio I",
-                            "value": "12483679"
+                            "value": "12483679",
+                            "disabled": true
                         },
                         {
                             "label": "Municipio VII",
-                            "value": "12497536"
+                            "value": "12497536",
+                            "disabled": true
                         },
                         {
                             "label": "Municipio X",
-                            "value": "12477284"
+                            "value": "12477284",
+                            "disabled": true
                         }
                     ]
                 },
@@ -2590,7 +1156,8 @@
                     "items": [
                         {
                             "label": "Agritourism",
-                            "value": "40"
+                            "value": "40",
+                            "disabled": true
                         },
                         {
                             "label": "Apart-hotels",
@@ -2599,11 +1166,13 @@
                         },
                         {
                             "label": "Apartments",
-                            "value": "15"
+                            "value": "15",
+                            "disabled": true
                         },
                         {
                             "label": "B&Bs",
-                            "value": "5"
+                            "value": "5",
+                            "disabled": true
                         },
                         {
                             "label": "Cabins and lodges",
@@ -2612,7 +1181,8 @@
                         },
                         {
                             "label": "Caravan parks",
-                            "value": "21"
+                            "value": "21",
+                            "disabled": true
                         },
                         {
                             "label": "Chalets",
@@ -2626,19 +1196,23 @@
                         },
                         {
                             "label": "Country houses",
-                            "value": "24"
+                            "value": "24",
+                            "disabled": true
                         },
                         {
                             "label": "Guest houses",
-                            "value": "30"
+                            "value": "30",
+                            "disabled": true
                         },
                         {
                             "label": "Hostels",
-                            "value": "12"
+                            "value": "12",
+                            "disabled": true
                         },
                         {
                             "label": "Hotels",
-                            "value": "1"
+                            "value": "1",
+                            "disabled": true
                         },
                         {
                             "label": "Houseboats",
@@ -2647,7 +1221,8 @@
                         },
                         {
                             "label": "Inns",
-                            "value": "8"
+                            "value": "8",
+                            "disabled": true
                         },
                         {
                             "label": "Palaces",
@@ -2671,27 +1246,33 @@
                     "items": [
                         {
                             "label": "24-hour front desk",
-                            "value": "2063"
+                            "value": "2063",
+                            "disabled": true
                         },
                         {
                             "label": "Airport transfers",
-                            "value": "513"
+                            "value": "513",
+                            "disabled": true
                         },
                         {
                             "label": "Bar",
-                            "value": "515"
+                            "value": "515",
+                            "disabled": true
                         },
                         {
                             "label": "Bathtub in room",
-                            "value": "517"
+                            "value": "517",
+                            "disabled": true
                         },
                         {
                             "label": "Breakfast included",
-                            "value": "2048"
+                            "value": "2048",
+                            "disabled": true
                         },
                         {
                             "label": "Business facilities",
-                            "value": "519"
+                            "value": "519",
+                            "disabled": true
                         },
                         {
                             "label": "Casino",
@@ -2700,15 +1281,18 @@
                         },
                         {
                             "label": "Childcare",
-                            "value": "521"
+                            "value": "521",
+                            "disabled": true
                         },
                         {
                             "label": "Connecting rooms available",
-                            "value": "523"
+                            "value": "523",
+                            "disabled": true
                         },
                         {
                             "label": "Cribs available",
-                            "value": "525"
+                            "value": "525",
+                            "disabled": true
                         },
                         {
                             "label": "Electric vehicle charging point",
@@ -2717,39 +1301,48 @@
                         },
                         {
                             "label": "Gym",
-                            "value": "2"
+                            "value": "2",
+                            "disabled": true
                         },
                         {
                             "label": "Internet Access",
-                            "value": "8"
+                            "value": "8",
+                            "disabled": true
                         },
                         {
                             "label": "Kitchen",
-                            "value": "32"
+                            "value": "32",
+                            "disabled": true
                         },
                         {
                             "label": "Meeting Facilities",
-                            "value": "1"
+                            "value": "1",
+                            "disabled": true
                         },
                         {
                             "label": "Non-smoking",
-                            "value": "529"
+                            "value": "529",
+                            "disabled": true
                         },
                         {
                             "label": "Parking",
-                            "value": "134234112"
+                            "value": "134234112",
+                            "disabled": true
                         },
                         {
                             "label": "Pet Friendly",
-                            "value": "64"
+                            "value": "64",
+                            "disabled": true
                         },
                         {
                             "label": "Pool",
-                            "value": "128"
+                            "value": "128",
+                            "disabled": true
                         },
                         {
                             "label": "Restaurant",
-                            "value": "256"
+                            "value": "256",
+                            "disabled": true
                         },
                         {
                             "label": "Ski-in/ski-out",
@@ -2763,15 +1356,18 @@
                         },
                         {
                             "label": "Smoking areas",
-                            "value": "537"
+                            "value": "537",
+                            "disabled": true
                         },
                         {
                             "label": "Spa",
-                            "value": "539"
+                            "value": "539",
+                            "disabled": true
                         },
                         {
                             "label": "WiFi included",
-                            "value": "527"
+                            "value": "527",
+                            "disabled": true
                         }
                     ]
                 },
@@ -2785,15 +1381,18 @@
                         },
                         {
                             "label": "Accessible bathroom",
-                            "value": "131072"
+                            "value": "131072",
+                            "disabled": true
                         },
                         {
                             "label": "Accessible parking",
-                            "value": "524288"
+                            "value": "524288",
+                            "disabled": true
                         },
                         {
                             "label": "Accessible path of travel",
-                            "value": "65536"
+                            "value": "65536",
+                            "disabled": true
                         },
                         {
                             "label": "Braille or raised signage",
@@ -2802,15 +1401,18 @@
                         },
                         {
                             "label": "In-room accessibility",
-                            "value": "1048576"
+                            "value": "1048576",
+                            "disabled": true
                         },
                         {
                             "label": "Roll-in shower",
-                            "value": "262144"
+                            "value": "262144",
+                            "disabled": true
                         },
                         {
                             "label": "Wheelchair accessible rooms",
-                            "value": "541"
+                            "value": "541",
+                            "disabled": true
                         }
                     ]
                 },
@@ -2819,11 +1421,13 @@
                     "items": [
                         {
                             "label": "Adventure",
-                            "value": "18"
+                            "value": "18",
+                            "disabled": true
                         },
                         {
                             "label": "Beach",
-                            "value": "6"
+                            "value": "6",
+                            "disabled": true
                         },
                         {
                             "label": "Boutique",
@@ -2832,7 +1436,8 @@
                         },
                         {
                             "label": "Business",
-                            "value": "14"
+                            "value": "14",
+                            "disabled": true
                         },
                         {
                             "label": "Casino",
@@ -2841,11 +1446,13 @@
                         },
                         {
                             "label": "Family-friendly",
-                            "value": "25"
+                            "value": "25",
+                            "disabled": true
                         },
                         {
                             "label": "Golf",
-                            "value": "26"
+                            "value": "26",
+                            "disabled": true
                         },
                         {
                             "label": "Historic",
@@ -2874,7 +1481,8 @@
                         },
                         {
                             "label": "Shopping",
-                            "value": "17"
+                            "value": "17",
+                            "disabled": true
                         },
                         {
                             "label": "Ski",
@@ -2898,11 +1506,11 @@
                     "range": {
                         "min": {
                             "defaultValue": 0,
-                            "value": 1500
+                            "value": 500
                         },
                         "max": {
                             "defaultValue": 25000,
-                            "value": 3000
+                            "value": 1000
                         },
                         "increments": 250
                     },
@@ -2913,7 +1521,8 @@
                     "items": [
                         {
                             "label": "Pay with Hotels.com gift card",
-                            "value": "gc"
+                            "value": "gc",
+                            "disabled": true
                         }
                     ]
                 },
@@ -2922,11 +1531,13 @@
                     "items": [
                         {
                             "label": "Collect stamps",
-                            "value": "collect"
+                            "value": "collect",
+                            "disabled": true
                         },
                         {
                             "label": "Redeem reward* nights",
-                            "value": "redeem"
+                            "value": "redeem",
+                            "disabled": true
                         }
                     ]
                 }
@@ -2940,7 +1551,7 @@
                 }
             },
             "miscellaneous": {
-                "pageViewBeaconUrl": "/taps/v1/PageView?deviceType=App-Phone&sort-order=DISTANCE_FROM_LANDMARK&rooms=1&destRegionID=712491&hotelIds=563548,281917,1253968384,283685,295099,384664,280072,421473,464493,287563,495936,512765,383533,319137,413004,619240032,508160,1641697792,804904320,483492,1065455712,686455,193991,1185078112,480345&adults=1&userAgent=Hotels.com/Android%2080.0.1.9.release-80_0%20(80000660)&userGuid=0ad139be-a984-44c3-b23e-963fa8fc92f6&pageName=Hotel-Search&slots=HSR_A,HSR_B,HSR_C,HSR_D,HSR_E,HSR_F,HSR_G,HSR_H,HSR_I,HSR_J&children=0&culture=en_US&testVersionOverride=4961.0,904.0,7561.0,7215.0,8218.0,8711.0,8928.1,9008.0,8347.2,9004.0,8952.0,7992.2,8915.0,9729.0,9864.0,10155.0,10185.0,10473.0,10320.0,10361.0&domain=www.hotels.com&userIP=172.115.115.90&action=pageview&publisher=expedia&programId=1",
+                "pageViewBeaconUrl": "/taps/v1/PageView?deviceType=App-Phone&sort-order=DISTANCE_FROM_LANDMARK&rooms=1&destRegionID=712491&adults=1&userAgent=Hotels.com/Android%2080.0.1.9.release-80_0%20(80000660)&userGuid=9b07e18d-36fb-4515-b066-eb018580563e&pageName=Hotel-Search&slots=HSR_A,HSR_B,HSR_C,HSR_D,HSR_E,HSR_F,HSR_G,HSR_H,HSR_I,HSR_J&children=0&culture=en_US&testVersionOverride=4961.0,904.0,7561.0,7215.0,8218.0,8711.0,8928.1,9008.0,8347.2,9004.0,8952.0,7992.2,8915.0,9729.0,9864.0,10155.0,10185.0,10473.0,10320.0,10361.0&domain=www.hotels.com&userIP=75.117.200.151&action=pageview&publisher=expedia&programId=1",
                 "showLegalInfoForStrikethroughPrices": true,
                 "legalInfoForStrikethroughPrices": "The struck-out price is based on the property\u2019s standard rate on our app, as determined and supplied by the property."
             },
@@ -2957,12 +1568,11 @@
                 "omniture": {
                     "s.prop33": "D=v33",
                     "s.prop32": "D=v43",
-                    "s.prop74": "search result without dates | ms shown | N",
-                    "s.products": "LOCAL;12758735,LOCAL;2519663,LOCAL;39155262",
+                    "s.prop74": "search result without dates | ms not shown | NA",
                     "s.eVar16": "Mob :: aApp",
                     "s.eVar40": "D=v0",
                     "s.eVar41": "RUB",
-                    "s.eVar63": "9ec53567-8262-431d-a047-f6ae64fbd69b",
+                    "s.eVar63": "c29997a3-69d0-41c2-a5aa-310b5a03dcc7",
                     "s.eVar42": "dateless",
                     "s.eVar4": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
                     "s.eVar43": "en_US|HCOM_US|www.hotels.com",
@@ -2972,23 +1582,22 @@
                     "s.server": "www.hotels.com",
                     "s.eVar6": "712491",
                     "s.prop29": "D=v42",
-                    "s.prop27": "0ad139be-a984-44c3-b23e-963fa8fc92f6",
+                    "s.prop27": "9b07e18d-36fb-4515-b066-eb018580563e",
                     "s.eVar9": "Distance to other landmark near to far",
-                    "s.prop22": "Price - RUB1500-3000",
+                    "s.prop22": "Price - RUB500-1000",
                     "s.eVar69": "Mob :: aApp",
                     "s.currencyCode": "RUB",
-                    "s.eVar26": "US:CA:PALMDALE:803",
+                    "s.eVar26": "US:KY:LONDON:541",
                     "s.eVar29": "Mob :: aApp",
-                    "s.prop9": "48",
+                    "s.prop9": "0",
                     "s.eVar95": "Unknown",
-                    "s.prop7": "48",
+                    "s.prop7": "0",
                     "s.eVar31": "D=v0",
-                    "s.eVar10": "Price - RUB1500-3000",
+                    "s.eVar10": "Price - RUB500-1000",
                     "s.eVar32": "D=v0",
                     "s.eVar33": "search result without dates",
-                    "s.eVar34": "H1871:007.002,M904:000.000,M3736:000.000,M4440.2,M4869:001.000,M4952:050.000,M4961:001.000,M5342:000.000,M5663:000.000,M6388:000.000,M6775:000.000,M6779:000.000,M7015.1,M7192:000.000,M7215:000.000,M7296:000.000,M7305:000.000,M7353:000.000,M7362.1,M7552:023.001,M7870:000.000,M8130:000.001,M8336:000.000,M8347:019.002,M8692:000.000,M8698:000.000,M8718:000.000,M8915:000.000,M8928:019.001,M8952:000.000,M8976:000.000,M8992:000.000,M9035:000.000,M9220:000.000,M9297:000.000,M9351:000.000,M9431:000.000,M9434:000.000,M9469:000.000,M9549:000.000,M9729:000.000,M9752:000.000,M9864:000.000,M9924:000.000,M9961:000.000,M9971:000.000,M10001:000.000,M10007:000.000,M10013:002.001,M10121:000.000,M10137:000.000,M10155:000.000,M10185:000.000,M10248:000.000,M10259:000.000,M10268:000.000,M10282:000.000,M10300:000.000,M10320:000.000,M10361:000.000,M10473:000.000,M9215:001.001",
+                    "s.eVar34": "H1871:007.002,M904:000.000,M3736:000.000,M4440.2,M4869:001.000,M4952:050.001,M4961:001.000,M5342:000.000,M5663:000.000,M6388:000.000,M7015.1,M7192:000.000,M7215:000.000,M7296:000.000,M7305:000.000,M7353:000.000,M7362.1,M7552:023.001,M8130:000.001,M8336:000.000,M8347:019.002,M8692:000.000,M8698:000.000,M8718:000.000,M8915:000.000,M8928:019.001,M8952:000.000,M9297:000.000,M9431:000.000,M9434:000.000,M9549:000.000,M9729:000.000,M9752:000.000,M9864:000.000,M9924:000.000,M10001:000.000,M10007:000.000,M10013:002.001,M10121:000.000,M10137:000.000,M10155:000.000,M10185:000.000,M10248:000.000,M10259:000.000,M10268:000.000,M10282:000.000,M10320:000.000,M10361:000.000,M10473:000.000,M9215:001.001",
                     "s.eVar13": "389367",
-                    "s.events": "event324,event320",
                     "s.prop18": "D=v6",
                     "s.prop5": "389367",
                     "s.prop15": "",

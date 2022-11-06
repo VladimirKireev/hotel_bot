@@ -57,10 +57,9 @@ def get_photo(hotel_id, hotel_name, count):
     return photos_list
 
 
-def hotel_list(destination_id=549499, hotel_count=3,
-               sort='PRICE_HIGHEST_FIRST',
-               photo_count=0, max_distanse=0.1,
-               min_price=1500, max_price=3000):
+def hotel_list(destination_id, hotel_count,
+               sort, max_distance,
+               min_price, max_price, photo_count=0):
     url = "https://hotels4.p.rapidapi.com/properties/list"
 
     querystring = {"destinationId": f"{destination_id}", "pageNumber": "1", "pageSize": f"100",
@@ -98,7 +97,7 @@ def hotel_list(destination_id=549499, hotel_count=3,
                 hotels_list += f'{hotel_name}, '
                 result_text = f'{hotel_name}, расположенный по адресу: {hotel_adress}, расположенный на {center_distance} км от центра по цене {price} за ночь.'
                 photo_urls = get_photo(hotel_id, result_text, photo_count)
-                if center_distance <= max_distanse:
+                if float(center_distance) <= float(max_distance):
                     top_hotels[f'hotels_info'].extend([{'result_message': result_text, 'photo_url_list': photo_urls}])
                     count += 1
 
@@ -123,7 +122,7 @@ def hotel_list(destination_id=549499, hotel_count=3,
                 hotels_list += f'{hotel_name}, '
                 result_text = f'{hotel_name}, расположенный по адресу: {hotel_adress}, расположенный на {center_distance} км от центра по цене {price} за ночь.'
                 top_hotels[f'{hotel_id}'] = {'result_message': result_text}
-                if center_distance <= max_distanse:
+                if float(center_distance) <= float(max_distance):
                     top_hotels[f'hotels_info'].append({'result_message': result_text})
                     count += 1
             except KeyError:

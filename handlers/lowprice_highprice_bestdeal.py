@@ -14,6 +14,9 @@ class Destination:
         self.city_list = dict()
         self.sort = None
         self.command = None
+        self.min_price = None
+        self.max_price = None
+        self.distance = 1000
 
 user_dict = dict()
 
@@ -24,7 +27,7 @@ def get_text_messages(message):
     user_id = message.from_user.id
     # print(message.from_user.text)
     user_dict[user_id] = Destination()
-    user_dict[user_id].sort = 'DISTANCE_FROM_LANDMARK'
+    user_dict[user_id].sort = 'PRICE'
     user_dict[user_id].command = 'lowprice'
 
     msg = bot.reply_to(message, 'В какой город вы собираетесь?')
@@ -95,23 +98,54 @@ def pick_from_city_list_step(message):
         msg = bot.send_message(chat_id=message.chat.id,
                          text="Результаты поиска:",
                          reply_markup=city_keyboard)
-        bot.register_next_step_handler(msg, city_pick_step)
+        if user_dict[user_id].command == 'bestdeal':
+            bot.register_next_step_handler(msg, min_price_step)
+        else:
+            bot.register_next_step_handler(msg, city_pick_step)
 
     except Exception:
         bot.reply_to(message, 'Не могу найти такой город. Вам необходимо заново выбрать команду и осуществить поиск.')
 
 def min_price_step(message): #дописать шаги с запросами минимальной и максимальной цены
-    msg = bot.send_message(call.message.chat.id, 'В какой город вы собираетесь?')
+    user_id = message.from_user.id
+    destination_id = user_dict[user_id].city_list[message.text]
+    city = message.text.split()[0]
+    user_dict[user_id].city, user_dict[user_id].destination_id = city, destination_id
+    user_dict[user_id].city_list = dict()
+    msg = bot.send_message(message.chat.id, 'Какая минимальная цена за ночь?', reply_markup=types.ReplyKeyboardRemove())
+    bot.register_next_step_handler(msg, max_price_step)
 
+
+def max_price_step(message):
+    user_id = message.from_user.id
+    min_price = message.text
+    print(min_price)
+    user_dict[user_id].min_price = min_price
+    msg = bot.send_message(message.chat.id, 'Какая максимальная цена за ночь?')
+    bot.register_next_step_handler(msg, distance_from_center_step)
+
+
+def distance_from_center_step(message):
+    user_id = message.from_user.id
+    max_price = message.text
+    print(max_price)
+    user_dict[user_id].max_price = max_price
+    msg = bot.send_message(message.chat.id, 'Какое максимальное расстояние от центра?')
+    bot.register_next_step_handler(msg, city_pick_step)
 
 
 def city_pick_step(message):
     user_id = message.from_user.id
-    destination_id = user_dict[user_id].city_list[message.text]
-    city = message.text.split()[0]
-    print(city, destination_id)
-    user_dict[user_id].city, user_dict[user_id].destination_id = city, destination_id
-    user_dict[user_id].city_list = dict()
+    if user_dict[user_id].command == 'bestdeal':
+        distance = message.text
+        print(distance)
+        user_dict[user_id].distance = distance
+    else:
+        destination_id = user_dict[user_id].city_list[message.text]
+        city = message.text.split()[0]
+        # print(city, destination_id)
+        user_dict[user_id].city, user_dict[user_id].destination_id = city, destination_id
+        user_dict[user_id].city_list = dict()
     msg = bot.send_message(message.from_user.id, 'Cколько вывести отелей в списке?', reply_markup=types.ReplyKeyboardRemove())
     bot.register_next_step_handler(msg, hotel_count_step)
 
@@ -141,6 +175,10 @@ def need_photo_step(message):
     user_id = message.from_user.id
     nickname = message.from_user.username
     sort = user_dict[user_id].sort
+    min_price = user_dict[user_id].min_price
+    max_price = user_dict[user_id].max_price
+    distance = user_dict[user_id].distance
+    print('sort', sort)
 
     if answer == 'Да':
         user_dict[user_id].need_photos = True
@@ -150,14 +188,17 @@ def need_photo_step(message):
         city = user_dict[user_id].city
         hotel_count = user_dict[user_id].hotel_count
         desnination_id = user_dict[user_id].destination_id
-        res = hotel_list(destination_id=desnination_id, hotel_count=hotel_count, sort=sort)
+        res = hotel_list(destination_id=desnination_id, hotel_count=hotel_count,
+                         sort=sort,  min_price=min_price,
+                         max_price=max_price, max_distance=distance)
         if len(res['hotels_info']) == 0:
             bot.send_message(message.from_user.id,
                              'По заданным параметрам ничего не найдено. '
                              'Попробуйте изменить диапазон цены, либо расстояние от центра города.',
                              reply_markup=types.ReplyKeyboardRemove())
-        for i in res['hotels_info']:
-            bot.send_message(message.from_user.id, i['result_message'], reply_markup=types.ReplyKeyboardRemove())
+        else:
+            for i in res['hotels_info']:
+                bot.send_message(message.from_user.id, i['result_message'], reply_markup=types.ReplyKeyboardRemove())
 
         command = user_dict[user_id].command
         hotels_list = res['hotels_list'][:-2]
@@ -170,12 +211,23 @@ def photo_count_step(message):
     nickname = message.from_user.username
     city = user_dict[user_id].city
     sort = user_dict[user_id].sort
+    min_price = user_dict[user_id].min_price
+    max_price = user_dict[user_id].max_price
+    distance = user_dict[user_id].distance
     photo_count = int(message.text)
     hotel_count = user_dict[user_id].hotel_count
     desnination_id = user_dict[user_id].destination_id
-    res = hotel_list(destination_id=desnination_id, hotel_count=hotel_count, sort=sort, photo_count=photo_count)
-    for i in res['hotels_info']:
-        photo_list = i['photo_url_list']
-        bot.send_media_group(message.from_user.id, photo_list)
-    hotels_list = res['hotels_list'][:-2]
-    add_user_action(user_id, user_name, nickname, sort, city, hotels_list)
+    res = hotel_list(destination_id=desnination_id, hotel_count=hotel_count,
+                     sort=sort, min_price=min_price, max_price=max_price,
+                     max_distance=distance, photo_count=photo_count)
+    if len(res['hotels_info']) == 0:
+        bot.send_message(message.from_user.id,
+                         'По заданным параметрам ничего не найдено. '
+                         'Попробуйте изменить диапазон цены, либо расстояние от центра города.',
+                         reply_markup=types.ReplyKeyboardRemove())
+    else:
+        for i in res['hotels_info']:
+            photo_list = i['photo_url_list']
+            bot.send_media_group(message.from_user.id, photo_list)
+        hotels_list = res['hotels_list'][:-2]
+        add_user_action(user_id, user_name, nickname, sort, city, hotels_list)
