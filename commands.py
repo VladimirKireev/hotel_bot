@@ -16,8 +16,8 @@ def search_city(city):
     response = requests.request("GET", url, headers=headers, params=querystring)
     result = json.loads(response.text)
 
-    # with open('Cities.json', 'w') as file:
-    #     json.dump(result, file, indent=4)
+    with open('Cities.json', 'w') as file:
+        json.dump(result, file, indent=4)
 
     result_cities = result['suggestions'][0]['entities']
     pick_cities_list = []

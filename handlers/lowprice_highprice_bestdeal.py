@@ -207,7 +207,7 @@ def need_photo_step(message):
 
     if answer == 'Да':
         user_dict[user_id].need_photos = True
-        msg = bot.send_message(message.from_user.id, 'Сколько вывести картинок?', reply_markup=types.ReplyKeyboardRemove())
+        msg = bot.send_message(message.from_user.id, 'Сколько вывести картинок? (не более 10 фото на отель)', reply_markup=types.ReplyKeyboardRemove())
         bot.register_next_step_handler(msg, photo_count_step)
     else:
         city = user_dict[user_id].city
@@ -231,19 +231,25 @@ def need_photo_step(message):
 
 
 def photo_count_step(message):
-    user_id = message.from_user.id
-    user_name = message.from_user.first_name
-    nickname = message.from_user.username
-    city = user_dict[user_id].city
-    sort = user_dict[user_id].sort
-    command = user_dict[user_id].command
-    min_price = user_dict[user_id].min_price
-    max_price = user_dict[user_id].max_price
-    distance = user_dict[user_id].distance
-    photo_count = int(message.text)
-    hotel_count = user_dict[user_id].hotel_count
-    desnination_id = user_dict[user_id].destination_id
     try:
+        user_id = message.from_user.id
+        user_name = message.from_user.first_name
+        nickname = message.from_user.username
+        city = user_dict[user_id].city
+        sort = user_dict[user_id].sort
+        command = user_dict[user_id].command
+        min_price = user_dict[user_id].min_price
+        max_price = user_dict[user_id].max_price
+        distance = user_dict[user_id].distance
+        photo_count = int(message.text)
+        hotel_count = user_dict[user_id].hotel_count
+        desnination_id = user_dict[user_id].destination_id
+
+        if photo_count > 10:
+            raise NameError
+        bot.send_message(message.from_user.id,
+                         'Осуществляется поиск. Пожалуйста подождите. ',
+                         reply_markup=types.ReplyKeyboardRemove())
         res = hotel_list(destination_id=desnination_id, hotel_count=hotel_count,
                          sort=sort, min_price=min_price, max_price=max_price,
                          max_distance=distance, photo_count=photo_count)
@@ -259,6 +265,14 @@ def photo_count_step(message):
                 bot.send_media_group(message.from_user.id, photo_list)
             hotels_list = res['hotels_list'][:-2]
             add_user_action(user_id, user_name, nickname, command, city, hotels_list)
+    except ValueError:
+        bot.send_message(message.from_user.id,
+                         'Ошибка ввода. Вероятно вы некорректно ввели количество фотографий. Ввод должен осуществляться цифрами.',
+                         reply_markup=types.ReplyKeyboardRemove())
+    except NameError:
+        bot.send_message(message.from_user.id,
+                         'Количество фото не может превышать 10 штук. Повторите поиск заново.',
+                         reply_markup=types.ReplyKeyboardRemove())
     except Exception:
         bot.send_message(message.from_user.id,
                          'При поиске произошла неизвестная ошибка, возможно где-то на сервере. '

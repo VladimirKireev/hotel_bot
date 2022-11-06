@@ -2,271 +2,36 @@
     "result": "OK",
     "data": {
         "body": {
-            "header": "Belek, Serik, Antalya Region, T\u00fcrkiye",
+            "header": "Rimini, Rimini, Emilia-Romagna, Italy",
             "query": {
                 "destination": {
-                    "id": "1351110",
-                    "value": "Belek, Serik, Antalya Region, T\u00fcrkiye",
-                    "resolvedLocation": "CITY:1351110:UNKNOWN:UNKNOWN"
+                    "id": "1641012",
+                    "value": "Rimini, Rimini, Emilia-Romagna, Italy",
+                    "resolvedLocation": "CITY:1641012:UNKNOWN:UNKNOWN"
                 }
             },
             "searchResults": {
-                "totalCount": 1244,
+                "totalCount": 2173,
                 "results": [
                     {
-                        "id": 1183915904,
-                        "name": "Belek Altos Otel",
-                        "starRating": 0.0,
+                        "id": 280932,
+                        "name": "Hotel Polo",
+                        "starRating": 4.0,
                         "urls": {},
                         "address": {
-                            "streetAddress": "Belek Mah. Kocareis Caddesi No 3 B",
-                            "extendedAddress": "Belek",
-                            "locality": "Serik",
-                            "postalCode": "07506",
-                            "region": "Antalya",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 5.4,
-                            "rating": "5.4",
-                            "total": 34,
-                            "scale": 10
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "0.0 miles"
-                            },
-                            {
-                                "label": "The Land of Legends",
-                                "distance": "3.3 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "1,699 RUB",
-                                "exactCurrent": 1699.29
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Serik",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "coordinate": {
-                            "lat": 36.863594,
-                            "lon": 31.060741
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 36966122,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/37000000/36970000/36966200/36966122/1cb8f6d9_y.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 1829204512,
-                        "name": "G\u00fcl Otel",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Kadriye Mahallesi, Besg\u00f6z Caddesi No:125",
+                            "streetAddress": "Viale A. Vespucci, 23",
                             "extendedAddress": "",
-                            "locality": "Serik",
-                            "postalCode": "25000",
-                            "region": "Antalya",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 7.8,
-                            "rating": "7.8",
-                            "total": 21,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "3.2 miles"
-                            },
-                            {
-                                "label": "The Land of Legends",
-                                "distance": "0.4 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "1,835 RUB",
-                                "exactCurrent": 1834.96
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Serik",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "D13",
-                        "coordinate": {
-                            "lat": 36.870691,
-                            "lon": 31.003116
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 57131391,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/58000000/57140000/57131400/57131391/f6fab0b8_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 497052,
-                        "name": "Belkon Hotel",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "\u00dc\u00e7kum Tepesi Mevkii",
-                            "extendedAddress": "",
-                            "locality": "Serik",
-                            "postalCode": "07506",
-                            "region": "Antalya",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 4.6,
-                            "rating": "4.6",
-                            "total": 58,
-                            "scale": 10
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "4.0 miles"
-                            },
-                            {
-                                "label": "The Land of Legends",
-                                "distance": "0.7 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,056 RUB",
-                                "exactCurrent": 2056.12
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Serik",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 36.877474,
-                            "lon": 30.990667
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 10109271,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/11000000/10110000/10109300/10109271/2908bd00_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 1128303968,
-                        "name": "Dionisus Hotel",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Kadriye Mahallesi, 23. Sk",
-                            "extendedAddress": "",
-                            "locality": "Serik",
-                            "postalCode": "07525",
-                            "region": "Antalya",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 6.8,
-                            "rating": "6.8",
-                            "total": 22,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "3.2 miles"
-                            },
-                            {
-                                "label": "The Land of Legends",
-                                "distance": "0.5 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,609 RUB",
-                                "exactCurrent": 2609.33
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Serik",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "D13",
-                        "coordinate": {
-                            "lat": 36.882617,
-                            "lon": 31.00802
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 35228249,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/36000000/35230000/35228300/35228249/f2c9f5ea_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 512953,
-                        "name": "Kadriye Sarp Otel",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Atat\u00fcrk Cad. Kadriye",
-                            "extendedAddress": "",
-                            "locality": "Serik",
-                            "postalCode": "07525",
-                            "region": "Antalya",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
+                            "locality": "Rimini",
+                            "postalCode": "47900",
+                            "region": "RN",
+                            "countryName": "Italy",
+                            "countryCode": "it",
                             "obfuscate": false
                         },
                         "guestReviews": {
                             "unformattedRating": 8.4,
                             "rating": "8.4",
-                            "total": 206,
+                            "total": 388,
                             "scale": 10,
                             "badge": "very-good",
                             "badgeText": "Very Good"
@@ -274,439 +39,26 @@
                         "landmarks": [
                             {
                                 "label": "City center",
-                                "distance": "3.4 miles"
+                                "distance": "0.9 miles"
                             },
                             {
-                                "label": "The Land of Legends",
-                                "distance": "0.6 miles"
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "2.6 miles"
                             }
                         ],
                         "geoBullets": [],
                         "ratePlan": {
                             "price": {
-                                "current": "2,856 RUB",
-                                "exactCurrent": 2855.9
+                                "current": "1,609 RUB",
+                                "exactCurrent": 1609.46,
+                                "old": "1,893 RUB"
                             },
                             "features": {
                                 "paymentPreference": false,
                                 "noCCRequired": false
                             }
                         },
-                        "neighbourhood": "Serik",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|Privatebeachv1|D13|TESCO",
-                        "coordinate": {
-                            "lat": 36.88482,
-                            "lon": 31.004891
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 10911281,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/11000000/10920000/10911300/10911281/a7ef415b_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 1149295488,
-                        "name": "Olympic Hotel Belek",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "23. Sokak, No.1",
-                            "extendedAddress": "",
-                            "locality": "Serik",
-                            "postalCode": "07525",
-                            "region": "Antalya",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 8.6,
-                            "rating": "8.6",
-                            "total": 32,
-                            "scale": 10,
-                            "badge": "fabulous",
-                            "badgeText": "Fabulous"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "3.4 miles"
-                            },
-                            {
-                                "label": "The Land of Legends",
-                                "distance": "0.5 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "3,054 RUB",
-                                "exactCurrent": 3053.52
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Serik",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 36.883646,
-                            "lon": 31.004416
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 35884234,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/36000000/35890000/35884300/35884234/9a901209_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 576984,
-                        "name": "Demirci Hotel",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Kadri District 21 Street New No. 2",
-                            "extendedAddress": "Serik",
-                            "locality": "Serik",
-                            "postalCode": "",
-                            "region": "Antalya",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 5.6,
-                            "rating": "5.6",
-                            "total": 20,
-                            "scale": 10
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "3.4 miles"
-                            },
-                            {
-                                "label": "The Land of Legends",
-                                "distance": "0.6 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "3,141 RUB",
-                                "exactCurrent": 3141.48
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Serik",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "newhotel",
-                        "coordinate": {
-                            "lat": 36.884767,
-                            "lon": 31.004915
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 14670816,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/15000000/14680000/14670900/14670816/0b873e9a_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 1185510208,
-                        "name": "Belek Diamonds Hotel - All Inclusive",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Kadriye Mh. 296 Sk. No 16/A",
-                            "extendedAddress": "",
-                            "locality": "Serik",
-                            "postalCode": "07506",
-                            "region": "Antalya",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 6.8,
-                            "rating": "6.8",
-                            "total": 38,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "3.2 miles"
-                            },
-                            {
-                                "label": "The Land of Legends",
-                                "distance": "1.0 mile"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "3,470 RUB",
-                                "exactCurrent": 3469.82,
-                                "old": "3,855 RUB"
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Serik",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 36.88992,
-                            "lon": 31.012409
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 37015944,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/38000000/37020000/37016000/37015944/340c3cf0_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 1330101952,
-                        "name": "Belka Golf Residence",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Mehmet Akif Ersoy Cd. 25B",
-                            "extendedAddress": "",
-                            "locality": "Serik",
-                            "postalCode": "07500",
-                            "region": "Antalya",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 8.2,
-                            "rating": "8.2",
-                            "total": 13,
-                            "scale": 10,
-                            "badge": "very-good",
-                            "badgeText": "Very Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "0.1 miles"
-                            },
-                            {
-                                "label": "The Land of Legends",
-                                "distance": "3.4 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "3,529 RUB",
-                                "exactCurrent": 3528.67
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Serik",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13",
-                        "coordinate": {
-                            "lat": 36.862624,
-                            "lon": 31.061331
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 41534436,
-                        "vrBadge": "Apartments",
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/42000000/41540000/41534500/41534436/359c9aea_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 1059413440,
-                        "name": "Happyland",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Belek",
-                            "extendedAddress": "",
-                            "locality": "Serik",
-                            "postalCode": "07506",
-                            "region": "Antalya",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 6.0,
-                            "rating": "6.0",
-                            "total": 2,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "0.0 miles"
-                            },
-                            {
-                                "label": "The Land of Legends",
-                                "distance": "3.3 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "3,640 RUB",
-                                "exactCurrent": 3639.56
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Serik",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 36.863595,
-                            "lon": 31.060742
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 33075420,
-                        "vrBadge": "Villas",
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/34000000/33080000/33075500/33075420/f178038f_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 1715555552,
-                        "name": "HNS Belek",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "BELEK",
-                            "extendedAddress": "",
-                            "locality": "Serik",
-                            "postalCode": "07506",
-                            "region": "Antalya",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
-                            "obfuscate": false
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "0.0 miles"
-                            },
-                            {
-                                "label": "The Land of Legends",
-                                "distance": "3.3 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "4,512 RUB",
-                                "exactCurrent": 4511.82
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Serik",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "D13",
-                        "coordinate": {
-                            "lat": 36.863537,
-                            "lon": 31.060096
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 53579861,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/54000000/53580000/53579900/53579861/7dcf4807_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 531821,
-                        "name": "Aquaworld Belek - All inclusive",
-                        "starRating": 5.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Belek Mah.Iskele cd. 6A",
-                            "extendedAddress": "",
-                            "locality": "Serik",
-                            "postalCode": "07506",
-                            "region": "Alanya",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 8.2,
-                            "rating": "8.2",
-                            "total": 149,
-                            "scale": 10,
-                            "badge": "very-good",
-                            "badgeText": "Very Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.0 mile"
-                            },
-                            {
-                                "label": "The Land of Legends",
-                                "distance": "2.9 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "5,374 RUB",
-                                "exactCurrent": 5374.16,
-                                "old": "6,323 RUB"
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Belek Golf Area",
+                        "neighbourhood": "Marina Centro",
                         "deals": {},
                         "messaging": {},
                         "badging": {
@@ -715,157 +67,37 @@
                                 "label": "VIP"
                             }
                         },
-                        "pimmsAttributes": "DoubleStamps|Privatebeachv1|D13|showFrequentlyAskedQuestionsenUS|TESCO",
-                        "coordinate": {
-                            "lat": 36.853698,
-                            "lon": 31.04796
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 11541708,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/12000000/11550000/11541800/11541708/bb32e614_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 460254,
-                        "name": "Tui Blue Sherwood Belek - All Inclusive",
-                        "starRating": 5.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Mehmet Akif Cad Bogazak Mah",
-                            "extendedAddress": "29 Sok. No 9",
-                            "locality": "Serik",
-                            "postalCode": "",
-                            "region": "Antalya",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 8.0,
-                            "rating": "8.0",
-                            "total": 37,
-                            "scale": 10,
-                            "badge": "very-good",
-                            "badgeText": "Very Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "0.3 miles"
-                            },
-                            {
-                                "label": "The Land of Legends",
-                                "distance": "3.0 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "5,500 RUB",
-                                "exactCurrent": 5499.92
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Serik",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "Oceanviewv1|DoubleStamps|Privatebeachv1|D13|TESCO",
-                        "coordinate": {
-                            "lat": 36.862957,
-                            "lon": 31.055367
-                        },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 8309208,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/9000000/8310000/8309300/8309208/4208fe66_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 603868,
-                        "name": "Sensitive Premium Resort & Spa - All Inclusive",
-                        "starRating": 0.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Alpaslan Cad. No:65, Bogazkent",
-                            "extendedAddress": "",
-                            "locality": "Serik",
-                            "postalCode": "7500",
-                            "region": "Antalya",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 7.4,
-                            "rating": "7.4",
-                            "total": 105,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "4.7 miles"
-                            },
-                            {
-                                "label": "The Land of Legends",
-                                "distance": "8.0 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "5,711 RUB",
-                                "exactCurrent": 5711.17
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Serik",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
                         "pimmsAttributes": "DoubleStamps|Oceanviewv1|D13|TESCO",
                         "coordinate": {
-                            "lat": 36.836006,
-                            "lon": 31.139413
+                            "lat": 44.069794,
+                            "lon": 12.579031
                         },
                         "providerType": "LOCAL",
-                        "supplierHotelId": 15532665,
+                        "supplierHotelId": 911436,
                         "isAlternative": false,
                         "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/16000000/15540000/15532700/15532665/1be4bf20_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/920000/911500/911436/266600cc_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
                         }
                     },
                     {
-                        "id": 643666,
-                        "name": "Innvista Hotels Belek - All Inclusive",
-                        "starRating": 0.0,
+                        "id": 487852,
+                        "name": "Hotel St. Gregory Park",
+                        "starRating": 4.0,
                         "urls": {},
                         "address": {
-                            "streetAddress": "Kadriye Mah Besgoz Cad No 8-1",
+                            "streetAddress": "Via Lucio Lando, 40",
                             "extendedAddress": "",
-                            "locality": "Serik",
-                            "postalCode": "07500",
-                            "region": "Antalya",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
+                            "locality": "Rimini",
+                            "postalCode": "47921",
+                            "region": "RN",
+                            "countryName": "Italy",
+                            "countryCode": "it",
                             "obfuscate": false
                         },
                         "guestReviews": {
-                            "unformattedRating": 8.6,
-                            "rating": "8.6",
-                            "total": 100,
+                            "unformattedRating": 8.8,
+                            "rating": "8.8",
+                            "total": 74,
                             "scale": 10,
                             "badge": "fabulous",
                             "badgeText": "Fabulous"
@@ -873,179 +105,300 @@
                         "landmarks": [
                             {
                                 "label": "City center",
-                                "distance": "3.3 miles"
+                                "distance": "0.9 miles"
                             },
                             {
-                                "label": "The Land of Legends",
-                                "distance": "0.4 miles"
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "2.2 miles"
                             }
                         ],
                         "geoBullets": [],
                         "ratePlan": {
                             "price": {
-                                "current": "5,855 RUB",
-                                "exactCurrent": 5854.89
+                                "current": "1,626 RUB",
+                                "exactCurrent": 1626.19
                             },
                             "features": {
                                 "paymentPreference": false,
                                 "noCCRequired": false
                             }
                         },
-                        "neighbourhood": "Serik",
+                        "neighbourhood": "San Giuliano a Mare",
                         "deals": {},
                         "messaging": {},
                         "badging": {},
                         "pimmsAttributes": "DoubleStamps|D13|TESCO",
                         "coordinate": {
-                            "lat": 36.871359,
-                            "lon": 31.002242
+                            "lat": 44.073662,
+                            "lon": 12.56999
                         },
                         "providerType": "MULTISOURCE",
-                        "supplierHotelId": 16602302,
+                        "supplierHotelId": 9758006,
                         "isAlternative": false,
                         "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/17000000/16610000/16602400/16602302/eb41c9cc_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/10000000/9760000/9758100/9758006/10c1fc9f_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
                         }
                     },
                     {
-                        "id": 725218400,
-                        "name": "Fun&Sun Life Belek - All Inclusive",
-                        "starRating": 0.0,
+                        "id": 1182594464,
+                        "name": "Hotel Diplomat Palace",
+                        "starRating": 4.0,
                         "urls": {},
                         "address": {
-                            "streetAddress": "Yeni Mah, Yavuz Sultan Selim Cd. No:9",
+                            "streetAddress": "Viale Regina Elena 70",
                             "extendedAddress": "",
-                            "locality": "Serik",
-                            "postalCode": "07552",
-                            "region": "Antalya",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
+                            "locality": "Rimini",
+                            "postalCode": "47921",
+                            "region": "Provincia di Rimini",
+                            "countryName": "Italy",
+                            "countryCode": "it",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 8.2,
+                            "rating": "8.2",
+                            "total": 14,
+                            "scale": 10,
+                            "badge": "very-good",
+                            "badgeText": "Very Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.5 miles"
+                            },
+                            {
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "3.6 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "1,626 RUB",
+                                "exactCurrent": 1626.19
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Marina Centro",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "D13",
+                        "coordinate": {
+                            "lat": 44.055228,
+                            "lon": 12.594579
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 36924827,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/37000000/36930000/36924900/36924827/1cf7a562_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 280924,
+                        "name": "Bellevue Hotel",
+                        "starRating": 4.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Piazzale Kennedy 12",
+                            "extendedAddress": "",
+                            "locality": "Rimini",
+                            "postalCode": "47921",
+                            "region": "RN",
+                            "countryName": "Italy",
+                            "countryCode": "it",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 8.6,
+                            "rating": "8.6",
+                            "total": 80,
+                            "scale": 10,
+                            "badge": "fabulous",
+                            "badgeText": "Fabulous"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.9 miles"
+                            },
+                            {
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "2.8 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "1,626 RUB",
+                                "exactCurrent": 1626.19
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Marina Centro",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|Oceanviewv1|NearBeachPropertyv1|TESCO",
+                        "coordinate": {
+                            "lat": 44.067048,
+                            "lon": 12.582223
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 892723,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/900000/892800/892723/820e14ed_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 507840,
+                        "name": "Hotel Ausonia",
+                        "starRating": 3.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Viale Misurata, 51",
+                            "extendedAddress": "",
+                            "locality": "Rimini",
+                            "postalCode": "47921",
+                            "region": "RN",
+                            "countryName": "Italy",
+                            "countryCode": "it",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 7.4,
+                            "rating": "7.4",
+                            "total": 64,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.8 miles"
+                            },
+                            {
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "2.8 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "1,965 RUB",
+                                "exactCurrent": 1965.05
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Marina Centro",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 44.063135,
+                            "lon": 12.581351
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 4356665,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/5000000/4360000/4356700/4356665/5ddfa6d1_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 377103,
+                        "name": "Hotel Zurigo",
+                        "starRating": 3.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Viale Bergamo 7",
+                            "extendedAddress": "",
+                            "locality": "Rimini",
+                            "postalCode": "47924",
+                            "region": "RN",
+                            "countryName": "Italy",
+                            "countryCode": "it",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 6.2,
+                            "rating": "6.2",
+                            "total": 10,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "2.9 miles"
+                            },
+                            {
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "5.0 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "1,996 RUB",
+                                "exactCurrent": 1996.03,
+                                "old": "2,236 RUB"
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Rimini",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 44.036355,
+                            "lon": 12.614088
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 4339001,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/5000000/4340000/4339100/4339001/0e656f47_y.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 299387,
+                        "name": "New Hotel Jolie",
+                        "starRating": 3.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Viale Tripoli, 197",
+                            "extendedAddress": "",
+                            "locality": "Rimini",
+                            "postalCode": "47921",
+                            "region": "RN",
+                            "countryName": "Italy",
+                            "countryCode": "it",
                             "obfuscate": false
                         },
                         "guestReviews": {
                             "unformattedRating": 7.2,
                             "rating": "7.2",
-                            "total": 27,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "5.3 miles"
-                            },
-                            {
-                                "label": "The Land of Legends",
-                                "distance": "8.6 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "6,173 RUB",
-                                "exactCurrent": 6173.32
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Serik",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "Oceanviewv1|DoubleStamps|Privatebeachv1|D13|TESCO",
-                        "coordinate": {
-                            "lat": 36.834379,
-                            "lon": 31.149814
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 22631825,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/23000000/22640000/22631900/22631825/7313d3da_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 455473,
-                        "name": "Belek Beach Resort Hotel - All inclusive",
-                        "starRating": 5.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Bogazkent Turizm Mevkii",
-                            "extendedAddress": "",
-                            "locality": "Serik",
-                            "postalCode": "07500",
-                            "region": "Antalya",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 7.8,
-                            "rating": "7.8",
-                            "total": 21,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "5.9 miles"
-                            },
-                            {
-                                "label": "The Land of Legends",
-                                "distance": "9.2 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "6,632 RUB",
-                                "exactCurrent": 6631.75
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Serik",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "Oceanviewv1|DoubleStamps|Privatebeachv1|D13|TESCO",
-                        "coordinate": {
-                            "lat": 36.834313,
-                            "lon": 31.160524
-                        },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 8035080,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/9000000/8040000/8035100/8035080/012d943c_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 437694,
-                        "name": "Spice Hotel & Spa All Inclusive",
-                        "starRating": 5.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Iskele Mevkii",
-                            "extendedAddress": "",
-                            "locality": "Serik",
-                            "postalCode": "07506",
-                            "region": "Antalya",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 7.8,
-                            "rating": "7.8",
-                            "total": 192,
+                            "total": 35,
                             "scale": 10,
                             "badge": "good",
                             "badgeText": "Good"
@@ -1056,105 +409,237 @@
                                 "distance": "0.9 miles"
                             },
                             {
-                                "label": "The Land of Legends",
-                                "distance": "3.9 miles"
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "2.9 miles"
                             }
                         ],
                         "geoBullets": [],
                         "ratePlan": {
                             "price": {
-                                "current": "7,008 RUB",
-                                "exactCurrent": 7008.4
+                                "current": "2,002 RUB",
+                                "exactCurrent": 2001.6
                             },
                             "features": {
                                 "paymentPreference": false,
                                 "noCCRequired": false
                             }
                         },
-                        "neighbourhood": "Belek Golf Area",
+                        "neighbourhood": "Marina Centro",
                         "deals": {},
                         "messaging": {},
                         "badging": {},
-                        "pimmsAttributes": "Oceanviewv1|DoubleStamps|D13|NearBeachPropertyv1|TESCO",
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
                         "coordinate": {
-                            "lat": 36.851567,
-                            "lon": 31.065662
+                            "lat": 44.06179,
+                            "lon": 12.583269
                         },
                         "providerType": "LOCAL",
-                        "supplierHotelId": 2597680,
+                        "supplierHotelId": 1802456,
                         "isAlternative": false,
                         "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/3000000/2600000/2597700/2597680/263c5e5f_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1810000/1802500/1802456/ce4fd2d9_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
                         }
                     },
                     {
-                        "id": 1194386784,
-                        "name": "Belek Holiday Villa by Belek Rental",
-                        "starRating": 0.0,
+                        "id": 411085,
+                        "name": "St. Pierre",
+                        "starRating": 3.0,
                         "urls": {},
                         "address": {
-                            "locality": "Serik",
-                            "region": "Antalya",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
-                            "obfuscate": false
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.6 miles"
-                            },
-                            {
-                                "label": "The Land of Legends",
-                                "distance": "1.7 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "7,057 RUB",
-                                "exactCurrent": 7057.34
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Serik",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "coordinate": {
-                            "lat": 36.866459,
-                            "lon": 31.031859
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 37293337,
-                        "vrBadge": "Villa",
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/38000000/37300000/37293400/37293337/463c803b_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 460263,
-                        "name": "Sherwood Dreams Resort - All Inclusive",
-                        "starRating": 5.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Mehmet Akif Caddesi Bogazak Mah",
-                            "extendedAddress": "29 Sok. No 9",
-                            "locality": "Serik",
-                            "postalCode": "",
-                            "region": "Antalya",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
+                            "streetAddress": "Via Parisano 16",
+                            "extendedAddress": "",
+                            "locality": "Rimini",
+                            "postalCode": "47921",
+                            "region": "RN",
+                            "countryName": "Italy",
+                            "countryCode": "it",
                             "obfuscate": false
                         },
                         "guestReviews": {
                             "unformattedRating": 7.8,
                             "rating": "7.8",
-                            "total": 91,
+                            "total": 51,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.0 mile"
+                            },
+                            {
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "3.0 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "2,045 RUB",
+                                "exactCurrent": 2044.97
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Marina Centro",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 44.062469,
+                            "lon": 12.585949
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 5182652,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/6000000/5190000/5182700/5182652/6a050c02_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 354806,
+                        "name": "Hotel Niagara Rimini",
+                        "starRating": 3.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Viale Zanzur, 16",
+                            "extendedAddress": "",
+                            "locality": "Rimini",
+                            "postalCode": "47921",
+                            "region": "RN",
+                            "countryName": "Italy",
+                            "countryCode": "it",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 7.0,
+                            "rating": "7.0",
+                            "total": 222,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.8 miles"
+                            },
+                            {
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "2.8 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "2,120 RUB",
+                                "exactCurrent": 2119.93,
+                                "old": "2,355 RUB"
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Marina Centro",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 44.063018,
+                            "lon": 12.581134
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 3814805,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/4000000/3820000/3814900/3814805/92acbf9e_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 219469,
+                        "name": "Hotel Villa Lalla",
+                        "starRating": 3.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Viale Vittorio Veneto 22",
+                            "extendedAddress": "",
+                            "locality": "Rimini",
+                            "postalCode": "47900",
+                            "region": "RN",
+                            "countryName": "Italy",
+                            "countryCode": "it",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 8.6,
+                            "rating": "8.6",
+                            "total": 157,
+                            "scale": 10,
+                            "badge": "fabulous",
+                            "badgeText": "Fabulous"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.7 miles"
+                            },
+                            {
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "2.5 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "2,131 RUB",
+                                "exactCurrent": 2131.08
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Marina Centro",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 44.0673,
+                            "lon": 12.57639
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 916848,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/920000/916900/916848/b95266f2_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 236168,
+                        "name": "Hotel Bamby",
+                        "starRating": 3.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Viale Vittorio Veneto 18",
+                            "extendedAddress": "Marina Centro",
+                            "locality": "Rimini",
+                            "postalCode": "47900",
+                            "region": "RN",
+                            "countryName": "Italy",
+                            "countryCode": "it",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 7.6,
+                            "rating": "7.6",
+                            "total": 102,
                             "scale": 10,
                             "badge": "good",
                             "badgeText": "Good"
@@ -1165,56 +650,115 @@
                                 "distance": "0.7 miles"
                             },
                             {
-                                "label": "The Land of Legends",
-                                "distance": "3.2 miles"
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "2.5 miles"
                             }
                         ],
                         "geoBullets": [],
                         "ratePlan": {
                             "price": {
-                                "current": "7,660 RUB",
-                                "exactCurrent": 7659.5
+                                "current": "2,301 RUB",
+                                "exactCurrent": 2301.44
                             },
                             "features": {
                                 "paymentPreference": false,
                                 "noCCRequired": false
                             }
                         },
-                        "neighbourhood": "Belek Golf Area",
+                        "neighbourhood": "Marina Centro",
                         "deals": {},
                         "messaging": {},
                         "badging": {},
-                        "pimmsAttributes": "Oceanviewv1|DoubleStamps|Privatebeachv1|D13|TESCO",
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
                         "coordinate": {
-                            "lat": 36.85485,
-                            "lon": 31.053585
+                            "lat": 44.06776,
+                            "lon": 12.57708
                         },
                         "providerType": "MULTISOURCE",
-                        "supplierHotelId": 8310110,
+                        "supplierHotelId": 1068171,
                         "isAlternative": false,
                         "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/9000000/8320000/8310200/8310110/fe0e0d81_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1070000/1068200/1068171/2fa830e8_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
                         }
                     },
                     {
-                        "id": 492168,
-                        "name": "Limak Arcadia Sport Resort - All Inclusive",
-                        "starRating": 0.0,
+                        "id": 280940,
+                        "name": "Aura Living Hotel",
+                        "starRating": 3.0,
                         "urls": {},
                         "address": {
-                            "streetAddress": "Iskele Mevkii",
-                            "extendedAddress": "",
-                            "locality": "Serik",
-                            "postalCode": "",
-                            "region": "Antalya",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
+                            "streetAddress": "Via Pola 29",
+                            "extendedAddress": "Marina Centro",
+                            "locality": "Rimini",
+                            "postalCode": "47900",
+                            "region": "RN",
+                            "countryName": "Italy",
+                            "countryCode": "it",
                             "obfuscate": false
                         },
                         "guestReviews": {
-                            "unformattedRating": 8.4,
-                            "rating": "8.4",
-                            "total": 93,
+                            "unformattedRating": 6.0,
+                            "rating": "6.0",
+                            "total": 1,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.7 miles"
+                            },
+                            {
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "2.7 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "2,381 RUB",
+                                "exactCurrent": 2381.36
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Marina Centro",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "coordinate": {
+                            "lat": 44.06544,
+                            "lon": 12.5794
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 916878,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/920000/916900/916878/w1080h1440x0y13-1d16686b_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 318992,
+                        "name": "Hotel Calypso",
+                        "starRating": 3.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Viale Trieste 15",
+                            "extendedAddress": "",
+                            "locality": "Rimini",
+                            "postalCode": "47900",
+                            "region": "RN",
+                            "countryName": "Italy",
+                            "countryCode": "it",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 8.2,
+                            "rating": "8.2",
+                            "total": 66,
                             "scale": 10,
                             "badge": "very-good",
                             "badgeText": "Very Good"
@@ -1222,108 +766,60 @@
                         "landmarks": [
                             {
                                 "label": "City center",
-                                "distance": "0.8 miles"
+                                "distance": "0.7 miles"
                             },
                             {
-                                "label": "The Land of Legends",
-                                "distance": "3.3 miles"
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "2.6 miles"
                             }
                         ],
                         "geoBullets": [],
                         "ratePlan": {
                             "price": {
-                                "current": "7,710 RUB",
-                                "exactCurrent": 7710.3
+                                "current": "2,410 RUB",
+                                "exactCurrent": 2409.86,
+                                "old": "2,542 RUB"
                             },
                             "features": {
                                 "paymentPreference": false,
                                 "noCCRequired": false
                             }
                         },
-                        "neighbourhood": "Belek Golf Area",
+                        "neighbourhood": "Marina Centro",
                         "deals": {},
                         "messaging": {},
                         "badging": {},
-                        "pimmsAttributes": "Oceanviewv1|DoubleStamps|Privatebeachv1|D13|HRW|TESCO",
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
                         "coordinate": {
-                            "lat": 36.853349,
-                            "lon": 31.055835
+                            "lat": 44.06702,
+                            "lon": 12.57811
                         },
                         "providerType": "MULTISOURCE",
-                        "supplierHotelId": 10001750,
+                        "supplierHotelId": 2541261,
                         "isAlternative": false,
                         "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/11000000/10010000/10001800/10001750/d34901bb_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/3000000/2550000/2541300/2541261/03b4085d_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
                         }
                     },
                     {
-                        "id": 1192598368,
-                        "name": "Belek Zen Villa by Belek Rental",
-                        "starRating": 0.0,
+                        "id": 319375,
+                        "name": "Hotel Alib\u00ec",
+                        "starRating": 3.0,
                         "urls": {},
                         "address": {
-                            "locality": "Serik",
-                            "region": "",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
-                            "obfuscate": false
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "0.9 miles"
-                            },
-                            {
-                                "label": "The Land of Legends",
-                                "distance": "4.2 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "7,842 RUB",
-                                "exactCurrent": 7841.63
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Serik",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "coordinate": {
-                            "lat": 36.859195,
-                            "lon": 31.075485
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 37237449,
-                        "vrBadge": "Villa",
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/38000000/37240000/37237500/37237449/83bb9bed_y.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 731967232,
-                        "name": "TUI Magic Life Masmavi - All Inclusive",
-                        "starRating": 5.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Belek Turizm Merkezi",
+                            "streetAddress": "viale Bengasi, 14",
                             "extendedAddress": "",
-                            "locality": "Serik",
-                            "postalCode": "7500",
-                            "region": "Antalya",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
+                            "locality": "Rimini",
+                            "postalCode": "47921",
+                            "region": "",
+                            "countryName": "Italy",
+                            "countryCode": "it",
                             "obfuscate": false
                         },
                         "guestReviews": {
                             "unformattedRating": 8.6,
                             "rating": "8.6",
-                            "total": 158,
+                            "total": 153,
                             "scale": 10,
                             "badge": "fabulous",
                             "badgeText": "Fabulous"
@@ -1331,59 +827,178 @@
                         "landmarks": [
                             {
                                 "label": "City center",
-                                "distance": "2.6 miles"
+                                "distance": "0.8 miles"
                             },
                             {
-                                "label": "The Land of Legends",
-                                "distance": "1.3 miles"
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "2.8 miles"
                             }
                         ],
                         "geoBullets": [],
                         "ratePlan": {
                             "price": {
-                                "current": "7,868 RUB",
-                                "exactCurrent": 7867.65,
-                                "old": "8,845 RUB"
+                                "current": "2,467 RUB",
+                                "exactCurrent": 2467.47
                             },
                             "features": {
                                 "paymentPreference": false,
                                 "noCCRequired": false
                             }
                         },
-                        "neighbourhood": "Belek Golf Area",
+                        "neighbourhood": "Marina Centro",
                         "deals": {},
                         "messaging": {},
                         "badging": {},
-                        "pimmsAttributes": "DoubleStamps|Privatebeachv1|D13|TESCO",
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
                         "coordinate": {
-                            "lat": 36.859784,
-                            "lon": 31.014549
+                            "lat": 44.06491,
+                            "lon": 12.5815
                         },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 22842726,
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 2483417,
                         "isAlternative": false,
                         "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/23000000/22850000/22842800/22842726/161538f4_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/3000000/2490000/2483500/2483417/76c0b986_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
                         }
                     },
                     {
-                        "id": 227821,
-                        "name": "Adora Golf Resort Hotel - All Inclusive",
-                        "starRating": 5.0,
+                        "id": 314088,
+                        "name": "Ferretti Beach Hotel",
+                        "starRating": 4.0,
                         "urls": {},
                         "address": {
-                            "streetAddress": "Uc Kumtepesi Mevkii",
+                            "streetAddress": "viale Regina Elena 32",
                             "extendedAddress": "",
-                            "locality": "Serik",
-                            "postalCode": "07500",
-                            "region": "Antalya",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
+                            "locality": "Rimini",
+                            "postalCode": "47900",
+                            "region": "RN",
+                            "countryName": "Italy",
+                            "countryCode": "it",
                             "obfuscate": false
                         },
                         "guestReviews": {
-                            "unformattedRating": 7.8,
-                            "rating": "7.8",
+                            "unformattedRating": 8.2,
+                            "rating": "8.2",
+                            "total": 117,
+                            "scale": 10,
+                            "badge": "very-good",
+                            "badgeText": "Very Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.2 miles"
+                            },
+                            {
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "3.2 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "2,473 RUB",
+                                "exactCurrent": 2473.04
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Marina Centro",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|NearBeachPropertyv1|TESCO",
+                        "coordinate": {
+                            "lat": 44.059666,
+                            "lon": 12.589559
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 2694870,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/3000000/2700000/2694900/2694870/10eee166_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 215959,
+                        "name": "Club Meeting Hotel",
+                        "starRating": 4.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Via Regina Elena 171",
+                            "extendedAddress": "",
+                            "locality": "Rimini",
+                            "postalCode": "47921",
+                            "region": "RN",
+                            "countryName": "Italy",
+                            "countryCode": "it",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 8.0,
+                            "rating": "8.0",
+                            "total": 102,
+                            "scale": 10,
+                            "badge": "very-good",
+                            "badgeText": "Very Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.6 miles"
+                            },
+                            {
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "3.7 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "2,523 RUB",
+                                "exactCurrent": 2523.22
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Marina Centro",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 44.05243,
+                            "lon": 12.59701
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 920198,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/930000/920200/920198/a820112a_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 302255,
+                        "name": "Hotel Britannia",
+                        "starRating": 3.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Viale Renato Parisano 90",
+                            "extendedAddress": "",
+                            "locality": "Rimini",
+                            "postalCode": "47921",
+                            "region": "RN",
+                            "countryName": "Italy",
+                            "countryCode": "it",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 6.8,
+                            "rating": "6.8",
                             "total": 31,
                             "scale": 10,
                             "badge": "good",
@@ -1392,59 +1007,60 @@
                         "landmarks": [
                             {
                                 "label": "City center",
-                                "distance": "4.3 miles"
+                                "distance": "0.9 miles"
                             },
                             {
-                                "label": "The Land of Legends",
-                                "distance": "1.5 miles"
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "2.9 miles"
                             }
                         ],
                         "geoBullets": [],
                         "ratePlan": {
                             "price": {
-                                "current": "7,940 RUB",
-                                "exactCurrent": 7940.13
+                                "current": "2,547 RUB",
+                                "exactCurrent": 2546.76,
+                                "old": "2,996 RUB"
                             },
                             "features": {
                                 "paymentPreference": false,
                                 "noCCRequired": false
                             }
                         },
-                        "neighbourhood": "Belek Golf Area",
+                        "neighbourhood": "Marina Centro",
                         "deals": {},
                         "messaging": {},
                         "badging": {},
-                        "pimmsAttributes": "Oceanviewv1|DoubleStamps|Privatebeachv1|D13|TESCO",
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
                         "coordinate": {
-                            "lat": 36.861758,
-                            "lon": 30.983344
+                            "lat": 44.06117,
+                            "lon": 12.58314
                         },
                         "providerType": "MULTISOURCE",
-                        "supplierHotelId": 1148235,
+                        "supplierHotelId": 1375404,
                         "isAlternative": false,
                         "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1150000/1148300/1148235/de7376a2_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1380000/1375500/1375404/a35615ab_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
                         }
                     },
                     {
-                        "id": 386711,
-                        "name": "Hotel Kaya Belek - All Inclusive",
-                        "starRating": 5.0,
+                        "id": 280960,
+                        "name": "Hotel Radar",
+                        "starRating": 3.0,
                         "urls": {},
                         "address": {
-                            "streetAddress": "Kadriye Beldesi Uckum Tepesi Serik",
+                            "streetAddress": "Viale Giuseppe Giusti, 4",
                             "extendedAddress": "",
-                            "locality": "Serik",
-                            "postalCode": "7500",
-                            "region": "Antalya",
-                            "countryName": "Turkey",
-                            "countryCode": "tr",
+                            "locality": "Rimini",
+                            "postalCode": "47921",
+                            "region": "",
+                            "countryName": "Italy",
+                            "countryCode": "it",
                             "obfuscate": false
                         },
                         "guestReviews": {
-                            "unformattedRating": 8.0,
-                            "rating": "8.0",
-                            "total": 89,
+                            "unformattedRating": 8.2,
+                            "rating": "8.2",
+                            "total": 65,
                             "scale": 10,
                             "badge": "very-good",
                             "badgeText": "Very Good"
@@ -1452,39 +1068,456 @@
                         "landmarks": [
                             {
                                 "label": "City center",
-                                "distance": "3.3 miles"
+                                "distance": "1.1 miles"
                             },
                             {
-                                "label": "The Land of Legends",
-                                "distance": "1.1 miles"
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "3.1 miles"
                             }
                         ],
                         "geoBullets": [],
                         "ratePlan": {
                             "price": {
-                                "current": "8,515 RUB",
-                                "exactCurrent": 8515.03,
-                                "old": "9,486 RUB"
+                                "current": "2,615 RUB",
+                                "exactCurrent": 2614.91
                             },
                             "features": {
                                 "paymentPreference": false,
                                 "noCCRequired": false
                             }
                         },
-                        "neighbourhood": "Belek Golf Area",
+                        "neighbourhood": "Marina Centro",
                         "deals": {},
                         "messaging": {},
                         "badging": {},
-                        "pimmsAttributes": "Oceanviewv1|DoubleStamps|Privatebeachv1|D13|TESCO",
+                        "pimmsAttributes": "DoubleStamps|Oceanviewv1|D13|TESCO",
                         "coordinate": {
-                            "lat": 36.860607,
-                            "lon": 31.001624
+                            "lat": 44.0611,
+                            "lon": 12.58743
                         },
                         "providerType": "MULTISOURCE",
-                        "supplierHotelId": 8184058,
+                        "supplierHotelId": 916851,
                         "isAlternative": false,
                         "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/9000000/8190000/8184100/8184058/faf754c7_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/920000/916900/916851/a04d9493_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 783348192,
+                        "name": "Residence Queen",
+                        "starRating": 3.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Viale Tripoli, 215",
+                            "extendedAddress": "",
+                            "locality": "Rimini",
+                            "postalCode": "47921",
+                            "region": "",
+                            "countryName": "Italy",
+                            "countryCode": "it",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 8.8,
+                            "rating": "8.8",
+                            "total": 21,
+                            "scale": 10,
+                            "badge": "fabulous",
+                            "badgeText": "Fabulous"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.9 miles"
+                            },
+                            {
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "2.9 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "2,707 RUB",
+                                "exactCurrent": 2707.22
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Marina Centro",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 44.0624,
+                            "lon": 12.58417
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 24448381,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/25000000/24450000/24448400/24448381/961abd8a_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 448181,
+                        "name": "Hotel Laguna Blu",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Viale S. Salvador, 4",
+                            "extendedAddress": "",
+                            "locality": "Rimini",
+                            "postalCode": "47812",
+                            "region": "RN",
+                            "countryName": "Italy",
+                            "countryCode": "it",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 7.0,
+                            "rating": "7.0",
+                            "total": 91,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "3.7 miles"
+                            },
+                            {
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "2.2 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "2,748 RUB",
+                                "exactCurrent": 2748.1
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Torre Pedrera",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "Oceanviewv1|NearBeachPropertyv1",
+                        "coordinate": {
+                            "lat": 44.10214,
+                            "lon": 12.518877
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 7273532,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/8000000/7280000/7273600/7273532/7eb4871f_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 382803,
+                        "name": "Hotel Staccoli",
+                        "starRating": 3.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Viale Ferrara 17",
+                            "extendedAddress": "",
+                            "locality": "Rimini",
+                            "postalCode": "47924",
+                            "region": "RN",
+                            "countryName": "Italy",
+                            "countryCode": "it",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 4.0,
+                            "rating": "4.0",
+                            "total": 3,
+                            "scale": 10
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.8 miles"
+                            },
+                            {
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "3.9 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "2,750 RUB",
+                                "exactCurrent": 2749.96
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Rimini",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 44.04915,
+                            "lon": 12.59864
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 4460455,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/5000000/4470000/4460500/4460455/073213e7_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 219358,
+                        "name": "Hotel Kennedy",
+                        "starRating": 3.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Viale Trento 4",
+                            "extendedAddress": "",
+                            "locality": "Rimini",
+                            "postalCode": "47921",
+                            "region": "RN",
+                            "countryName": "Italy",
+                            "countryCode": "it",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 7.8,
+                            "rating": "7.8",
+                            "total": 34,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.8 miles"
+                            },
+                            {
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "2.7 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "2,776 RUB",
+                                "exactCurrent": 2775.98
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Marina Centro",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 44.066664,
+                            "lon": 12.580392
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 922581,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/930000/922600/922581/fdf44f06_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 1163522176,
+                        "name": "Hotel Berna",
+                        "starRating": 1.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Via Siracusa, 8",
+                            "extendedAddress": "",
+                            "locality": "Rimini",
+                            "postalCode": "47924",
+                            "region": "",
+                            "countryName": "Italy",
+                            "countryCode": "it",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 6.6,
+                            "rating": "6.6",
+                            "total": 9,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "2.3 miles"
+                            },
+                            {
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "4.4 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "2,804 RUB",
+                                "exactCurrent": 2803.86
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Rimini",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13",
+                        "coordinate": {
+                            "lat": 44.04337,
+                            "lon": 12.60635
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 36328818,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/37000000/36330000/36328900/36328818/0a2ed0ee_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 267489,
+                        "name": "Hotel Sacramora",
+                        "starRating": 3.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Viale Toscanelli, 142",
+                            "extendedAddress": "Viserba",
+                            "locality": "Rimini",
+                            "postalCode": "47811",
+                            "region": "RN",
+                            "countryName": "Italy",
+                            "countryCode": "it",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 6.8,
+                            "rating": "6.8",
+                            "total": 50,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.8 miles"
+                            },
+                            {
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "1.3 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "2,832 RUB",
+                                "exactCurrent": 2831.73
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Viserba",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|NearBeachPropertyv1|TESCO",
+                        "coordinate": {
+                            "lat": 44.08264,
+                            "lon": 12.5465
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 2009109,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/3000000/2010000/2009200/2009109/49432451_y.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 364064,
+                        "name": "Hotel Principe di Piemonte",
+                        "starRating": 3.5,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Viale Principe Di Piemonte 27",
+                            "extendedAddress": "",
+                            "locality": "Rimini",
+                            "postalCode": "47924",
+                            "region": "RN",
+                            "countryName": "Italy",
+                            "countryCode": "it",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 8.2,
+                            "rating": "8.2",
+                            "total": 167,
+                            "scale": 10,
+                            "badge": "very-good",
+                            "badgeText": "Very Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "3.5 miles"
+                            },
+                            {
+                                "label": "Rimini Fiera Expo Center",
+                                "distance": "5.5 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "2,887 RUB",
+                                "exactCurrent": 2886.87
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Rimini",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 44.03102,
+                            "lon": 12.62214
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 1524037,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1530000/1524100/1524037/73186931_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
                         }
                     }
                 ],
@@ -1532,67 +1565,109 @@
                                 "choices": [
                                     {
                                         "label": "City center",
-                                        "id": 1351110.0
+                                        "id": 1641012.0
                                     },
                                     {
-                                        "label": "Antalya Golf Club",
-                                        "id": 1799478.0
+                                        "label": "105 Stadium",
+                                        "id": 1732381.0
                                     },
                                     {
-                                        "label": "Asklepion Spa & Thalasso",
-                                        "id": 10612901.0
+                                        "label": "Anfiteatro Romano",
+                                        "id": 1657323.0
                                     },
                                     {
-                                        "label": "Belek Beach Park",
-                                        "id": 86090236.0
+                                        "label": "Arch of Augustus",
+                                        "id": 1657335.0
                                     },
                                     {
-                                        "label": "Belek Mosque",
-                                        "id": 1804791.0
+                                        "label": "Centro Congressi SGR",
+                                        "id": 1804244.0
                                     },
                                     {
-                                        "label": "Belka Golf Club",
-                                        "id": 1805308.0
+                                        "label": "Federico Fellini Park",
+                                        "id": 10774418.0
                                     },
                                     {
-                                        "label": "Carya Golf Club",
-                                        "id": 1799480.0
+                                        "label": "Fiabilandia",
+                                        "id": 1657351.0
                                     },
                                     {
-                                        "label": "Cornelia Golf Club",
-                                        "id": 1799481.0
+                                        "label": "Italy in Miniature",
+                                        "id": 1657349.0
                                     },
                                     {
-                                        "label": "Garden of Tolerance",
-                                        "id": 1799482.0
+                                        "label": "Le Befane Centro Commerciale",
+                                        "id": 10889868.0
                                     },
                                     {
-                                        "label": "Gloria Golf Club",
-                                        "id": 1799483.0
+                                        "label": "Multiplex le Befane",
+                                        "id": 1751225.0
                                     },
                                     {
-                                        "label": "Kaya Eagles Golf Club",
-                                        "id": 1799484.0
+                                        "label": "Ospedale Infermi",
+                                        "id": 10889871.0
                                     },
                                     {
-                                        "label": "Montgomerie Golf Course",
-                                        "id": 1799485.0
+                                        "label": "Palacongressi di Remini",
+                                        "id": 1657352.0
                                     },
                                     {
-                                        "label": "National Golf Club",
-                                        "id": 1799486.0
+                                        "label": "Piazza Cavour",
+                                        "id": 1657355.0
                                     },
                                     {
-                                        "label": "The Land of Legends",
-                                        "id": 10674806.0
+                                        "label": "Piazza Marvelli",
+                                        "id": 10449463.0
                                     },
                                     {
-                                        "label": "Titanic Golf Club",
-                                        "id": 1805325.0
+                                        "label": "Rimini City Hall",
+                                        "id": 1657356.0
                                     },
                                     {
-                                        "label": "Troy Aqua and Dolphinarium",
-                                        "id": 1799488.0
+                                        "label": "Rimini Ferris Wheel",
+                                        "id": 1804103.0
+                                    },
+                                    {
+                                        "label": "Rimini Fiera Expo Center",
+                                        "id": 1657346.0
+                                    },
+                                    {
+                                        "label": "Rimini Marina",
+                                        "id": 1771422.0
+                                    },
+                                    {
+                                        "label": "Tribunale di Rimini",
+                                        "id": 1721822.0
+                                    },
+                                    {
+                                        "label": "Villa Maria Hospital",
+                                        "id": 10889869.0
+                                    }
+                                ]
+                            },
+                            {
+                                "label": "Train stations",
+                                "itemMeta": "stations",
+                                "choices": [
+                                    {
+                                        "label": "Rimini Miramare Station",
+                                        "id": 1732828.0
+                                    },
+                                    {
+                                        "label": "Rimini Station",
+                                        "id": 1707531.0
+                                    },
+                                    {
+                                        "label": "Rimini Torre Pedrera Station",
+                                        "id": 11130613.0
+                                    },
+                                    {
+                                        "label": "Rimini-Viserba Station",
+                                        "id": 11130753.0
+                                    },
+                                    {
+                                        "label": "RiminiFiera Station",
+                                        "id": 11130621.0
                                     }
                                 ]
                             },
@@ -1601,8 +1676,8 @@
                                 "itemMeta": "airports",
                                 "choices": [
                                     {
-                                        "label": "Antalya (AYT-Antalya Intl.)",
-                                        "id": 1661080.0
+                                        "label": "Rimini (RMI-Federico Fellini Intl.)",
+                                        "id": 1664295.0
                                     }
                                 ]
                             }
@@ -1639,7 +1714,7 @@
                         "enhancedChoices": []
                     }
                 ],
-                "distanceOptionLandmarkId": 1351110.0
+                "distanceOptionLandmarkId": 1641012.0
             },
             "filters": {
                 "applied": false,
@@ -1649,9 +1724,9 @@
                     },
                     "autosuggest": {
                         "additionalUrlParams": {
-                            "resolved-location": "CITY:1351110:UNKNOWN:UNKNOWN",
-                            "q-destination": "Belek, Serik, Antalya Region, T\u00fcrkiye",
-                            "destination-id": "1351110"
+                            "resolved-location": "CITY:1641012:UNKNOWN:UNKNOWN",
+                            "q-destination": "Rimini, Rimini, Emilia-Romagna, Italy",
+                            "destination-id": "1641012"
                         }
                     }
                 },
@@ -1690,71 +1765,83 @@
                     "items": [
                         {
                             "label": "City center",
-                            "value": "1351110"
+                            "value": "1641012"
                         },
                         {
-                            "label": "The Land of Legends",
-                            "value": "10674806"
+                            "label": "Rimini Fiera Expo Center",
+                            "value": "1657346"
                         },
                         {
-                            "label": "Antalya (AYT-Antalya Intl.)",
-                            "value": "1661080"
+                            "label": "Rimini Station",
+                            "value": "1707531"
                         },
                         {
-                            "label": "Gloria Golf Club",
-                            "value": "1799483"
+                            "label": "Italy in Miniature",
+                            "value": "1657349"
                         },
                         {
-                            "label": "Cornelia Golf Club",
-                            "value": "1799481"
+                            "label": "Federico Fellini Park",
+                            "value": "10774418"
                         },
                         {
-                            "label": "Antalya Golf Club",
-                            "value": "1799478"
+                            "label": "105 Stadium",
+                            "value": "1732381"
                         },
                         {
-                            "label": "Montgomerie Golf Course",
-                            "value": "1799485"
+                            "label": "Palacongressi di Remini",
+                            "value": "1657352"
                         },
                         {
-                            "label": "Troy Aqua and Dolphinarium",
-                            "value": "1799488"
+                            "label": "Villa Maria Hospital",
+                            "value": "10889869"
                         },
                         {
-                            "label": "Carya Golf Club",
-                            "value": "1799480"
+                            "label": "Ospedale Infermi",
+                            "value": "10889871"
                         },
                         {
-                            "label": "Titanic Golf Club",
-                            "value": "1805325"
+                            "label": "Rimini (RMI-Federico Fellini Intl.)",
+                            "value": "1664295"
                         },
                         {
-                            "label": "Kaya Eagles Golf Club",
-                            "value": "1799484"
+                            "label": "Fiabilandia",
+                            "value": "1657351"
                         },
                         {
-                            "label": "Belka Golf Club",
-                            "value": "1805308"
+                            "label": "Rimini Miramare Station",
+                            "value": "1732828"
                         },
                         {
-                            "label": "National Golf Club",
-                            "value": "1799486"
+                            "label": "Piazza Cavour",
+                            "value": "1657355"
                         },
                         {
-                            "label": "Belek Mosque",
-                            "value": "1804791"
+                            "label": "Tribunale di Rimini",
+                            "value": "1721822"
                         },
                         {
-                            "label": "Garden of Tolerance",
-                            "value": "1799482"
+                            "label": "Rimini Marina",
+                            "value": "1771422"
                         },
                         {
-                            "label": "Asklepion Spa & Thalasso",
-                            "value": "10612901"
+                            "label": "RiminiFiera Station",
+                            "value": "11130621"
                         },
                         {
-                            "label": "Belek Beach Park",
-                            "value": "553248635998020092"
+                            "label": "Arch of Augustus",
+                            "value": "1657335"
+                        },
+                        {
+                            "label": "Piazza Marvelli",
+                            "value": "10449463"
+                        },
+                        {
+                            "label": "Le Befane Centro Commerciale",
+                            "value": "10889868"
+                        },
+                        {
+                            "label": "Anfiteatro Romano",
+                            "value": "1657323"
                         }
                     ],
                     "distance": []
@@ -1763,8 +1850,32 @@
                     "applied": false,
                     "items": [
                         {
-                            "label": "Belek Golf Area",
-                            "value": "10873917"
+                            "label": "Rivabella",
+                            "value": "1757436"
+                        },
+                        {
+                            "label": "Viserba",
+                            "value": "1712905"
+                        },
+                        {
+                            "label": "Rimini Historic Center",
+                            "value": "10565239"
+                        },
+                        {
+                            "label": "Marina Centro",
+                            "value": "1807114"
+                        },
+                        {
+                            "label": "Torre Pedrera",
+                            "value": "1713024"
+                        },
+                        {
+                            "label": "Viserbella",
+                            "value": "1712908"
+                        },
+                        {
+                            "label": "San Giuliano a Mare",
+                            "value": "1765750"
                         }
                     ]
                 },
@@ -1772,12 +1883,8 @@
                     "applied": false,
                     "items": [
                         {
-                            "label": "All inclusive",
-                            "value": "6"
-                        },
-                        {
-                            "label": "Apart-hotels",
-                            "value": "20"
+                            "label": "Agritourism",
+                            "value": "40"
                         },
                         {
                             "label": "Apartments",
@@ -1786,6 +1893,22 @@
                         {
                             "label": "B&Bs",
                             "value": "5"
+                        },
+                        {
+                            "label": "Caravan parks",
+                            "value": "21"
+                        },
+                        {
+                            "label": "Chalets",
+                            "value": "10"
+                        },
+                        {
+                            "label": "Cottages",
+                            "value": "11"
+                        },
+                        {
+                            "label": "Country houses",
+                            "value": "24"
                         },
                         {
                             "label": "Guest houses",
@@ -1800,16 +1923,12 @@
                             "value": "1"
                         },
                         {
-                            "label": "Motels",
-                            "value": "7"
+                            "label": "Houseboats",
+                            "value": "16"
                         },
                         {
-                            "label": "Pensions",
-                            "value": "25"
-                        },
-                        {
-                            "label": "Resorts",
-                            "value": "3"
+                            "label": "Inns",
+                            "value": "8"
                         },
                         {
                             "label": "Vacation homes",
@@ -1847,6 +1966,10 @@
                         {
                             "label": "Business facilities",
                             "value": "519"
+                        },
+                        {
+                            "label": "Casino",
+                            "value": "2112"
                         },
                         {
                             "label": "Childcare",
@@ -1899,10 +2022,6 @@
                         {
                             "label": "Restaurant",
                             "value": "256"
-                        },
-                        {
-                            "label": "Ski-in/ski-out",
-                            "value": "535"
                         },
                         {
                             "label": "Ski storage",
@@ -1979,6 +2098,10 @@
                             "value": "14"
                         },
                         {
+                            "label": "Casino",
+                            "value": "8"
+                        },
+                        {
                             "label": "Family-friendly",
                             "value": "25"
                         },
@@ -1995,16 +2118,16 @@
                             "value": "22"
                         },
                         {
+                            "label": "LGBTQ Welcoming",
+                            "value": "21"
+                        },
+                        {
                             "label": "Luxury",
                             "value": "15"
                         },
                         {
                             "label": "Romantic",
                             "value": "1"
-                        },
-                        {
-                            "label": "Ski",
-                            "value": "28"
                         },
                         {
                             "label": "Spa Hotel",
@@ -2060,7 +2183,7 @@
                 }
             },
             "miscellaneous": {
-                "pageViewBeaconUrl": "/taps/v1/PageView?deviceType=App-Phone&sort-order=PRICE&rooms=1&destRegionID=1351110&hotelIds=1183915904,1829204512,497052,1128303968,512953,1149295488,576984,1185510208,1330101952,1059413440,1715555552,531821,460254,603868,643666,725218400,455473,437694,1194386784,460263,492168,1192598368,731967232,227821,386711&adults=1&userAgent=Hotels.com/Android%2080.0.1.9.release-80_0%20(80000660)&userGuid=37946902-d9c9-4143-af25-9f6de300d85b&pageName=Hotel-Search&slots=HSR_A,HSR_B,HSR_C,HSR_D,HSR_E,HSR_F,HSR_G,HSR_H,HSR_I,HSR_J&children=0&culture=en_US&testVersionOverride=4961.0,904.0,7561.0,7215.0,8218.0,8711.0,8928.1,9008.0,8347.2,9004.0,8952.0,7992.2,8915.0,9729.0,9864.0,10155.0,10185.0,10473.0,10320.0,10361.0&domain=www.hotels.com&userIP=75.170.30.203&action=pageview&publisher=expedia&programId=1",
+                "pageViewBeaconUrl": "/taps/v1/PageView?deviceType=App-Phone&sort-order=PRICE&rooms=1&destRegionID=1641012&hotelIds=280932,487852,1182594464,280924,507840,377103,299387,411085,354806,219469,236168,280940,318992,319375,314088,215959,302255,280960,783348192,448181,382803,219358,1163522176,267489,364064&adults=1&userAgent=Hotels.com/Android%2080.0.1.9.release-80_0%20(80000660)&userGuid=97f6fad4-459c-4435-b29e-44e2370ea5da&pageName=Hotel-Search&slots=HSR_A,HSR_B,HSR_C,HSR_D,HSR_E,HSR_F,HSR_G,HSR_H,HSR_I,HSR_J&children=0&culture=en_US&testVersionOverride=4961.0,904.0,7561.0,7215.0,8218.0,8711.0,8928.1,9008.0,8347.2,9004.0,8952.0,7992.2,8915.0,9729.0,9864.0,10155.0,10185.0,10473.0,10320.0,10361.0&domain=www.hotels.com&userIP=127.0.0.1&action=pageview&publisher=expedia&programId=1",
                 "showLegalInfoForStrikethroughPrices": true,
                 "legalInfoForStrikethroughPrices": "The struck-out price is based on the property\u2019s standard rate on our app, as determined and supplied by the property."
             },
@@ -2078,42 +2201,42 @@
                     "s.prop33": "D=v33",
                     "s.prop32": "D=v43",
                     "s.prop74": "search result without dates | ms shown | N",
-                    "s.products": "LOCAL;36966122,LOCAL;57131391,LOCAL;10109271",
+                    "s.products": "LOCAL;911436,MULTISOURCE;9758006,LOCAL;36924827",
                     "s.eVar16": "Mob :: aApp",
                     "s.eVar40": "D=v0",
                     "s.eVar41": "RUB",
-                    "s.eVar63": "ab5b77c2-4b8b-44e2-b1d4-0ed9d6e2f544",
+                    "s.eVar63": "f3269406-b041-49f1-b178-7d8eaf96d0ef",
                     "s.eVar42": "dateless",
                     "s.eVar4": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
                     "s.eVar43": "en_US|HCOM_US|www.hotels.com",
-                    "s.eVar2": "Belek, Serik, Antalya Region, T\u00fcrkiye",
+                    "s.eVar2": "Rimini, Rimini, Emilia-Romagna, Italy",
                     "s.eVar24": "MCTC=20;TU=NA;PDID=NULL;MVT=",
                     "s.eVar7": "",
                     "s.server": "www.hotels.com",
-                    "s.eVar6": "1351110",
+                    "s.eVar6": "1641012",
                     "s.prop29": "D=v42",
-                    "s.prop27": "37946902-d9c9-4143-af25-9f6de300d85b",
+                    "s.prop27": "97f6fad4-459c-4435-b29e-44e2370ea5da",
                     "s.eVar9": "Price - low to high",
                     "s.eVar69": "Mob :: aApp",
                     "s.currencyCode": "RUB",
-                    "s.eVar26": "US:NC:WASHINGTON:545",
+                    "s.eVar26": "US:NY:BRONX:501",
                     "s.eVar29": "Mob :: aApp",
-                    "s.prop9": "1244",
+                    "s.prop9": "2173",
                     "s.eVar95": "Unknown",
-                    "s.prop7": "1060",
+                    "s.prop7": "1828",
                     "s.eVar31": "D=v0",
                     "s.eVar32": "D=v0",
                     "s.eVar33": "search result without dates",
-                    "s.eVar34": "H1871:007.002,M904:000.000,M3736:000.000,M4440.2,M4869:001.000,M4952:050.001,M4961:001.000,M5184:001.000,M5342:000.000,M5663:000.000,M6388:000.000,M6775:000.000,M6779:000.000,M7015.1,M7192:000.000,M7215:000.000,M7296:000.000,M7305:000.000,M7353:000.000,M7362.1,M7552:023.001,M7870:000.000,M8336:000.000,M8347:019.002,M8692:000.000,M8698:000.000,M8718:000.000,M8915:000.000,M8928:019.001,M8952:000.000,M8976:000.000,M8992:000.000,M9035:000.000,M9220:000.000,M9297:000.000,M9351:000.000,M9431:000.000,M9469:000.000,M9508:000.000,M9549:000.000,M9729:000.000,M9752:000.000,M9864:000.000,M9924:000.000,M9961:000.000,M9971:000.000,M10001:000.000,M10007:000.000,M10013:002.001,M10121:000.000,M10137:000.000,M10155:000.000,M10185:000.000,M10248:000.000,M10259:000.000,M10268:000.000,M10282:000.000,M10300:000.000,M10320:000.000,M10361:000.000,M10473:000.000,M9215:001.001",
+                    "s.eVar34": "H1871:007.002,M904:000.000,M3736:000.000,M4440.2,M4869:001.000,M4952:050.000,M4961:001.000,M5184:001.000,M5342:000.000,M5663:000.000,M6388:000.000,M6775:000.000,M6779:000.000,M7015.1,M7192:000.000,M7215:000.000,M7296:000.000,M7305:000.000,M7353:000.000,M7362.1,M7552:023.001,M7870:000.000,M8130:000.001,M8336:000.000,M8347:019.002,M8692:000.000,M8698:000.000,M8718:000.000,M8915:000.000,M8928:019.001,M8952:000.000,M8976:000.000,M8992:000.000,M9035:000.000,M9220:000.000,M9297:000.000,M9351:000.000,M9431:000.000,M9434:000.000,M9469:000.000,M9549:000.000,M9729:000.000,M9752:000.000,M9864:000.000,M9924:000.000,M9961:000.000,M9971:000.000,M10001:000.000,M10007:000.000,M10013:002.001,M10121:000.000,M10137:000.000,M10155:000.000,M10185:000.000,M10248:000.000,M10259:000.000,M10268:000.000,M10282:000.000,M10300:000.000,M10320:000.000,M10361:000.000,M10473:000.000,M9215:001.000",
                     "s.eVar13": "389367",
-                    "s.events": "event324,event320,event318,event319",
+                    "s.events": "event324,event320",
                     "s.prop18": "D=v6",
                     "s.prop5": "389367",
                     "s.prop15": "",
-                    "s.prop3": "Belek, Serik, Antalya Region, T\u00fcrkiye",
+                    "s.prop3": "Rimini, Rimini, Emilia-Romagna, Italy",
                     "s.prop14": "D=v7",
                     "s.prop36": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
-                    "s.eVar93": "aws.us-east-1.unknown",
+                    "s.eVar93": "aws.us-west-2.unknown",
                     "s.prop2": "Price - low to high"
                 }
             }
