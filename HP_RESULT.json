@@ -2,463 +2,97 @@
     "result": "OK",
     "data": {
         "body": {
-            "header": "Rimini, Rimini, Emilia-Romagna, Italy",
+            "header": "Helsinki, Uusimaa, Finland",
             "query": {
                 "destination": {
-                    "id": "1641012",
-                    "value": "Rimini, Rimini, Emilia-Romagna, Italy",
-                    "resolvedLocation": "CITY:1641012:UNKNOWN:UNKNOWN"
+                    "id": "475103",
+                    "value": "Helsinki, Uusimaa, Finland",
+                    "resolvedLocation": "CITY:475103:UNKNOWN:UNKNOWN"
                 }
             },
             "searchResults": {
-                "totalCount": 2173,
+                "totalCount": 941,
                 "results": [
                     {
-                        "id": 280932,
-                        "name": "Hotel Polo",
-                        "starRating": 4.0,
+                        "id": 626915,
+                        "name": "CheapSleep Helsinki",
+                        "starRating": 2.0,
                         "urls": {},
                         "address": {
-                            "streetAddress": "Viale A. Vespucci, 23",
+                            "streetAddress": "Sturenkatu 27B",
                             "extendedAddress": "",
-                            "locality": "Rimini",
-                            "postalCode": "47900",
-                            "region": "RN",
-                            "countryName": "Italy",
-                            "countryCode": "it",
+                            "locality": "Helsinki",
+                            "postalCode": "00510",
+                            "region": "",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
                             "obfuscate": false
                         },
                         "guestReviews": {
-                            "unformattedRating": 8.4,
-                            "rating": "8.4",
-                            "total": 388,
+                            "unformattedRating": 7.6,
+                            "rating": "7.6",
+                            "total": 520,
                             "scale": 10,
-                            "badge": "very-good",
-                            "badgeText": "Very Good"
+                            "badge": "good",
+                            "badgeText": "Good"
                         },
                         "landmarks": [
                             {
                                 "label": "City center",
-                                "distance": "0.9 miles"
+                                "distance": "1.8 miles"
                             },
                             {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "2.6 miles"
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "8.7 miles"
                             }
                         ],
                         "geoBullets": [],
                         "ratePlan": {
                             "price": {
-                                "current": "1,609 RUB",
-                                "exactCurrent": 1609.46,
-                                "old": "1,893 RUB"
+                                "current": "2,478 RUB",
+                                "exactCurrent": 2478.0,
+                                "old": "2,791 RUB"
                             },
                             "features": {
                                 "paymentPreference": false,
                                 "noCCRequired": false
                             }
                         },
-                        "neighbourhood": "Marina Centro",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {
-                            "hotelBadge": {
-                                "type": "vipBasic",
-                                "label": "VIP"
-                            }
-                        },
-                        "pimmsAttributes": "DoubleStamps|Oceanviewv1|D13|TESCO",
-                        "coordinate": {
-                            "lat": 44.069794,
-                            "lon": 12.579031
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 911436,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/920000/911500/911436/266600cc_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 487852,
-                        "name": "Hotel St. Gregory Park",
-                        "starRating": 4.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via Lucio Lando, 40",
-                            "extendedAddress": "",
-                            "locality": "Rimini",
-                            "postalCode": "47921",
-                            "region": "RN",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 8.8,
-                            "rating": "8.8",
-                            "total": 74,
-                            "scale": 10,
-                            "badge": "fabulous",
-                            "badgeText": "Fabulous"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "0.9 miles"
-                            },
-                            {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "2.2 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "1,626 RUB",
-                                "exactCurrent": 1626.19
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "San Giuliano a Mare",
+                        "neighbourhood": "Vallila",
                         "deals": {},
                         "messaging": {},
                         "badging": {},
                         "pimmsAttributes": "DoubleStamps|D13|TESCO",
                         "coordinate": {
-                            "lat": 44.073662,
-                            "lon": 12.56999
+                            "lat": 60.1937,
+                            "lon": 24.95621
                         },
                         "providerType": "MULTISOURCE",
-                        "supplierHotelId": 9758006,
+                        "supplierHotelId": 16155010,
                         "isAlternative": false,
                         "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/10000000/9760000/9758100/9758006/10c1fc9f_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/17000000/16160000/16155100/16155010/97b0bd5e_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
                         }
                     },
                     {
-                        "id": 1182594464,
-                        "name": "Hotel Diplomat Palace",
-                        "starRating": 4.0,
+                        "id": 235841,
+                        "name": "Eurohostel",
+                        "starRating": 2.0,
                         "urls": {},
                         "address": {
-                            "streetAddress": "Viale Regina Elena 70",
+                            "streetAddress": "Linnankatu 9",
                             "extendedAddress": "",
-                            "locality": "Rimini",
-                            "postalCode": "47921",
-                            "region": "Provincia di Rimini",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 8.2,
-                            "rating": "8.2",
-                            "total": 14,
-                            "scale": 10,
-                            "badge": "very-good",
-                            "badgeText": "Very Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.5 miles"
-                            },
-                            {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "3.6 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "1,626 RUB",
-                                "exactCurrent": 1626.19
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Marina Centro",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "D13",
-                        "coordinate": {
-                            "lat": 44.055228,
-                            "lon": 12.594579
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 36924827,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/37000000/36930000/36924900/36924827/1cf7a562_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 280924,
-                        "name": "Bellevue Hotel",
-                        "starRating": 4.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Piazzale Kennedy 12",
-                            "extendedAddress": "",
-                            "locality": "Rimini",
-                            "postalCode": "47921",
-                            "region": "RN",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 8.6,
-                            "rating": "8.6",
-                            "total": 80,
-                            "scale": 10,
-                            "badge": "fabulous",
-                            "badgeText": "Fabulous"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "0.9 miles"
-                            },
-                            {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "2.8 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "1,626 RUB",
-                                "exactCurrent": 1626.19
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Marina Centro",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|Oceanviewv1|NearBeachPropertyv1|TESCO",
-                        "coordinate": {
-                            "lat": 44.067048,
-                            "lon": 12.582223
-                        },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 892723,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/900000/892800/892723/820e14ed_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 507840,
-                        "name": "Hotel Ausonia",
-                        "starRating": 3.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Viale Misurata, 51",
-                            "extendedAddress": "",
-                            "locality": "Rimini",
-                            "postalCode": "47921",
-                            "region": "RN",
-                            "countryName": "Italy",
-                            "countryCode": "it",
+                            "locality": "Helsinki",
+                            "postalCode": "00160",
+                            "region": "",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
                             "obfuscate": false
                         },
                         "guestReviews": {
                             "unformattedRating": 7.4,
                             "rating": "7.4",
-                            "total": 64,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "0.8 miles"
-                            },
-                            {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "2.8 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "1,965 RUB",
-                                "exactCurrent": 1965.05
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Marina Centro",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 44.063135,
-                            "lon": 12.581351
-                        },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 4356665,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/5000000/4360000/4356700/4356665/5ddfa6d1_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 377103,
-                        "name": "Hotel Zurigo",
-                        "starRating": 3.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Viale Bergamo 7",
-                            "extendedAddress": "",
-                            "locality": "Rimini",
-                            "postalCode": "47924",
-                            "region": "RN",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 6.2,
-                            "rating": "6.2",
-                            "total": 10,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "2.9 miles"
-                            },
-                            {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "5.0 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "1,996 RUB",
-                                "exactCurrent": 1996.03,
-                                "old": "2,236 RUB"
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Rimini",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 44.036355,
-                            "lon": 12.614088
-                        },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 4339001,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/5000000/4340000/4339100/4339001/0e656f47_y.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 299387,
-                        "name": "New Hotel Jolie",
-                        "starRating": 3.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Viale Tripoli, 197",
-                            "extendedAddress": "",
-                            "locality": "Rimini",
-                            "postalCode": "47921",
-                            "region": "RN",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 7.2,
-                            "rating": "7.2",
-                            "total": 35,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "0.9 miles"
-                            },
-                            {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "2.9 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,002 RUB",
-                                "exactCurrent": 2001.6
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Marina Centro",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 44.06179,
-                            "lon": 12.583269
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 1802456,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1810000/1802500/1802456/ce4fd2d9_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 411085,
-                        "name": "St. Pierre",
-                        "starRating": 3.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via Parisano 16",
-                            "extendedAddress": "",
-                            "locality": "Rimini",
-                            "postalCode": "47921",
-                            "region": "RN",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 7.8,
-                            "rating": "7.8",
-                            "total": 51,
+                            "total": 1044,
                             "scale": 10,
                             "badge": "good",
                             "badgeText": "Good"
@@ -469,56 +103,56 @@
                                 "distance": "1.0 mile"
                             },
                             {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "3.0 miles"
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "11 miles"
                             }
                         ],
                         "geoBullets": [],
                         "ratePlan": {
                             "price": {
-                                "current": "2,045 RUB",
-                                "exactCurrent": 2044.97
+                                "current": "2,756 RUB",
+                                "exactCurrent": 2755.54
                             },
                             "features": {
                                 "paymentPreference": false,
                                 "noCCRequired": false
                             }
                         },
-                        "neighbourhood": "Marina Centro",
+                        "neighbourhood": "Katajanokka",
                         "deals": {},
                         "messaging": {},
                         "badging": {},
                         "pimmsAttributes": "DoubleStamps|D13|TESCO",
                         "coordinate": {
-                            "lat": 44.062469,
-                            "lon": 12.585949
+                            "lat": 60.165747,
+                            "lon": 24.969699
                         },
                         "providerType": "MULTISOURCE",
-                        "supplierHotelId": 5182652,
+                        "supplierHotelId": 1355675,
                         "isAlternative": false,
                         "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/6000000/5190000/5182700/5182652/6a050c02_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1360000/1355700/1355675/322bdd26_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
                         }
                     },
                     {
-                        "id": 354806,
-                        "name": "Hotel Niagara Rimini",
-                        "starRating": 3.0,
+                        "id": 425175,
+                        "name": "Omena Hotel Helsinki Lonnrotinkatu",
+                        "starRating": 2.5,
                         "urls": {},
                         "address": {
-                            "streetAddress": "Viale Zanzur, 16",
+                            "streetAddress": "Lonnrotinkatu 13",
                             "extendedAddress": "",
-                            "locality": "Rimini",
-                            "postalCode": "47921",
-                            "region": "RN",
-                            "countryName": "Italy",
-                            "countryCode": "it",
+                            "locality": "Helsinki",
+                            "postalCode": "120",
+                            "region": "",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
                             "obfuscate": false
                         },
                         "guestReviews": {
-                            "unformattedRating": 7.0,
-                            "rating": "7.0",
-                            "total": 222,
+                            "unformattedRating": 7.4,
+                            "rating": "7.4",
+                            "total": 1703,
                             "scale": 10,
                             "badge": "good",
                             "badgeText": "Good"
@@ -526,120 +160,121 @@
                         "landmarks": [
                             {
                                 "label": "City center",
-                                "distance": "0.8 miles"
+                                "distance": "0.3 miles"
                             },
                             {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "2.8 miles"
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "11 miles"
                             }
                         ],
                         "geoBullets": [],
                         "ratePlan": {
                             "price": {
-                                "current": "2,120 RUB",
-                                "exactCurrent": 2119.93,
-                                "old": "2,355 RUB"
+                                "current": "3,717 RUB",
+                                "exactCurrent": 3717.0,
+                                "old": "3,919 RUB"
                             },
                             "features": {
                                 "paymentPreference": false,
                                 "noCCRequired": false
                             }
                         },
-                        "neighbourhood": "Marina Centro",
+                        "neighbourhood": "Kamppi",
                         "deals": {},
                         "messaging": {},
                         "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "pimmsAttributes": "DoubleStamps|D13|HRW|TESCO",
                         "coordinate": {
-                            "lat": 44.063018,
-                            "lon": 12.581134
+                            "lat": 60.16566,
+                            "lon": 24.9365
                         },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 3814805,
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 5657252,
                         "isAlternative": false,
                         "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/4000000/3820000/3814900/3814805/92acbf9e_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/6000000/5660000/5657300/5657252/91a20760_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
                         }
                     },
                     {
-                        "id": 219469,
-                        "name": "Hotel Villa Lalla",
+                        "id": 557773,
+                        "name": "Forenom Aparthotel Espoo Lepp\u00e4vaara",
                         "starRating": 3.0,
                         "urls": {},
                         "address": {
-                            "streetAddress": "Viale Vittorio Veneto 22",
+                            "streetAddress": "Porarinkatu 1",
                             "extendedAddress": "",
-                            "locality": "Rimini",
-                            "postalCode": "47900",
-                            "region": "RN",
-                            "countryName": "Italy",
-                            "countryCode": "it",
+                            "locality": "Espoo",
+                            "postalCode": "02650",
+                            "region": "",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
                             "obfuscate": false
                         },
                         "guestReviews": {
-                            "unformattedRating": 8.6,
-                            "rating": "8.6",
-                            "total": 157,
+                            "unformattedRating": 8.4,
+                            "rating": "8.4",
+                            "total": 417,
                             "scale": 10,
-                            "badge": "fabulous",
-                            "badgeText": "Fabulous"
+                            "badge": "very-good",
+                            "badgeText": "Very Good"
                         },
                         "landmarks": [
                             {
                                 "label": "City center",
-                                "distance": "0.7 miles"
+                                "distance": "5.7 miles"
                             },
                             {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "2.5 miles"
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "8.2 miles"
                             }
                         ],
                         "geoBullets": [],
                         "ratePlan": {
                             "price": {
-                                "current": "2,131 RUB",
-                                "exactCurrent": 2131.08
+                                "current": "3,820 RUB",
+                                "exactCurrent": 3819.84
                             },
                             "features": {
                                 "paymentPreference": false,
                                 "noCCRequired": false
                             }
                         },
-                        "neighbourhood": "Marina Centro",
+                        "neighbourhood": "Leppavaara",
                         "deals": {},
                         "messaging": {},
                         "badging": {},
                         "pimmsAttributes": "DoubleStamps|D13|TESCO",
                         "coordinate": {
-                            "lat": 44.0673,
-                            "lon": 12.57639
+                            "lat": 60.22503,
+                            "lon": 24.82123
                         },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 916848,
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 12698675,
+                        "vrBadge": "Condo Hotel",
                         "isAlternative": false,
                         "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/920000/916900/916848/b95266f2_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/13000000/12700000/12698700/12698675/ec5dcaf3_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
                         }
                     },
                     {
-                        "id": 236168,
-                        "name": "Hotel Bamby",
-                        "starRating": 3.0,
+                        "id": 425191,
+                        "name": "Omena Hotel Yrjonkatu",
+                        "starRating": 2.5,
                         "urls": {},
                         "address": {
-                            "streetAddress": "Viale Vittorio Veneto 18",
-                            "extendedAddress": "Marina Centro",
-                            "locality": "Rimini",
-                            "postalCode": "47900",
-                            "region": "RN",
-                            "countryName": "Italy",
-                            "countryCode": "it",
+                            "streetAddress": "Yrjonkatu 30",
+                            "extendedAddress": "",
+                            "locality": "Helsinki",
+                            "postalCode": "00100",
+                            "region": "",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
                             "obfuscate": false
                         },
                         "guestReviews": {
-                            "unformattedRating": 7.6,
-                            "rating": "7.6",
-                            "total": 102,
+                            "unformattedRating": 7.4,
+                            "rating": "7.4",
+                            "total": 1111,
                             "scale": 10,
                             "badge": "good",
                             "badgeText": "Good"
@@ -647,118 +282,60 @@
                         "landmarks": [
                             {
                                 "label": "City center",
-                                "distance": "0.7 miles"
+                                "distance": "0.1 miles"
                             },
                             {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "2.5 miles"
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "11 miles"
                             }
                         ],
                         "geoBullets": [],
                         "ratePlan": {
                             "price": {
-                                "current": "2,301 RUB",
-                                "exactCurrent": 2301.44
+                                "current": "3,835 RUB",
+                                "exactCurrent": 3835.32,
+                                "old": "4,037 RUB"
                             },
                             "features": {
                                 "paymentPreference": false,
                                 "noCCRequired": false
                             }
                         },
-                        "neighbourhood": "Marina Centro",
+                        "neighbourhood": "Kamppi",
                         "deals": {},
                         "messaging": {},
                         "badging": {},
                         "pimmsAttributes": "DoubleStamps|D13|TESCO",
                         "coordinate": {
-                            "lat": 44.06776,
-                            "lon": 12.57708
+                            "lat": 60.16788,
+                            "lon": 24.93779
                         },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 1068171,
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 5654130,
                         "isAlternative": false,
                         "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1070000/1068200/1068171/2fa830e8_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/6000000/5660000/5654200/5654130/3ab25d06_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
                         }
                     },
                     {
-                        "id": 280940,
-                        "name": "Aura Living Hotel",
-                        "starRating": 3.0,
+                        "id": 1462303488,
+                        "name": "InnTourist Hostel",
+                        "starRating": 2.0,
                         "urls": {},
                         "address": {
-                            "streetAddress": "Via Pola 29",
-                            "extendedAddress": "Marina Centro",
-                            "locality": "Rimini",
-                            "postalCode": "47900",
-                            "region": "RN",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 6.0,
-                            "rating": "6.0",
-                            "total": 1,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "0.7 miles"
-                            },
-                            {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "2.7 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,381 RUB",
-                                "exactCurrent": 2381.36
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Marina Centro",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "coordinate": {
-                            "lat": 44.06544,
-                            "lon": 12.5794
-                        },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 916878,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/920000/916900/916878/w1080h1440x0y13-1d16686b_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 318992,
-                        "name": "Hotel Calypso",
-                        "starRating": 3.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Viale Trieste 15",
+                            "streetAddress": "Haapaniemenkatu 7-9B",
                             "extendedAddress": "",
-                            "locality": "Rimini",
-                            "postalCode": "47900",
-                            "region": "RN",
-                            "countryName": "Italy",
-                            "countryCode": "it",
+                            "locality": "Helsinki",
+                            "postalCode": "00530",
+                            "region": "",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
                             "obfuscate": false
                         },
                         "guestReviews": {
                             "unformattedRating": 8.2,
                             "rating": "8.2",
-                            "total": 66,
+                            "total": 36,
                             "scale": 10,
                             "badge": "very-good",
                             "badgeText": "Very Good"
@@ -766,361 +343,59 @@
                         "landmarks": [
                             {
                                 "label": "City center",
-                                "distance": "0.7 miles"
+                                "distance": "1.0 mile"
                             },
                             {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "2.6 miles"
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "9.6 miles"
                             }
                         ],
                         "geoBullets": [],
                         "ratePlan": {
                             "price": {
-                                "current": "2,410 RUB",
-                                "exactCurrent": 2409.86,
-                                "old": "2,542 RUB"
+                                "current": "3,985 RUB",
+                                "exactCurrent": 3984.62
                             },
                             "features": {
                                 "paymentPreference": false,
                                 "noCCRequired": false
                             }
                         },
-                        "neighbourhood": "Marina Centro",
+                        "neighbourhood": "Vilhonvuori",
                         "deals": {},
                         "messaging": {},
                         "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "pimmsAttributes": "D13",
                         "coordinate": {
-                            "lat": 44.06702,
-                            "lon": 12.57811
+                            "lat": 60.179652,
+                            "lon": 24.959363
                         },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 2541261,
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 45665734,
                         "isAlternative": false,
                         "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/3000000/2550000/2541300/2541261/03b4085d_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/46000000/45670000/45665800/45665734/605aaec8_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
                         }
                     },
                     {
-                        "id": 319375,
-                        "name": "Hotel Alib\u00ec",
-                        "starRating": 3.0,
+                        "id": 476233,
+                        "name": "Hostel Suomenlinna",
+                        "starRating": 2.0,
                         "urls": {},
                         "address": {
-                            "streetAddress": "viale Bengasi, 14",
+                            "streetAddress": "Suomenlinna C 9",
                             "extendedAddress": "",
-                            "locality": "Rimini",
-                            "postalCode": "47921",
+                            "locality": "Helsinki",
+                            "postalCode": "00190",
                             "region": "",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 8.6,
-                            "rating": "8.6",
-                            "total": 153,
-                            "scale": 10,
-                            "badge": "fabulous",
-                            "badgeText": "Fabulous"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "0.8 miles"
-                            },
-                            {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "2.8 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,467 RUB",
-                                "exactCurrent": 2467.47
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Marina Centro",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 44.06491,
-                            "lon": 12.5815
-                        },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 2483417,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/3000000/2490000/2483500/2483417/76c0b986_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 314088,
-                        "name": "Ferretti Beach Hotel",
-                        "starRating": 4.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "viale Regina Elena 32",
-                            "extendedAddress": "",
-                            "locality": "Rimini",
-                            "postalCode": "47900",
-                            "region": "RN",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 8.2,
-                            "rating": "8.2",
-                            "total": 117,
-                            "scale": 10,
-                            "badge": "very-good",
-                            "badgeText": "Very Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.2 miles"
-                            },
-                            {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "3.2 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,473 RUB",
-                                "exactCurrent": 2473.04
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Marina Centro",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|NearBeachPropertyv1|TESCO",
-                        "coordinate": {
-                            "lat": 44.059666,
-                            "lon": 12.589559
-                        },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 2694870,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/3000000/2700000/2694900/2694870/10eee166_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 215959,
-                        "name": "Club Meeting Hotel",
-                        "starRating": 4.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via Regina Elena 171",
-                            "extendedAddress": "",
-                            "locality": "Rimini",
-                            "postalCode": "47921",
-                            "region": "RN",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 8.0,
-                            "rating": "8.0",
-                            "total": 102,
-                            "scale": 10,
-                            "badge": "very-good",
-                            "badgeText": "Very Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.6 miles"
-                            },
-                            {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "3.7 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,523 RUB",
-                                "exactCurrent": 2523.22
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Marina Centro",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 44.05243,
-                            "lon": 12.59701
-                        },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 920198,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/930000/920200/920198/a820112a_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 302255,
-                        "name": "Hotel Britannia",
-                        "starRating": 3.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Viale Renato Parisano 90",
-                            "extendedAddress": "",
-                            "locality": "Rimini",
-                            "postalCode": "47921",
-                            "region": "RN",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 6.8,
-                            "rating": "6.8",
-                            "total": 31,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "0.9 miles"
-                            },
-                            {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "2.9 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,547 RUB",
-                                "exactCurrent": 2546.76,
-                                "old": "2,996 RUB"
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Marina Centro",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 44.06117,
-                            "lon": 12.58314
-                        },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 1375404,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1380000/1375500/1375404/a35615ab_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 280960,
-                        "name": "Hotel Radar",
-                        "starRating": 3.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Viale Giuseppe Giusti, 4",
-                            "extendedAddress": "",
-                            "locality": "Rimini",
-                            "postalCode": "47921",
-                            "region": "",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 8.2,
-                            "rating": "8.2",
-                            "total": 65,
-                            "scale": 10,
-                            "badge": "very-good",
-                            "badgeText": "Very Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.1 miles"
-                            },
-                            {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "3.1 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,615 RUB",
-                                "exactCurrent": 2614.91
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Marina Centro",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|Oceanviewv1|D13|TESCO",
-                        "coordinate": {
-                            "lat": 44.0611,
-                            "lon": 12.58743
-                        },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 916851,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/920000/916900/916851/a04d9493_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 783348192,
-                        "name": "Residence Queen",
-                        "starRating": 3.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Viale Tripoli, 215",
-                            "extendedAddress": "",
-                            "locality": "Rimini",
-                            "postalCode": "47921",
-                            "region": "",
-                            "countryName": "Italy",
-                            "countryCode": "it",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
                             "obfuscate": false
                         },
                         "guestReviews": {
                             "unformattedRating": 8.8,
                             "rating": "8.8",
-                            "total": 21,
+                            "total": 91,
                             "scale": 10,
                             "badge": "fabulous",
                             "badgeText": "Fabulous"
@@ -1128,360 +403,469 @@
                         "landmarks": [
                             {
                                 "label": "City center",
-                                "distance": "0.9 miles"
+                                "distance": "2.0 miles"
                             },
                             {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "2.9 miles"
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "12 miles"
                             }
                         ],
                         "geoBullets": [],
                         "ratePlan": {
                             "price": {
-                                "current": "2,707 RUB",
-                                "exactCurrent": 2707.22
+                                "current": "3,997 RUB",
+                                "exactCurrent": 3997.01
                             },
                             "features": {
                                 "paymentPreference": false,
                                 "noCCRequired": false
                             }
                         },
-                        "neighbourhood": "Marina Centro",
+                        "neighbourhood": "Suomenlinna",
                         "deals": {},
                         "messaging": {},
                         "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
                         "coordinate": {
-                            "lat": 44.0624,
-                            "lon": 12.58417
+                            "lat": 60.148565,
+                            "lon": 24.984401
                         },
                         "providerType": "LOCAL",
-                        "supplierHotelId": 24448381,
+                        "supplierHotelId": 9151092,
                         "isAlternative": false,
                         "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/25000000/24450000/24448400/24448381/961abd8a_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/10000000/9160000/9151100/9151092/239acb08_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
                         }
                     },
                     {
-                        "id": 448181,
-                        "name": "Hotel Laguna Blu",
+                        "id": 477191,
+                        "name": "Hostel Diana Park",
                         "starRating": 2.0,
                         "urls": {},
                         "address": {
-                            "streetAddress": "Viale S. Salvador, 4",
+                            "streetAddress": "Uudenmaankatu 9",
                             "extendedAddress": "",
-                            "locality": "Rimini",
-                            "postalCode": "47812",
-                            "region": "RN",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 7.0,
-                            "rating": "7.0",
-                            "total": 91,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "3.7 miles"
-                            },
-                            {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "2.2 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,748 RUB",
-                                "exactCurrent": 2748.1
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Torre Pedrera",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "Oceanviewv1|NearBeachPropertyv1",
-                        "coordinate": {
-                            "lat": 44.10214,
-                            "lon": 12.518877
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 7273532,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/8000000/7280000/7273600/7273532/7eb4871f_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 382803,
-                        "name": "Hotel Staccoli",
-                        "starRating": 3.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Viale Ferrara 17",
-                            "extendedAddress": "",
-                            "locality": "Rimini",
-                            "postalCode": "47924",
-                            "region": "RN",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 4.0,
-                            "rating": "4.0",
-                            "total": 3,
-                            "scale": 10
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.8 miles"
-                            },
-                            {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "3.9 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,750 RUB",
-                                "exactCurrent": 2749.96
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Rimini",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 44.04915,
-                            "lon": 12.59864
-                        },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 4460455,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/5000000/4470000/4460500/4460455/073213e7_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 219358,
-                        "name": "Hotel Kennedy",
-                        "starRating": 3.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Viale Trento 4",
-                            "extendedAddress": "",
-                            "locality": "Rimini",
-                            "postalCode": "47921",
-                            "region": "RN",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 7.8,
-                            "rating": "7.8",
-                            "total": 34,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "0.8 miles"
-                            },
-                            {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "2.7 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,776 RUB",
-                                "exactCurrent": 2775.98
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Marina Centro",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
-                        "coordinate": {
-                            "lat": 44.066664,
-                            "lon": 12.580392
-                        },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 922581,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/930000/922600/922581/fdf44f06_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 1163522176,
-                        "name": "Hotel Berna",
-                        "starRating": 1.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Via Siracusa, 8",
-                            "extendedAddress": "",
-                            "locality": "Rimini",
-                            "postalCode": "47924",
+                            "locality": "Helsinki",
+                            "postalCode": "00120",
                             "region": "",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 6.6,
-                            "rating": "6.6",
-                            "total": 9,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "2.3 miles"
-                            },
-                            {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "4.4 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,804 RUB",
-                                "exactCurrent": 2803.86
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Rimini",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13",
-                        "coordinate": {
-                            "lat": 44.04337,
-                            "lon": 12.60635
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 36328818,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/37000000/36330000/36328900/36328818/0a2ed0ee_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 267489,
-                        "name": "Hotel Sacramora",
-                        "starRating": 3.0,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Viale Toscanelli, 142",
-                            "extendedAddress": "Viserba",
-                            "locality": "Rimini",
-                            "postalCode": "47811",
-                            "region": "RN",
-                            "countryName": "Italy",
-                            "countryCode": "it",
-                            "obfuscate": false
-                        },
-                        "guestReviews": {
-                            "unformattedRating": 6.8,
-                            "rating": "6.8",
-                            "total": 50,
-                            "scale": 10,
-                            "badge": "good",
-                            "badgeText": "Good"
-                        },
-                        "landmarks": [
-                            {
-                                "label": "City center",
-                                "distance": "1.8 miles"
-                            },
-                            {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "1.3 miles"
-                            }
-                        ],
-                        "geoBullets": [],
-                        "ratePlan": {
-                            "price": {
-                                "current": "2,832 RUB",
-                                "exactCurrent": 2831.73
-                            },
-                            "features": {
-                                "paymentPreference": false,
-                                "noCCRequired": false
-                            }
-                        },
-                        "neighbourhood": "Viserba",
-                        "deals": {},
-                        "messaging": {},
-                        "badging": {},
-                        "pimmsAttributes": "DoubleStamps|D13|NearBeachPropertyv1|TESCO",
-                        "coordinate": {
-                            "lat": 44.08264,
-                            "lon": 12.5465
-                        },
-                        "providerType": "LOCAL",
-                        "supplierHotelId": 2009109,
-                        "isAlternative": false,
-                        "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/3000000/2010000/2009200/2009109/49432451_y.jpg?impolicy=fcrop&w=250&h=140&q=high"
-                        }
-                    },
-                    {
-                        "id": 364064,
-                        "name": "Hotel Principe di Piemonte",
-                        "starRating": 3.5,
-                        "urls": {},
-                        "address": {
-                            "streetAddress": "Viale Principe Di Piemonte 27",
-                            "extendedAddress": "",
-                            "locality": "Rimini",
-                            "postalCode": "47924",
-                            "region": "RN",
-                            "countryName": "Italy",
-                            "countryCode": "it",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
                             "obfuscate": false
                         },
                         "guestReviews": {
                             "unformattedRating": 8.2,
                             "rating": "8.2",
-                            "total": 167,
+                            "total": 273,
                             "scale": 10,
                             "badge": "very-good",
                             "badgeText": "Very Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.3 miles"
+                            },
+                            {
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "11 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "4,037 RUB",
+                                "exactCurrent": 4037.28
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Punavuori",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "increaseNumberOfReviewsRequired",
+                        "coordinate": {
+                            "lat": 60.164937,
+                            "lon": 24.942108
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 9246019,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/10000000/9250000/9246100/9246019/0e2ea366_y.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 617877,
+                        "name": "Forenom Hostel Helsinki Pit\u00e4j\u00e4nm\u00e4ki",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Kornetintie 10",
+                            "extendedAddress": "",
+                            "locality": "Helsinki",
+                            "postalCode": "00380",
+                            "region": "",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 7.0,
+                            "rating": "7.0",
+                            "total": 114,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "4.0 miles"
+                            },
+                            {
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "7.8 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "4,060 RUB",
+                                "exactCurrent": 4059.58
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Pit\u00e4j\u00e4nm\u00e4en yritysalue",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 60.21665,
+                            "lon": 24.87363
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 15868338,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/16000000/15870000/15868400/15868338/fdd875de_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 272992,
+                        "name": "Holiday Inn Helsinki - Vantaa Airport, an IHG Hotel",
+                        "starRating": 3.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Ralssitie 2",
+                            "extendedAddress": "",
+                            "locality": "Vantaa",
+                            "postalCode": "01510",
+                            "region": "",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 8.0,
+                            "rating": "8.0",
+                            "total": 1515,
+                            "scale": 10,
+                            "badge": "very-good",
+                            "badgeText": "Very Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "8.8 miles"
+                            },
+                            {
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "1.7 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "4,189 RUB",
+                                "exactCurrent": 4189.06
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Aviapolis",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|TESCO",
+                        "coordinate": {
+                            "lat": 60.295089,
+                            "lon": 24.971959
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 18714,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/20000/18800/18714/fa227208_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 1274593472,
+                        "name": "2ndhomes Katajanokka 2BR apartment with sauna",
+                        "starRating": 3.0,
+                        "urls": {},
+                        "address": {
+                            "locality": "Helsinki",
+                            "region": "",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 10.0,
+                            "rating": "10.0",
+                            "total": 2,
+                            "scale": 10,
+                            "badge": "exceptional",
+                            "badgeText": "Exceptional"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.9 miles"
+                            },
+                            {
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "10 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "4,441 RUB",
+                                "exactCurrent": 4441.2
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Katajanokka",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "newhotel|DoubleStamps|D13",
+                        "coordinate": {
+                            "lat": 60.16823,
+                            "lon": 24.965839
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 39799796,
+                        "vrBadge": "Apartment",
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/40000000/39800000/39799800/39799796/e4ee7ef4_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 491260,
+                        "name": "Senate Hotel",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Snellmaninkatu 15 A",
+                            "extendedAddress": "",
+                            "locality": "Helsinki",
+                            "postalCode": "00170",
+                            "region": "",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 6.8,
+                            "rating": "6.8",
+                            "total": 208,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.5 miles"
+                            },
+                            {
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "10 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "4,747 RUB",
+                                "exactCurrent": 4746.61
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Krunikka",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "D13|HRW",
+                        "coordinate": {
+                            "lat": 60.172062,
+                            "lon": 24.953346
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 9866017,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/10000000/9870000/9866100/9866017/d24d1d92_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 1210497024,
+                        "name": "Go Happy Home Apt Vuorimiehenkatu 14",
+                        "starRating": 3.5,
+                        "urls": {},
+                        "address": {
+                            "locality": "Helsinki",
+                            "region": "",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
+                            "obfuscate": false
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.7 miles"
+                            },
+                            {
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "11 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "4,766 RUB",
+                                "exactCurrent": 4766.43
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Ullanlinna",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13",
+                        "coordinate": {
+                            "lat": 60.159044,
+                            "lon": 24.94468
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 37796782,
+                        "vrBadge": "Apartment",
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/38000000/37800000/37796800/37796782/7d15ff6f_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 463475,
+                        "name": "Forenom Hostel Vantaa Airport",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Ilmailutie 9",
+                            "extendedAddress": "",
+                            "locality": "Vantaa",
+                            "postalCode": "01531",
+                            "region": "",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 6.6,
+                            "rating": "6.6",
+                            "total": 720,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "9.8 miles"
+                            },
+                            {
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "0.7 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "4,789 RUB",
+                                "exactCurrent": 4788.74
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Aviapolis",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 60.30887,
+                            "lon": 24.97358
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 8388157,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/9000000/8390000/8388200/8388157/b4d72d20_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 464554,
+                        "name": "Forenom Aparthotel Helsinki Herttoniemi",
+                        "starRating": 2.5,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Hitsaajankatu 12",
+                            "extendedAddress": "",
+                            "locality": "Helsinki",
+                            "postalCode": "810",
+                            "region": "",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 7.6,
+                            "rating": "7.6",
+                            "total": 391,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
                         },
                         "landmarks": [
                             {
@@ -1489,35 +873,630 @@
                                 "distance": "3.5 miles"
                             },
                             {
-                                "label": "Rimini Fiera Expo Center",
-                                "distance": "5.5 miles"
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "9.0 miles"
                             }
                         ],
                         "geoBullets": [],
                         "ratePlan": {
                             "price": {
-                                "current": "2,887 RUB",
-                                "exactCurrent": 2886.87
+                                "current": "4,792 RUB",
+                                "exactCurrent": 4792.45
                             },
                             "features": {
                                 "paymentPreference": false,
                                 "noCCRequired": false
                             }
                         },
-                        "neighbourhood": "Rimini",
+                        "neighbourhood": "Herttoniemenranta",
                         "deals": {},
                         "messaging": {},
                         "badging": {},
                         "pimmsAttributes": "DoubleStamps|D13|TESCO",
                         "coordinate": {
-                            "lat": 44.03102,
-                            "lon": 12.62214
+                            "lat": 60.192715,
+                            "lon": 25.029666
                         },
-                        "providerType": "MULTISOURCE",
-                        "supplierHotelId": 1524037,
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 8393414,
+                        "vrBadge": "Apartments",
                         "isAlternative": false,
                         "optimizedThumbUrls": {
-                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1530000/1524100/1524037/73186931_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/9000000/8400000/8393500/8393414/5ffb0fc5_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 605825,
+                        "name": "Forenom Hostel Vantaa Aviapolis",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Ilmailutie 13",
+                            "extendedAddress": "",
+                            "locality": "Vantaa",
+                            "postalCode": "01531",
+                            "region": "",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 7.2,
+                            "rating": "7.2",
+                            "total": 324,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "9.6 miles"
+                            },
+                            {
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "0.8 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "4,851 RUB",
+                                "exactCurrent": 4851.3
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Aviapolis",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 60.30727,
+                            "lon": 24.97511
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 15509163,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/16000000/15510000/15509200/15509163/158ace9f_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 181602,
+                        "name": "Scandic Pasila",
+                        "starRating": 3.5,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Maistraatinportti 3",
+                            "extendedAddress": "",
+                            "locality": "Helsinki",
+                            "postalCode": "00240",
+                            "region": "",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 8.6,
+                            "rating": "8.6",
+                            "total": 107,
+                            "scale": 10,
+                            "badge": "fabulous",
+                            "badgeText": "Fabulous"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "2.2 miles"
+                            },
+                            {
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "8.4 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "4,935 RUB",
+                                "exactCurrent": 4934.94
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "L\u00e4nsi-Pasila",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 60.199058,
+                            "lon": 24.926127
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 523668,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/530000/523700/523668/7d561ff7_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 639094,
+                        "name": "The Yard Hostel",
+                        "starRating": 2.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Kalevankatu 3 A 45",
+                            "extendedAddress": "",
+                            "locality": "Helsinki",
+                            "postalCode": "00100",
+                            "region": "",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 8.4,
+                            "rating": "8.4",
+                            "total": 143,
+                            "scale": 10,
+                            "badge": "very-good",
+                            "badgeText": "Very Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.1 miles"
+                            },
+                            {
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "11 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "4,991 RUB",
+                                "exactCurrent": 4990.69
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Kamppi",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "coordinate": {
+                            "lat": 60.16803,
+                            "lon": 24.93937
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 16472448,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/17000000/16480000/16472500/16472448/72515f0b_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 141933,
+                        "name": "Holiday Inn Helsinki West- Ruoholahti, an IHG Hotel",
+                        "starRating": 4.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Sulhasenkuja 3",
+                            "extendedAddress": "",
+                            "locality": "Helsinki",
+                            "postalCode": "00180",
+                            "region": "",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 8.6,
+                            "rating": "8.6",
+                            "total": 1025,
+                            "scale": 10,
+                            "badge": "fabulous",
+                            "badgeText": "Fabulous"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.1 miles"
+                            },
+                            {
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "11 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "5,047 RUB",
+                                "exactCurrent": 5047.07
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Ruoholahti",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|TESCO",
+                        "coordinate": {
+                            "lat": 60.165057,
+                            "lon": 24.909678
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 1315532,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/2000000/1320000/1315600/1315532/f0249b8e_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 1361362912,
+                        "name": "Spot Apartments  Konala",
+                        "starRating": 3.5,
+                        "urls": {},
+                        "address": {
+                            "locality": "Espoo",
+                            "region": "",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 7.8,
+                            "rating": "7.8",
+                            "total": 13,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "6.2 miles"
+                            },
+                            {
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "7.1 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "5,047 RUB",
+                                "exactCurrent": 5047.07
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Lantinen District",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13",
+                        "coordinate": {
+                            "lat": 60.241014,
+                            "lon": 24.83271
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 42511341,
+                        "vrBadge": "Condo Hotel",
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/43000000/42520000/42511400/42511341/4f06b3d7_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 1259353824,
+                        "name": "Noli S\u00f6rn\u00e4inen",
+                        "starRating": 4.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "H\u00e4meentie 33",
+                            "extendedAddress": "",
+                            "locality": "Helsinki",
+                            "postalCode": "00500",
+                            "region": "",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 9.0,
+                            "rating": "9.0",
+                            "total": 52,
+                            "scale": 10,
+                            "badge": "superb",
+                            "badgeText": "Superb"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.6 miles"
+                            },
+                            {
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "9.1 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "5,146 RUB",
+                                "exactCurrent": 5146.19
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "S\u00f6rn\u00e4inen",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {
+                            "hotelBadge": {
+                                "type": "vipBasic",
+                                "label": "VIP"
+                            }
+                        },
+                        "pimmsAttributes": "DoubleStamps|D13",
+                        "coordinate": {
+                            "lat": 60.1879,
+                            "lon": 24.964358
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 39323557,
+                        "vrBadge": "Condo Hotel",
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/40000000/39330000/39323600/39323557/b65346d7_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 123841,
+                        "name": "Scandic Kallio",
+                        "starRating": 3.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Lantinen Brahenkatu 2",
+                            "extendedAddress": "",
+                            "locality": "Helsinki",
+                            "postalCode": "00510",
+                            "region": "",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 7.2,
+                            "rating": "7.2",
+                            "total": 1053,
+                            "scale": 10,
+                            "badge": "good",
+                            "badgeText": "Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "1.3 miles"
+                            },
+                            {
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "9.2 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "5,159 RUB",
+                                "exactCurrent": 5159.2
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Alppiharju",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|TESCO",
+                        "coordinate": {
+                            "lat": 60.18681,
+                            "lon": 24.94834
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 24320,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/30000/24400/24320/a6f2f1c3_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 115870,
+                        "name": "Marski by Scandic",
+                        "starRating": 4.0,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Mannerheimintie 10",
+                            "extendedAddress": "",
+                            "locality": "Helsinki",
+                            "postalCode": "00100",
+                            "region": "",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 8.8,
+                            "rating": "8.8",
+                            "total": 915,
+                            "scale": 10,
+                            "badge": "fabulous",
+                            "badgeText": "Fabulous"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.1 miles"
+                            },
+                            {
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "11 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "5,215 RUB",
+                                "exactCurrent": 5214.95
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Kluuvi",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|priceRangeUS|D13|TESCO",
+                        "coordinate": {
+                            "lat": 60.16788,
+                            "lon": 24.94127
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 6741,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/1000000/10000/6800/6741/c47731dc_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 368640,
+                        "name": "Hotel Finn",
+                        "starRating": 2.5,
+                        "urls": {},
+                        "address": {
+                            "streetAddress": "Kalevankatu 3 b",
+                            "extendedAddress": "",
+                            "locality": "Helsinki",
+                            "postalCode": "00100",
+                            "region": "",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
+                            "obfuscate": false
+                        },
+                        "guestReviews": {
+                            "unformattedRating": 8.0,
+                            "rating": "8.0",
+                            "total": 1414,
+                            "scale": 10,
+                            "badge": "very-good",
+                            "badgeText": "Very Good"
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.1 miles"
+                            },
+                            {
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "11 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "5,221 RUB",
+                                "exactCurrent": 5220.53,
+                                "old": "5,496 RUB"
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Kamppi",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 60.16791,
+                            "lon": 24.93966
+                        },
+                        "providerType": "MULTISOURCE",
+                        "supplierHotelId": 4137041,
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/5000000/4140000/4137100/4137041/d28ca897_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
+                        }
+                    },
+                    {
+                        "id": 1210146816,
+                        "name": "Go Happy Home Apartment Mikonkatu 11",
+                        "starRating": 3.5,
+                        "urls": {},
+                        "address": {
+                            "locality": "Helsinki",
+                            "region": "",
+                            "countryName": "Finland",
+                            "countryCode": "fi",
+                            "obfuscate": false
+                        },
+                        "landmarks": [
+                            {
+                                "label": "City center",
+                                "distance": "0.2 miles"
+                            },
+                            {
+                                "label": "Helsinki-Vantaa Airport (HEL)",
+                                "distance": "10 miles"
+                            }
+                        ],
+                        "geoBullets": [],
+                        "ratePlan": {
+                            "price": {
+                                "current": "5,440 RUB",
+                                "exactCurrent": 5440.45
+                            },
+                            "features": {
+                                "paymentPreference": false,
+                                "noCCRequired": false
+                            }
+                        },
+                        "neighbourhood": "Kluuvi",
+                        "deals": {},
+                        "messaging": {},
+                        "badging": {},
+                        "pimmsAttributes": "DoubleStamps|D13|TESCO",
+                        "coordinate": {
+                            "lat": 60.17027,
+                            "lon": 24.94617
+                        },
+                        "providerType": "LOCAL",
+                        "supplierHotelId": 37785838,
+                        "vrBadge": "Apartment",
+                        "isAlternative": false,
+                        "optimizedThumbUrls": {
+                            "srpDesktop": "https://exp.cdn-hotels.com/hotels/38000000/37790000/37785900/37785838/e567f0a3_z.jpg?impolicy=fcrop&w=250&h=140&q=high"
                         }
                     }
                 ],
@@ -1565,83 +1544,83 @@
                                 "choices": [
                                     {
                                         "label": "City center",
-                                        "id": 1641012.0
+                                        "id": 475103.0
                                     },
                                     {
-                                        "label": "105 Stadium",
-                                        "id": 1732381.0
+                                        "label": "Aalto University",
+                                        "id": 1742797.0
                                     },
                                     {
-                                        "label": "Anfiteatro Romano",
-                                        "id": 1657323.0
+                                        "label": "Finlandia Hall",
+                                        "id": 1651211.0
                                     },
                                     {
-                                        "label": "Arch of Augustus",
-                                        "id": 1657335.0
+                                        "label": "Flamingo Entertainment Centre",
+                                        "id": 1718900.0
                                     },
                                     {
-                                        "label": "Centro Congressi SGR",
-                                        "id": 1804244.0
+                                        "label": "Grand Casino Helsinki",
+                                        "id": 1762837.0
                                     },
                                     {
-                                        "label": "Federico Fellini Park",
-                                        "id": 10774418.0
+                                        "label": "Hakaniemi Market Square",
+                                        "id": 1721411.0
                                     },
                                     {
-                                        "label": "Fiabilandia",
-                                        "id": 1657351.0
+                                        "label": "Hartwall Arena",
+                                        "id": 1651220.0
                                     },
                                     {
-                                        "label": "Italy in Miniature",
-                                        "id": 1657349.0
+                                        "label": "Helsinki Exhibition and Convention Centre",
+                                        "id": 1700431.0
                                     },
                                     {
-                                        "label": "Le Befane Centro Commerciale",
-                                        "id": 10889868.0
+                                        "label": "Helsinki Ice Hall",
+                                        "id": 1651227.0
                                     },
                                     {
-                                        "label": "Multiplex le Befane",
-                                        "id": 1751225.0
+                                        "label": "Helsinki West Terminal",
+                                        "id": 1742827.0
                                     },
                                     {
-                                        "label": "Ospedale Infermi",
-                                        "id": 10889871.0
+                                        "label": "Jumbo Shopping Center",
+                                        "id": 1718890.0
                                     },
                                     {
-                                        "label": "Palacongressi di Remini",
-                                        "id": 1657352.0
+                                        "label": "Kamppi Center",
+                                        "id": 1651233.0
                                     },
                                     {
-                                        "label": "Piazza Cavour",
-                                        "id": 1657355.0
+                                        "label": "Kauppatori Market Square",
+                                        "id": 1637589.0
                                     },
                                     {
-                                        "label": "Piazza Marvelli",
-                                        "id": 10449463.0
+                                        "label": "Linnanmaki Amusement Park",
+                                        "id": 1651209.0
                                     },
                                     {
-                                        "label": "Rimini City Hall",
-                                        "id": 1657356.0
+                                        "label": "Olympic Stadium",
+                                        "id": 1651203.0
                                     },
                                     {
-                                        "label": "Rimini Ferris Wheel",
-                                        "id": 1804103.0
+                                        "label": "Sello Shopping Centre",
+                                        "id": 1776393.0
                                     },
                                     {
-                                        "label": "Rimini Fiera Expo Center",
-                                        "id": 1657346.0
+                                        "label": "Senate Square",
+                                        "id": 1637584.0
                                     },
                                     {
-                                        "label": "Rimini Marina",
-                                        "id": 1771422.0
+                                        "label": "Suomenlinna Fortress",
+                                        "id": 1651207.0
                                     },
                                     {
-                                        "label": "Tribunale di Rimini",
-                                        "id": 1721822.0
+                                        "label": "University of Helsinki",
+                                        "id": 1651219.0
                                     },
                                     {
-                                        "label": "Villa Maria Hospital",
-                                        "id": 10889869.0
+                                        "label": "West Harbour Terminal",
+                                        "id": 1742794.0
                                     }
                                 ]
                             },
@@ -1650,24 +1629,84 @@
                                 "itemMeta": "stations",
                                 "choices": [
                                     {
-                                        "label": "Rimini Miramare Station",
-                                        "id": 1732828.0
+                                        "label": "Arabia Station",
+                                        "id": 1724661.0
                                     },
                                     {
-                                        "label": "Rimini Station",
-                                        "id": 1707531.0
+                                        "label": "Arabianranta Station",
+                                        "id": 1728369.0
                                     },
                                     {
-                                        "label": "Rimini Torre Pedrera Station",
-                                        "id": 11130613.0
+                                        "label": "Hauhon Puisto Light Rail Station",
+                                        "id": 1724681.0
                                     },
                                     {
-                                        "label": "Rimini-Viserba Station",
-                                        "id": 11130753.0
+                                        "label": "Helsinki Central Station",
+                                        "id": 1723437.0
                                     },
                                     {
-                                        "label": "RiminiFiera Station",
-                                        "id": 11130621.0
+                                        "label": "Helsinki Huopalahti Station",
+                                        "id": 1723434.0
+                                    },
+                                    {
+                                        "label": "Helsinki Ilmala Station",
+                                        "id": 1723546.0
+                                    },
+                                    {
+                                        "label": "Helsinki Kapyla Station",
+                                        "id": 1723453.0
+                                    },
+                                    {
+                                        "label": "Helsinki Leppavaara Station",
+                                        "id": 1723543.0
+                                    },
+                                    {
+                                        "label": "Helsinki Pasilan Station",
+                                        "id": 1728418.0
+                                    },
+                                    {
+                                        "label": "Helsinki Pohjois-Haaga Station",
+                                        "id": 1723443.0
+                                    },
+                                    {
+                                        "label": "Helsinki Valimo Station",
+                                        "id": 1723444.0
+                                    },
+                                    {
+                                        "label": "Herttoniemi Station",
+                                        "id": 1724682.0
+                                    },
+                                    {
+                                        "label": "Kalasatama Station",
+                                        "id": 1724706.0
+                                    },
+                                    {
+                                        "label": "Meilahden Sairaala Station",
+                                        "id": 1725078.0
+                                    },
+                                    {
+                                        "label": "Messukeskus Station",
+                                        "id": 1724799.0
+                                    },
+                                    {
+                                        "label": "Mikonkatu Station",
+                                        "id": 1728380.0
+                                    },
+                                    {
+                                        "label": "Pasila Station",
+                                        "id": 1723452.0
+                                    },
+                                    {
+                                        "label": "Rautatieasema Station",
+                                        "id": 1724829.0
+                                    },
+                                    {
+                                        "label": "Rautatientori Station",
+                                        "id": 1724830.0
+                                    },
+                                    {
+                                        "label": "Sturenkatu Station",
+                                        "id": 1724848.0
                                     }
                                 ]
                             },
@@ -1676,8 +1715,8 @@
                                 "itemMeta": "airports",
                                 "choices": [
                                     {
-                                        "label": "Rimini (RMI-Federico Fellini Intl.)",
-                                        "id": 1664295.0
+                                        "label": "Helsinki-Vantaa Airport (HEL)",
+                                        "id": 472558.0
                                     }
                                 ]
                             }
@@ -1714,7 +1753,7 @@
                         "enhancedChoices": []
                     }
                 ],
-                "distanceOptionLandmarkId": 1641012.0
+                "distanceOptionLandmarkId": 475103.0
             },
             "filters": {
                 "applied": false,
@@ -1724,9 +1763,9 @@
                     },
                     "autosuggest": {
                         "additionalUrlParams": {
-                            "resolved-location": "CITY:1641012:UNKNOWN:UNKNOWN",
-                            "q-destination": "Rimini, Rimini, Emilia-Romagna, Italy",
-                            "destination-id": "1641012"
+                            "resolved-location": "CITY:475103:UNKNOWN:UNKNOWN",
+                            "q-destination": "Helsinki, Uusimaa, Finland",
+                            "destination-id": "475103"
                         }
                     }
                 },
@@ -1765,83 +1804,83 @@
                     "items": [
                         {
                             "label": "City center",
-                            "value": "1641012"
+                            "value": "475103"
                         },
                         {
-                            "label": "Rimini Fiera Expo Center",
-                            "value": "1657346"
+                            "label": "Helsinki-Vantaa Airport (HEL)",
+                            "value": "472558"
                         },
                         {
-                            "label": "Rimini Station",
-                            "value": "1707531"
+                            "label": "Helsinki Central Station",
+                            "value": "1723437"
                         },
                         {
-                            "label": "Italy in Miniature",
-                            "value": "1657349"
+                            "label": "Helsinki Exhibition and Convention Centre",
+                            "value": "1700431"
                         },
                         {
-                            "label": "Federico Fellini Park",
-                            "value": "10774418"
+                            "label": "Olympic Stadium",
+                            "value": "1651203"
                         },
                         {
-                            "label": "105 Stadium",
-                            "value": "1732381"
+                            "label": "Hartwall Arena",
+                            "value": "1651220"
                         },
                         {
-                            "label": "Palacongressi di Remini",
-                            "value": "1657352"
+                            "label": "Flamingo Entertainment Centre",
+                            "value": "1718900"
                         },
                         {
-                            "label": "Villa Maria Hospital",
-                            "value": "10889869"
+                            "label": "Helsinki Ice Hall",
+                            "value": "1651227"
                         },
                         {
-                            "label": "Ospedale Infermi",
-                            "value": "10889871"
+                            "label": "West Harbour Terminal",
+                            "value": "1742794"
                         },
                         {
-                            "label": "Rimini (RMI-Federico Fellini Intl.)",
-                            "value": "1664295"
+                            "label": "Kamppi Center",
+                            "value": "1651233"
                         },
                         {
-                            "label": "Fiabilandia",
-                            "value": "1657351"
+                            "label": "Pasila Station",
+                            "value": "1723452"
                         },
                         {
-                            "label": "Rimini Miramare Station",
-                            "value": "1732828"
+                            "label": "Finlandia Hall",
+                            "value": "1651211"
                         },
                         {
-                            "label": "Piazza Cavour",
-                            "value": "1657355"
+                            "label": "Hakaniemi Market Square",
+                            "value": "1721411"
                         },
                         {
-                            "label": "Tribunale di Rimini",
-                            "value": "1721822"
+                            "label": "Kauppatori Market Square",
+                            "value": "1637589"
                         },
                         {
-                            "label": "Rimini Marina",
-                            "value": "1771422"
+                            "label": "Jumbo Shopping Center",
+                            "value": "1718890"
                         },
                         {
-                            "label": "RiminiFiera Station",
-                            "value": "11130621"
+                            "label": "Linnanmaki Amusement Park",
+                            "value": "1651209"
                         },
                         {
-                            "label": "Arch of Augustus",
-                            "value": "1657335"
+                            "label": "Helsinki West Terminal",
+                            "value": "1742827"
                         },
                         {
-                            "label": "Piazza Marvelli",
-                            "value": "10449463"
+                            "label": "Suomenlinna Fortress",
+                            "value": "1651207"
                         },
                         {
-                            "label": "Le Befane Centro Commerciale",
-                            "value": "10889868"
+                            "label": "University of Helsinki",
+                            "value": "1651219"
                         },
                         {
-                            "label": "Anfiteatro Romano",
-                            "value": "1657323"
+                            "label": "Aalto University",
+                            "value": "1742797"
                         }
                     ],
                     "distance": []
@@ -1850,32 +1889,268 @@
                     "applied": false,
                     "items": [
                         {
-                            "label": "Rivabella",
-                            "value": "1757436"
+                            "label": "Helsinki City Centre",
+                            "value": "10874249"
                         },
                         {
-                            "label": "Viserba",
-                            "value": "1712905"
+                            "label": "Taka-Toolo",
+                            "value": "1776968"
                         },
                         {
-                            "label": "Rimini Historic Center",
-                            "value": "10565239"
+                            "label": "Vallila",
+                            "value": "1712622"
                         },
                         {
-                            "label": "Marina Centro",
-                            "value": "1807114"
+                            "label": "Pasila",
+                            "value": "1691889"
                         },
                         {
-                            "label": "Torre Pedrera",
-                            "value": "1713024"
+                            "label": "Kamppi",
+                            "value": "1776284"
                         },
                         {
-                            "label": "Viserbella",
-                            "value": "1712908"
+                            "label": "Ruskeasuo",
+                            "value": "1777334"
                         },
                         {
-                            "label": "San Giuliano a Mare",
-                            "value": "1765750"
+                            "label": "Haaga",
+                            "value": "1706416"
+                        },
+                        {
+                            "label": "Leppavaara",
+                            "value": "1776285"
+                        },
+                        {
+                            "label": "Kapyla",
+                            "value": "1712633"
+                        },
+                        {
+                            "label": "Otaniemi",
+                            "value": "1742799"
+                        },
+                        {
+                            "label": "Katajanokka",
+                            "value": "1712632"
+                        },
+                        {
+                            "label": "Pitajanmaki",
+                            "value": "1712627"
+                        },
+                        {
+                            "label": "S\u00f6rn\u00e4inen",
+                            "value": "1712625"
+                        },
+                        {
+                            "label": "Meilahti",
+                            "value": "1712247"
+                        },
+                        {
+                            "label": "Kallio",
+                            "value": "1705963"
+                        },
+                        {
+                            "label": "Ruoholahti",
+                            "value": "1903101"
+                        },
+                        {
+                            "label": "Kluuvi",
+                            "value": "1705919"
+                        },
+                        {
+                            "label": "Etu-Toolo",
+                            "value": "10565691"
+                        },
+                        {
+                            "label": "Punavuori",
+                            "value": "1807837"
+                        },
+                        {
+                            "label": "Kaisaniemi",
+                            "value": "11423008"
+                        },
+                        {
+                            "label": "Kruununhaka",
+                            "value": "10565694"
+                        },
+                        {
+                            "label": "Laajasalo",
+                            "value": "1776965"
+                        },
+                        {
+                            "label": "Hermanni",
+                            "value": "1706577"
+                        },
+                        {
+                            "label": "Etelainen District",
+                            "value": "10565688"
+                        },
+                        {
+                            "label": "Kaartinkaupunki",
+                            "value": "1912647"
+                        },
+                        {
+                            "label": "Keskinen District",
+                            "value": "10565690"
+                        },
+                        {
+                            "label": "Lantinen District",
+                            "value": "10565687"
+                        },
+                        {
+                            "label": "Kaakkoinen District",
+                            "value": "10565685"
+                        },
+                        {
+                            "label": "Alppiharju",
+                            "value": "10565692"
+                        },
+                        {
+                            "label": "T\u00f6\u00f6l\u00f6",
+                            "value": "12518507"
+                        },
+                        {
+                            "label": "Aviapolis",
+                            "value": "12484460"
+                        },
+                        {
+                            "label": "Ullanlinna",
+                            "value": "12497563"
+                        },
+                        {
+                            "label": "Hietalahti",
+                            "value": "12477208"
+                        },
+                        {
+                            "label": "Lepp\u00e4suo",
+                            "value": "12484598"
+                        },
+                        {
+                            "label": "Alppila",
+                            "value": "705003791978065920"
+                        },
+                        {
+                            "label": "Eira",
+                            "value": "704648969804800000"
+                        },
+                        {
+                            "label": "Etel\u00e4-Haaga",
+                            "value": "704824245429952512"
+                        },
+                        {
+                            "label": "Harju",
+                            "value": "705003858602500096"
+                        },
+                        {
+                            "label": "Hermanninm\u00e4ki",
+                            "value": "705006453913235456"
+                        },
+                        {
+                            "label": "Herttoniemenranta",
+                            "value": "705010155116830720"
+                        },
+                        {
+                            "label": "It\u00e4-Pasila",
+                            "value": "705003654782394368"
+                        },
+                        {
+                            "label": "Jatkasaari",
+                            "value": "704820373827780608"
+                        },
+                        {
+                            "label": "Jollas",
+                            "value": "705010809193848832"
+                        },
+                        {
+                            "label": "Kalasatama",
+                            "value": "705006146465296384"
+                        },
+                        {
+                            "label": "Keski-Pasila",
+                            "value": "705003499218685952"
+                        },
+                        {
+                            "label": "Konala",
+                            "value": "704816058133893120"
+                        },
+                        {
+                            "label": "Krunikka",
+                            "value": "704647570192330752"
+                        },
+                        {
+                            "label": "Laakso",
+                            "value": "704658869628444672"
+                        },
+                        {
+                            "label": "Lassila",
+                            "value": "704825910736879616"
+                        },
+                        {
+                            "label": "Linjat",
+                            "value": "705003985987694592"
+                        },
+                        {
+                            "label": "L\u00e4nsi-Pasila",
+                            "value": "705003340608040960"
+                        },
+                        {
+                            "label": "L\u00e4nsisatama",
+                            "value": "704649768129777664"
+                        },
+                        {
+                            "label": "Meilahti",
+                            "value": "704820956916871168"
+                        },
+                        {
+                            "label": "Munkaa",
+                            "value": "704658218787807232"
+                        },
+                        {
+                            "label": "Munkkisaari",
+                            "value": "704820106696314880"
+                        },
+                        {
+                            "label": "Pikku Huopalahti",
+                            "value": "704823734189944832"
+                        },
+                        {
+                            "label": "Pit\u00e4j\u00e4nm\u00e4en yritysalue",
+                            "value": "704824510652600320"
+                        },
+                        {
+                            "label": "Pohjois-Haaga",
+                            "value": "704826036086906880"
+                        },
+                        {
+                            "label": "Roihuvuori",
+                            "value": "705010905151135744"
+                        },
+                        {
+                            "label": "Siltasaari",
+                            "value": "705004241943486464"
+                        },
+                        {
+                            "label": "Sompasaari",
+                            "value": "705004908902834176"
+                        },
+                        {
+                            "label": "Suomenlinna",
+                            "value": "704654065819602944"
+                        },
+                        {
+                            "label": "Torkkelinm\u00e4ki",
+                            "value": "705004366822109184"
+                        },
+                        {
+                            "label": "Vanha Munkkiniemi",
+                            "value": "704822847464689664"
+                        },
+                        {
+                            "label": "Vanha Ruskeasuo",
+                            "value": "705003007409598464"
+                        },
+                        {
+                            "label": "Vilhonvuori",
+                            "value": "705004672401178624"
                         }
                     ]
                 },
@@ -1883,8 +2158,8 @@
                     "applied": false,
                     "items": [
                         {
-                            "label": "Agritourism",
-                            "value": "40"
+                            "label": "Apart-hotels",
+                            "value": "20"
                         },
                         {
                             "label": "Apartments",
@@ -1895,8 +2170,8 @@
                             "value": "5"
                         },
                         {
-                            "label": "Caravan parks",
-                            "value": "21"
+                            "label": "Cabins and lodges",
+                            "value": "9"
                         },
                         {
                             "label": "Chalets",
@@ -1905,10 +2180,6 @@
                         {
                             "label": "Cottages",
                             "value": "11"
-                        },
-                        {
-                            "label": "Country houses",
-                            "value": "24"
                         },
                         {
                             "label": "Guest houses",
@@ -1921,14 +2192,6 @@
                         {
                             "label": "Hotels",
                             "value": "1"
-                        },
-                        {
-                            "label": "Houseboats",
-                            "value": "16"
-                        },
-                        {
-                            "label": "Inns",
-                            "value": "8"
                         },
                         {
                             "label": "Vacation homes",
@@ -1966,10 +2229,6 @@
                         {
                             "label": "Business facilities",
                             "value": "519"
-                        },
-                        {
-                            "label": "Casino",
-                            "value": "2112"
                         },
                         {
                             "label": "Childcare",
@@ -2024,8 +2283,8 @@
                             "value": "256"
                         },
                         {
-                            "label": "Ski storage",
-                            "value": "533"
+                            "label": "Ski shuttle",
+                            "value": "531"
                         },
                         {
                             "label": "Smoking areas",
@@ -2098,10 +2357,6 @@
                             "value": "14"
                         },
                         {
-                            "label": "Casino",
-                            "value": "8"
-                        },
-                        {
                             "label": "Family-friendly",
                             "value": "25"
                         },
@@ -2112,10 +2367,6 @@
                         {
                             "label": "Historic",
                             "value": "2"
-                        },
-                        {
-                            "label": "Hot Springs",
-                            "value": "22"
                         },
                         {
                             "label": "LGBTQ Welcoming",
@@ -2130,12 +2381,12 @@
                             "value": "1"
                         },
                         {
-                            "label": "Spa Hotel",
-                            "value": "27"
+                            "label": "Ski",
+                            "value": "28"
                         },
                         {
-                            "label": "Winery/Vineyard",
-                            "value": "19"
+                            "label": "Spa Hotel",
+                            "value": "27"
                         }
                     ]
                 },
@@ -2183,7 +2434,7 @@
                 }
             },
             "miscellaneous": {
-                "pageViewBeaconUrl": "/taps/v1/PageView?deviceType=App-Phone&sort-order=PRICE&rooms=1&destRegionID=1641012&hotelIds=280932,487852,1182594464,280924,507840,377103,299387,411085,354806,219469,236168,280940,318992,319375,314088,215959,302255,280960,783348192,448181,382803,219358,1163522176,267489,364064&adults=1&userAgent=Hotels.com/Android%2080.0.1.9.release-80_0%20(80000660)&userGuid=97f6fad4-459c-4435-b29e-44e2370ea5da&pageName=Hotel-Search&slots=HSR_A,HSR_B,HSR_C,HSR_D,HSR_E,HSR_F,HSR_G,HSR_H,HSR_I,HSR_J&children=0&culture=en_US&testVersionOverride=4961.0,904.0,7561.0,7215.0,8218.0,8711.0,8928.1,9008.0,8347.2,9004.0,8952.0,7992.2,8915.0,9729.0,9864.0,10155.0,10185.0,10473.0,10320.0,10361.0&domain=www.hotels.com&userIP=127.0.0.1&action=pageview&publisher=expedia&programId=1",
+                "pageViewBeaconUrl": "/taps/v1/PageView?deviceType=App-Phone&sort-order=PRICE&rooms=1&destRegionID=475103&hotelIds=626915,235841,425175,557773,425191,1462303488,476233,477191,617877,272992,1274593472,491260,1210497024,463475,464554,605825,181602,639094,141933,1361362912,1259353824,123841,115870,368640,1210146816&adults=1&userAgent=Hotels.com/Android%2080.0.1.9.release-80_0%20(80000660)&userGuid=1d9fc52d-970d-4821-aeca-b2762096db26&pageName=Hotel-Search&slots=HSR_A,HSR_B,HSR_C,HSR_D,HSR_E,HSR_F,HSR_G,HSR_H,HSR_I,HSR_J&children=0&culture=en_US&testVersionOverride=4961.0,904.0,7561.0,7215.0,8218.0,8711.0,8928.1,9008.0,8347.2,9004.0,8952.0,7992.2,8915.0,9729.0,9864.0,10155.0,10185.0,10473.0,10320.0,10361.0&domain=www.hotels.com&userIP=98.201.23.30&action=pageview&publisher=expedia&programId=1",
                 "showLegalInfoForStrikethroughPrices": true,
                 "legalInfoForStrikethroughPrices": "The struck-out price is based on the property\u2019s standard rate on our app, as determined and supplied by the property."
             },
@@ -2201,42 +2452,42 @@
                     "s.prop33": "D=v33",
                     "s.prop32": "D=v43",
                     "s.prop74": "search result without dates | ms shown | N",
-                    "s.products": "LOCAL;911436,MULTISOURCE;9758006,LOCAL;36924827",
+                    "s.products": "MULTISOURCE;16155010,MULTISOURCE;1355675,LOCAL;5657252",
                     "s.eVar16": "Mob :: aApp",
                     "s.eVar40": "D=v0",
                     "s.eVar41": "RUB",
-                    "s.eVar63": "f3269406-b041-49f1-b178-7d8eaf96d0ef",
+                    "s.eVar63": "64730f43-9221-45d2-9343-2e64ed57e820",
                     "s.eVar42": "dateless",
                     "s.eVar4": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
                     "s.eVar43": "en_US|HCOM_US|www.hotels.com",
-                    "s.eVar2": "Rimini, Rimini, Emilia-Romagna, Italy",
+                    "s.eVar2": "Helsinki, Uusimaa, Finland",
                     "s.eVar24": "MCTC=20;TU=NA;PDID=NULL;MVT=",
                     "s.eVar7": "",
                     "s.server": "www.hotels.com",
-                    "s.eVar6": "1641012",
+                    "s.eVar6": "475103",
                     "s.prop29": "D=v42",
-                    "s.prop27": "97f6fad4-459c-4435-b29e-44e2370ea5da",
+                    "s.prop27": "1d9fc52d-970d-4821-aeca-b2762096db26",
                     "s.eVar9": "Price - low to high",
                     "s.eVar69": "Mob :: aApp",
                     "s.currencyCode": "RUB",
-                    "s.eVar26": "US:NY:BRONX:501",
+                    "s.eVar26": "US:TX:DALLAS:623",
                     "s.eVar29": "Mob :: aApp",
-                    "s.prop9": "2173",
+                    "s.prop9": "941",
                     "s.eVar95": "Unknown",
-                    "s.prop7": "1828",
+                    "s.prop7": "893",
                     "s.eVar31": "D=v0",
                     "s.eVar32": "D=v0",
                     "s.eVar33": "search result without dates",
-                    "s.eVar34": "H1871:007.002,M904:000.000,M3736:000.000,M4440.2,M4869:001.000,M4952:050.000,M4961:001.000,M5184:001.000,M5342:000.000,M5663:000.000,M6388:000.000,M6775:000.000,M6779:000.000,M7015.1,M7192:000.000,M7215:000.000,M7296:000.000,M7305:000.000,M7353:000.000,M7362.1,M7552:023.001,M7870:000.000,M8130:000.001,M8336:000.000,M8347:019.002,M8692:000.000,M8698:000.000,M8718:000.000,M8915:000.000,M8928:019.001,M8952:000.000,M8976:000.000,M8992:000.000,M9035:000.000,M9220:000.000,M9297:000.000,M9351:000.000,M9431:000.000,M9434:000.000,M9469:000.000,M9549:000.000,M9729:000.000,M9752:000.000,M9864:000.000,M9924:000.000,M9961:000.000,M9971:000.000,M10001:000.000,M10007:000.000,M10013:002.001,M10121:000.000,M10137:000.000,M10155:000.000,M10185:000.000,M10248:000.000,M10259:000.000,M10268:000.000,M10282:000.000,M10300:000.000,M10320:000.000,M10361:000.000,M10473:000.000,M9215:001.000",
+                    "s.eVar34": "H1871:007.002,M904:000.000,M3736:000.000,M4440.2,M4869:001.000,M4952:050.001,M4961:001.000,M5184:001.000,M5342:000.000,M5663:000.000,M6388:000.000,M6775:000.000,M6779:000.000,M7015.1,M7192:000.000,M7215:000.000,M7296:000.000,M7305:000.000,M7353:000.000,M7362.1,M7552:023.001,M7870:000.000,M8336:000.000,M8347:019.002,M8692:000.000,M8698:000.000,M8718:000.000,M8915:000.000,M8928:019.001,M8952:000.000,M8976:000.000,M8992:000.000,M9035:000.000,M9220:000.000,M9297:000.000,M9351:000.000,M9431:000.000,M9469:000.000,M9508:000.000,M9549:000.000,M9729:000.000,M9752:000.000,M9864:000.000,M9924:000.000,M9961:000.000,M9971:000.000,M10001:000.000,M10007:000.000,M10013:002.001,M10121:000.000,M10137:000.000,M10155:000.000,M10185:000.000,M10248:000.000,M10259:000.000,M10268:000.000,M10282:000.000,M10300:000.000,M10320:000.000,M10361:000.000,M10473:000.000,M9215:001.001",
                     "s.eVar13": "389367",
-                    "s.events": "event324,event320",
+                    "s.events": "event324,event320,event318,event319",
                     "s.prop18": "D=v6",
                     "s.prop5": "389367",
                     "s.prop15": "",
-                    "s.prop3": "Rimini, Rimini, Emilia-Romagna, Italy",
+                    "s.prop3": "Helsinki, Uusimaa, Finland",
                     "s.prop14": "D=v7",
                     "s.prop36": "|SI:anonymous|VS:returnVisitor|HCR:notApplicable|FC:notApplicable|NS:unknown|TI:notApplicable|SM:notApplicable|IR:anonymous|",
-                    "s.eVar93": "aws.us-west-2.unknown",
+                    "s.eVar93": "aws.us-east-1.unknown",
                     "s.prop2": "Price - low to high"
                 }
             }

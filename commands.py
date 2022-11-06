@@ -101,7 +101,7 @@ def hotel_list(destination_id, hotel_count,
                     top_hotels[f'hotels_info'].extend([{'result_message': result_text, 'photo_url_list': photo_urls}])
                     count += 1
 
-            except KeyError:
+            except Exception:
                 pass
 
         top_hotels['hotels_list'] = hotels_list

@@ -1,7 +1,8 @@
 from loader import bot
-from telebot import types
+from telebot import types, apihelper
 from python_basic_diploma.commands import search_city, hotel_list
 from python_basic_diploma.DB_commands import add_user_action
+from time import sleep
 
 
 class Destination:
@@ -17,6 +18,7 @@ class Destination:
         self.min_price = None
         self.max_price = None
         self.distance = 1000
+
 
 user_dict = dict()
 
@@ -261,8 +263,21 @@ def photo_count_step(message):
                              reply_markup=types.ReplyKeyboardRemove())
         else:
             for i in res['hotels_info']:
-                photo_list = i['photo_url_list']
-                bot.send_media_group(message.from_user.id, photo_list)
+                try:
+                    photo_list = i['photo_url_list']
+                    bot.send_media_group(message.from_user.id, photo_list)
+                except Exception:
+                    hotel = i['result_message'].split(',')[0]
+                    result_mes = i['result_message']
+                    bot.send_message(message.from_user.id, f'По отелю {hotel} произошла ошибка при загрузке фотографий.'
+                                                               f'Тем не менее по нему имеется следующая информация: \n{result_mes}')
+                    print(f'По отелю {hotel} нет инфы. ')
+                except apihelper.ApiTelegramException:
+                    sleep(10)
+                    photo_list = i['photo_url_list']
+                    bot.send_media_group(message.from_user.id, photo_list)
+
+
             hotels_list = res['hotels_list'][:-2]
             add_user_action(user_id, user_name, nickname, command, city, hotels_list)
     except ValueError:
