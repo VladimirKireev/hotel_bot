@@ -220,6 +220,7 @@ def photo_count_step(message):
     nickname = message.from_user.username
     city = user_dict[user_id].city
     sort = user_dict[user_id].sort
+    command = user_dict[user_id].command
     min_price = user_dict[user_id].min_price
     max_price = user_dict[user_id].max_price
     distance = user_dict[user_id].distance
@@ -239,4 +240,4 @@ def photo_count_step(message):
             photo_list = i['photo_url_list']
             bot.send_media_group(message.from_user.id, photo_list)
         hotels_list = res['hotels_list'][:-2]
-        add_user_action(user_id, user_name, nickname, sort, city, hotels_list)
+        add_user_action(user_id, user_name, nickname, command, city, hotels_list)

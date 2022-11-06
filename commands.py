@@ -131,6 +131,8 @@ def hotel_list(destination_id, hotel_count,
         top_hotels['hotels_list'] = hotels_list
         return top_hotels
 
+
+
 # test = hotel_list()
 # print(test.items())
 # print()

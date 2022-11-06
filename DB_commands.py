@@ -15,17 +15,25 @@ def add_user_action(user_id, user_name, user_nickname, command, city, hotels):
                                     VALUES (?, ?, ?, ?, ?, ?, ?);
                 """, (user_id, user_name, user_nickname, command, f'{dtime}', city, hotels))
 
-def get_user_history():
+def get_user_history(user_id):
     with sqlite3.connect((DB)) as conn:
         cursor = conn.cursor()
-        cursor.execute(f"SELECT command, request_date, finded_hotels FROM users_history "
-                       f"WHERE user_id = 1454")
+        cursor.execute(f"SELECT command, request_date, city, finded_hotels FROM users_history "
+                       f"WHERE user_id = {user_id}")
         result = cursor.fetchall()
+        history_result = []
         for i in result:
-            string = str(f'команда: {i[0]}, дата: {i[1]}, отель: {i[2]}')
-            print(string)
+            command, date, city, hotels = i
+            if len(hotels) > 1:
+                reply_row = f'{date} по команде {command[1:]} в {city} были найдены отели: {hotels}'
+            else:
+                reply_row = f'{date} по команде {command[1:]} в {city} был найден отель: {hotels}'
+            history_result.append(reply_row)
+            # print(reply_row)
+            # print(history_result)
 
-# add_user_action('Four seasons')
-# add_user_action('Гостиница моя')
-# add_user_action('Гостиница Россия')
-# get_user_history()
+        # for i in history_result:
+        #     print(i)
+        return history_result
+#
+# get_user_history(1028158464)
