@@ -21,7 +21,7 @@ def search_city(city):
 
     result_cities = result['suggestions'][0]['entities']
     pick_cities_list = []
-    for i_elem in result_cities:
+    for i_elem in result_cities: #может как-то через lambda можно сделать?
         if i_elem['type'] == 'CITY':
             pick_cities_list.append(i_elem)
 

@@ -117,37 +117,46 @@ def min_price_step(message): #дописать шаги с запросами м
 
 
 def max_price_step(message):
-    user_id = message.from_user.id
-    min_price = message.text
-    print(min_price)
-    user_dict[user_id].min_price = min_price
-    msg = bot.send_message(message.chat.id, 'Какая максимальная цена за ночь?')
-    bot.register_next_step_handler(msg, distance_from_center_step)
+    try:
+        user_id = message.from_user.id
+        min_price = int(message.text)
+        print(min_price)
+        user_dict[user_id].min_price = min_price
+        msg = bot.send_message(message.chat.id, 'Какая максимальная цена за ночь?')
+        bot.register_next_step_handler(msg, distance_from_center_step)
+    except ValueError:
+        bot.send_message(message.chat.id, 'Ошибка ввода. Необходимо ввести целое число. Повторите поиск заново.')
 
 
 def distance_from_center_step(message):
-    user_id = message.from_user.id
-    max_price = message.text
-    print(max_price)
-    user_dict[user_id].max_price = max_price
-    msg = bot.send_message(message.chat.id, 'Какое максимальное расстояние от центра?')
-    bot.register_next_step_handler(msg, city_pick_step)
+    try:
+        user_id = message.from_user.id
+        max_price = int(message.text)
+        print(max_price)
+        user_dict[user_id].max_price = max_price
+        msg = bot.send_message(message.chat.id, 'Какое максимальное расстояние от центра?')
+        bot.register_next_step_handler(msg, city_pick_step)
+    except ValueError:
+        bot.send_message(message.chat.id, 'Ошибка ввода. Необходимо ввести целое число. Повторите поиск заново.')
 
 
 def city_pick_step(message):
-    user_id = message.from_user.id
-    if user_dict[user_id].command == 'bestdeal':
-        distance = message.text
-        print(distance)
-        user_dict[user_id].distance = distance
-    else:
-        destination_id = user_dict[user_id].city_list[message.text]
-        city = message.text.split()[0]
-        # print(city, destination_id)
-        user_dict[user_id].city, user_dict[user_id].destination_id = city, destination_id
-        user_dict[user_id].city_list = dict()
-    msg = bot.send_message(message.from_user.id, 'Cколько вывести отелей в списке?', reply_markup=types.ReplyKeyboardRemove())
-    bot.register_next_step_handler(msg, hotel_count_step)
+    try:
+        user_id = message.from_user.id
+        if user_dict[user_id].command == 'bestdeal':
+            distance = int(message.text)
+            print(distance)
+            user_dict[user_id].distance = distance
+        else:
+            destination_id = user_dict[user_id].city_list[message.text]
+            city = message.text.split()[0]
+            # print(city, destination_id)
+            user_dict[user_id].city, user_dict[user_id].destination_id = city, destination_id
+            user_dict[user_id].city_list = dict()
+        msg = bot.send_message(message.from_user.id, 'Cколько вывести отелей в списке? (максимум 20)', reply_markup=types.ReplyKeyboardRemove())
+        bot.register_next_step_handler(msg, hotel_count_step)
+    except ValueError:
+        bot.send_message(message.chat.id, 'Ошибка ввода. Необходимо ввести целое число. Повторите поиск заново.')
 
 
 def hotel_count_step(message):
