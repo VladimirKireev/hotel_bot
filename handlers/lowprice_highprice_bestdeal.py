@@ -78,6 +78,19 @@ def callback(call):
     bot.register_next_step_handler(msg, pick_from_city_list_step)
 
 
+
+@bot.callback_query_handler(func=lambda call: call.data == 'bestdeal')
+def callback(call):
+    user_id = call.from_user.id
+    user_dict[user_id] = Destination()
+    user_dict[user_id].sort = 'DISTANCE_FROM_LANDMARK'
+    user_dict[user_id].command = 'bestdeal'
+    bot.delete_message(chat_id=call.message.chat.id,
+                       message_id=call.message.message_id)
+    msg = bot.send_message(call.message.chat.id, 'В какой город вы собираетесь?')
+    bot.register_next_step_handler(msg, pick_from_city_list_step)
+
+
 def pick_from_city_list_step(message):
     try:
         city_list = search_city(message.text)
@@ -107,13 +120,16 @@ def pick_from_city_list_step(message):
         bot.reply_to(message, 'Не могу найти такой город. Вам необходимо заново выбрать команду и осуществить поиск.')
 
 def min_price_step(message): #дописать шаги с запросами минимальной и максимальной цены
-    user_id = message.from_user.id
-    destination_id = user_dict[user_id].city_list[message.text]
-    city = message.text.split()[0]
-    user_dict[user_id].city, user_dict[user_id].destination_id = city, destination_id
-    user_dict[user_id].city_list = dict()
-    msg = bot.send_message(message.chat.id, 'Какая минимальная цена за ночь?', reply_markup=types.ReplyKeyboardRemove())
-    bot.register_next_step_handler(msg, max_price_step)
+    try:
+        user_id = message.from_user.id
+        destination_id = user_dict[user_id].city_list[message.text]
+        city = message.text.split()[0]
+        user_dict[user_id].city, user_dict[user_id].destination_id = city, destination_id
+        user_dict[user_id].city_list = dict()
+        msg = bot.send_message(message.chat.id, 'Какая минимальная цена за ночь? (Введите цену в рублях)', reply_markup=types.ReplyKeyboardRemove())
+        bot.register_next_step_handler(msg, max_price_step)
+    except KeyError:
+        bot.send_message(message.chat.id, 'Ошибка ввода. Повторите поиск заново.')
 
 
 def max_price_step(message):
@@ -122,7 +138,7 @@ def max_price_step(message):
         min_price = int(message.text)
         print(min_price)
         user_dict[user_id].min_price = min_price
-        msg = bot.send_message(message.chat.id, 'Какая максимальная цена за ночь?')
+        msg = bot.send_message(message.chat.id, 'Какая максимальная цена за ночь? (Введите цену в рублях)')
         bot.register_next_step_handler(msg, distance_from_center_step)
     except ValueError:
         bot.send_message(message.chat.id, 'Ошибка ввода. Необходимо ввести целое число. Повторите поиск заново.')
@@ -134,7 +150,7 @@ def distance_from_center_step(message):
         max_price = int(message.text)
         print(max_price)
         user_dict[user_id].max_price = max_price
-        msg = bot.send_message(message.chat.id, 'Какое максимальное расстояние от центра?')
+        msg = bot.send_message(message.chat.id, 'Какое максимальное расстояние от центра? (Введите расстояние в километрах)')
         bot.register_next_step_handler(msg, city_pick_step)
     except ValueError:
         bot.send_message(message.chat.id, 'Ошибка ввода. Необходимо ввести целое число. Повторите поиск заново.')
@@ -227,17 +243,24 @@ def photo_count_step(message):
     photo_count = int(message.text)
     hotel_count = user_dict[user_id].hotel_count
     desnination_id = user_dict[user_id].destination_id
-    res = hotel_list(destination_id=desnination_id, hotel_count=hotel_count,
-                     sort=sort, min_price=min_price, max_price=max_price,
-                     max_distance=distance, photo_count=photo_count)
-    if len(res['hotels_info']) == 0:
+    try:
+        res = hotel_list(destination_id=desnination_id, hotel_count=hotel_count,
+                         sort=sort, min_price=min_price, max_price=max_price,
+                         max_distance=distance, photo_count=photo_count)
+
+        if len(res['hotels_info']) == 0:
+            bot.send_message(message.from_user.id,
+                             'По заданным параметрам ничего не найдено. '
+                             'Попробуйте изменить диапазон цены, либо расстояние от центра города.',
+                             reply_markup=types.ReplyKeyboardRemove())
+        else:
+            for i in res['hotels_info']:
+                photo_list = i['photo_url_list']
+                bot.send_media_group(message.from_user.id, photo_list)
+            hotels_list = res['hotels_list'][:-2]
+            add_user_action(user_id, user_name, nickname, command, city, hotels_list)
+    except Exception:
         bot.send_message(message.from_user.id,
-                         'По заданным параметрам ничего не найдено. '
-                         'Попробуйте изменить диапазон цены, либо расстояние от центра города.',
+                         'При поиске произошла неизвестная ошибка, возможно где-то на сервере. '
+                         'Повторите поиск еще раз.',
                          reply_markup=types.ReplyKeyboardRemove())
-    else:
-        for i in res['hotels_info']:
-            photo_list = i['photo_url_list']
-            bot.send_media_group(message.from_user.id, photo_list)
-        hotels_list = res['hotels_list'][:-2]
-        add_user_action(user_id, user_name, nickname, command, city, hotels_list)

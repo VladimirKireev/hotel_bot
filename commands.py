@@ -9,15 +9,15 @@ def search_city(city):
     querystring = {"query": f"{city}", "locale": "ru_RU", "currency": "RUB"}
 
     headers = {
-        "X-RapidAPI-Key": "bf1948fae7mshea6c4db01483900p1f0237jsn16fcf944b8bd",
+        "X-RapidAPI-Key": "a0d86e69a7msh9aaaf5692ba9e95p1dedbfjsn10248342e000",
         "X-RapidAPI-Host": "hotels4.p.rapidapi.com"
     }
 
     response = requests.request("GET", url, headers=headers, params=querystring)
     result = json.loads(response.text)
 
-    with open('Cities.json', 'w') as file:
-        json.dump(result, file, indent=4)
+    # with open('Cities.json', 'w') as file:
+    #     json.dump(result, file, indent=4)
 
     result_cities = result['suggestions'][0]['entities']
     pick_cities_list = []
@@ -34,7 +34,7 @@ def get_photo(hotel_id, hotel_name, count):
     querystring = {"id": f"{hotel_id}"}
 
     headers = {
-        "X-RapidAPI-Key": "bf1948fae7mshea6c4db01483900p1f0237jsn16fcf944b8bd",
+        "X-RapidAPI-Key": "a0d86e69a7msh9aaaf5692ba9e95p1dedbfjsn10248342e000",
         "X-RapidAPI-Host": "hotels4.p.rapidapi.com"
     }
 
@@ -68,7 +68,7 @@ def hotel_list(destination_id, hotel_count,
                    "locale": "en_US", "currency": "RUB", "landmarkIds": "city_center"}
 
     headers = {
-        "X-RapidAPI-Key": "bf1948fae7mshea6c4db01483900p1f0237jsn16fcf944b8bd",
+        "X-RapidAPI-Key": "a0d86e69a7msh9aaaf5692ba9e95p1dedbfjsn10248342e000",
         "X-RapidAPI-Host": "hotels4.p.rapidapi.com"
     }
 

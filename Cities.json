@@ -1,207 +1,121 @@
 {
-    "term": "\u0420\u0438\u043c",
-    "moresuggestions": 10,
+    "term": "/start",
+    "moresuggestions": 0,
     "autoSuggestInstance": null,
-    "trackingID": "30921a56185041219efa5958786dcbfc",
+    "trackingID": "8c51e7bd3ded492b8b8b11a87504b6c9",
     "misspellingfallback": false,
     "suggestions": [
         {
             "group": "CITY_GROUP",
-            "entities": [
-                {
-                    "geoId": "3023",
-                    "destinationId": "712491",
-                    "landmarkCityDestinationId": null,
-                    "type": "CITY",
-                    "redirectPage": "DEFAULT_PAGE",
-                    "latitude": 41.903755,
-                    "longitude": 12.479556,
-                    "searchDetail": null,
-                    "caption": "<span class='highlighted'>\u0420\u0438\u043c</span>, \u041b\u0430\u0446\u0438\u043e, \u0418\u0442\u0430\u043b\u0438\u044f",
-                    "name": "\u0420\u0438\u043c"
-                },
-                {
-                    "geoId": "3010",
-                    "destinationId": "1641012",
-                    "landmarkCityDestinationId": null,
-                    "type": "CITY",
-                    "redirectPage": "DEFAULT_PAGE",
-                    "latitude": 44.060699,
-                    "longitude": 12.565952,
-                    "searchDetail": null,
-                    "caption": "<span class='highlighted'>\u0420\u0438\u043c</span>\u0438\u043d\u0438, \u0420\u0438\u043c\u0438\u043d\u0438, \u042d\u043c\u0438\u043b\u0438\u044f-\u0420\u043e\u043c\u0430\u043d\u044c\u044f, \u0418\u0442\u0430\u043b\u0438\u044f",
-                    "name": "\u0420\u0438\u043c\u0438\u043d\u0438"
-                },
-                {
-                    "geoId": "6356208",
-                    "destinationId": "1907488",
-                    "landmarkCityDestinationId": null,
-                    "type": "REGION",
-                    "redirectPage": "DEFAULT_PAGE",
-                    "latitude": 44.10109893065347,
-                    "longitude": 12.518034887050854,
-                    "searchDetail": null,
-                    "caption": "<span class='highlighted'>\u0420\u0438\u043c</span>\u0438\u043d\u0438-\u0420\u0438\u0432\u044c\u0435\u0440\u0430, \u0418\u0442\u0430\u043b\u0438\u044f",
-                    "name": "\u0420\u0438\u043c\u0438\u043d\u0438-\u0420\u0438\u0432\u044c\u0435\u0440\u0430"
-                },
-                {
-                    "geoId": "553248633938945217",
-                    "destinationId": "10818945",
-                    "landmarkCityDestinationId": null,
-                    "type": "NEIGHBORHOOD",
-                    "redirectPage": "DEFAULT_PAGE",
-                    "latitude": 41.89893613158194,
-                    "longitude": 12.48160047675495,
-                    "searchDetail": null,
-                    "caption": "\u0426\u0435\u043d\u0442\u0440 <span class='highlighted'>\u0420\u0438\u043c</span>\u0430, \u0420\u0438\u043c, \u041b\u0430\u0446\u0438\u043e, \u0418\u0442\u0430\u043b\u0438\u044f",
-                    "name": "\u0426\u0435\u043d\u0442\u0440 \u0420\u0438\u043c\u0430"
-                },
-                {
-                    "geoId": "3000661785",
-                    "destinationId": "10565239",
-                    "landmarkCityDestinationId": null,
-                    "type": "NEIGHBORHOOD",
-                    "redirectPage": "DEFAULT_PAGE",
-                    "latitude": 44.060935,
-                    "longitude": 12.570152,
-                    "searchDetail": null,
-                    "caption": "\u0418\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0446\u0435\u043d\u0442\u0440 <span class='highlighted'>\u0420\u0438\u043c</span>\u0438\u043d\u0438, \u0420\u0438\u043c\u0438\u043d\u0438, \u042d\u043c\u0438\u043b\u0438\u044f-\u0420\u043e\u043c\u0430\u043d\u044c\u044f, \u0418\u0442\u0430\u043b\u0438\u044f",
-                    "name": "\u0418\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0446\u0435\u043d\u0442\u0440 \u0420\u0438\u043c\u0438\u043d\u0438"
-                },
-                {
-                    "geoId": "6051854",
-                    "destinationId": "1641498",
-                    "landmarkCityDestinationId": null,
-                    "type": "REGION",
-                    "redirectPage": "DEFAULT_PAGE",
-                    "latitude": 41.85748886154005,
-                    "longitude": 12.200972074747522,
-                    "searchDetail": null,
-                    "caption": "<span class='highlighted'>\u0420\u0438\u043c</span>\u0441\u043a\u043e\u0435 \u043f\u043e\u0431\u0435\u0440\u0435\u0436\u044c\u0435, \u0418\u0442\u0430\u043b\u0438\u044f",
-                    "name": "\u0420\u0438\u043c\u0441\u043a\u043e\u0435 \u043f\u043e\u0431\u0435\u0440\u0435\u0436\u044c\u0435"
-                }
-            ]
+            "entities": []
         },
         {
             "group": "HOTEL_GROUP",
             "entities": [
                 {
-                    "geoId": "21736",
-                    "destinationId": "124845",
+                    "geoId": "22902",
+                    "destinationId": "130750",
                     "landmarkCityDestinationId": null,
                     "type": "HOTEL",
                     "redirectPage": "DEFAULT_PAGE",
-                    "latitude": 41.897969,
-                    "longitude": 12.501727,
+                    "latitude": 38.961803,
+                    "longitude": -119.940214,
                     "searchDetail": null,
-                    "caption": "Hotel Terminal, <span class='highlighted'>\u0420\u0438\u043c</span>, \u041b\u0430\u0446\u0438\u043e, \u0418\u0442\u0430\u043b\u0438\u044f",
-                    "name": "Hotel Terminal"
+                    "caption": "Bally\u2019s Lake Tahoe Casino Resort, \u0421\u0442\u0435\u0439\u0442\u043b\u0430\u0439\u043d, \u041d\u0435\u0432\u0430\u0434\u0430, \u0421\u0428\u0410",
+                    "name": "Bally\u2019s Lake Tahoe Casino Resort"
                 },
                 {
-                    "geoId": "893031",
-                    "destinationId": "296816",
+                    "geoId": "60690",
+                    "destinationId": "123827",
                     "landmarkCityDestinationId": null,
                     "type": "HOTEL",
                     "redirectPage": "DEFAULT_PAGE",
-                    "latitude": 41.899452,
-                    "longitude": 12.498313,
+                    "latitude": 38.960689,
+                    "longitude": -119.941027,
                     "searchDetail": null,
-                    "caption": "Hotel Everest, <span class='highlighted'>\u0420\u0438\u043c</span>, \u041b\u0430\u0446\u0438\u043e, \u0418\u0442\u0430\u043b\u0438\u044f",
-                    "name": "Hotel Everest"
+                    "caption": "Harrah's Lake Tahoe Resort & Casino, \u0421\u0442\u0435\u0439\u0442\u043b\u0430\u0439\u043d, \u041d\u0435\u0432\u0430\u0434\u0430, \u0421\u0428\u0410",
+                    "name": "Harrah's Lake Tahoe Resort & Casino"
                 },
                 {
-                    "geoId": "24463268",
-                    "destinationId": "783824576",
+                    "geoId": "794329",
+                    "destinationId": "222891",
                     "landmarkCityDestinationId": null,
                     "type": "HOTEL",
                     "redirectPage": "DEFAULT_PAGE",
-                    "latitude": 41.89964,
-                    "longitude": 12.49666,
+                    "latitude": 38.960667,
+                    "longitude": -119.883782,
                     "searchDetail": null,
-                    "caption": "The Hive Hotel, <span class='highlighted'>\u0420\u0438\u043c</span>, \u041b\u0430\u0446\u0438\u043e, \u0418\u0442\u0430\u043b\u0438\u044f",
-                    "name": "The Hive Hotel"
+                    "caption": "Holiday Inn Club Vacations Tahoe Ridge Resort, an IHG Hotel, \u0421\u0442\u0435\u0439\u0442\u043b\u0430\u0439\u043d, \u041d\u0435\u0432\u0430\u0434\u0430, \u0421\u0428\u0410",
+                    "name": "Holiday Inn Club Vacations Tahoe Ridge Resort, an IHG Hotel"
+                },
+                {
+                    "geoId": "38768494",
+                    "destinationId": "1241591808",
+                    "landmarkCityDestinationId": null,
+                    "type": "HOTEL",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": -12.134434,
+                    "longitude": -77.023113,
+                    "searchDetail": null,
+                    "caption": "Private Suite Apartment in Miraflores, \u041b\u0430\u0439\u043c\u0430, \u041b\u0438\u043c\u0430 (\u0440\u0435\u0433\u0438\u043e\u043d), \u041f\u0435\u0440\u0443",
+                    "name": "Private Suite Apartment in Miraflores"
+                },
+                {
+                    "geoId": "3010679",
+                    "destinationId": "336636",
+                    "landmarkCityDestinationId": null,
+                    "type": "HOTEL",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 37.659556,
+                    "longitude": -77.627492,
+                    "searchDetail": null,
+                    "caption": "Hilton Richmond Hotel & Spa/Short Pump, \u0420\u0438\u0447\u043c\u043e\u043d\u0434, \u0412\u0438\u0440\u0434\u0436\u0438\u043d\u0438\u044f, \u0421\u0428\u0410",
+                    "name": "Hilton Richmond Hotel & Spa/Short Pump"
+                },
+                {
+                    "geoId": "22807",
+                    "destinationId": "198819",
+                    "landmarkCityDestinationId": null,
+                    "type": "HOTEL",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 38.962445,
+                    "longitude": -119.887447,
+                    "searchDetail": null,
+                    "caption": "Tahoe Summit Village, \u0421\u0442\u0435\u0439\u0442\u043b\u0430\u0439\u043d, \u041d\u0435\u0432\u0430\u0434\u0430, \u0421\u0428\u0410",
+                    "name": "Tahoe Summit Village"
+                },
+                {
+                    "geoId": "800713",
+                    "destinationId": "200210",
+                    "landmarkCityDestinationId": null,
+                    "type": "HOTEL",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 38.961078,
+                    "longitude": -119.888712,
+                    "searchDetail": null,
+                    "caption": "Ridge Pointe, \u0421\u0442\u0435\u0439\u0442\u043b\u0430\u0439\u043d, \u041d\u0435\u0432\u0430\u0434\u0430, \u0421\u0428\u0410",
+                    "name": "Ridge Pointe"
                 }
             ]
         },
         {
             "group": "LANDMARK_GROUP",
-            "entities": [
-                {
-                    "geoId": "6046254",
-                    "destinationId": "1737636",
-                    "landmarkCityDestinationId": "712491",
-                    "type": "LANDMARK",
-                    "redirectPage": "DEFAULT_PAGE",
-                    "latitude": 41.905988,
-                    "longitude": 12.482769,
-                    "searchDetail": null,
-                    "caption": "\u0418\u0441\u043f\u0430\u043d\u0441\u043a\u0430\u044f \u043b\u0435\u0441\u0442\u043d\u0438\u0446\u0430, <span class='highlighted'>\u0420\u0438\u043c</span>, \u041b\u0430\u0446\u0438\u043e, \u0418\u0442\u0430\u043b\u0438\u044f",
-                    "name": "\u0418\u0441\u043f\u0430\u043d\u0441\u043a\u0430\u044f \u043b\u0435\u0441\u0442\u043d\u0438\u0446\u0430"
-                },
-                {
-                    "geoId": "6341167",
-                    "destinationId": "701966",
-                    "landmarkCityDestinationId": "712491",
-                    "type": "LANDMARK",
-                    "redirectPage": "DEFAULT_PAGE",
-                    "latitude": 41.90095040257328,
-                    "longitude": 12.483310461122054,
-                    "searchDetail": null,
-                    "caption": "\u0424\u043e\u043d\u0442\u0430\u043d \u00ab\u0422\u0440\u0435\u0432\u0438\u00bb, <span class='highlighted'>\u0420\u0438\u043c</span>, \u041b\u0430\u0446\u0438\u043e, \u0418\u0442\u0430\u043b\u0438\u044f",
-                    "name": "\u0424\u043e\u043d\u0442\u0430\u043d \u00ab\u0422\u0440\u0435\u0432\u0438\u00bb"
-                },
-                {
-                    "geoId": "6046257",
-                    "destinationId": "709950",
-                    "landmarkCityDestinationId": "712491",
-                    "type": "LANDMARK",
-                    "redirectPage": "DEFAULT_PAGE",
-                    "latitude": 41.889802,
-                    "longitude": 12.4939,
-                    "searchDetail": null,
-                    "caption": "\u041a\u043e\u043b\u0438\u0437\u0435\u0439, <span class='highlighted'>\u0420\u0438\u043c</span>, \u041b\u0430\u0446\u0438\u043e, \u0418\u0442\u0430\u043b\u0438\u044f",
-                    "name": "\u041a\u043e\u043b\u0438\u0437\u0435\u0439"
-                }
-            ]
+            "entities": []
         },
         {
             "group": "TRANSPORT_GROUP",
             "entities": [
                 {
-                    "geoId": "553248635974599783",
-                    "destinationId": "11426482",
+                    "geoId": "553248634838998462",
+                    "destinationId": "10990439",
                     "landmarkCityDestinationId": null,
-                    "type": "TRAIN_STATION",
+                    "type": "METRO_STATION",
                     "redirectPage": "DEFAULT_PAGE",
-                    "latitude": 41.901658,
-                    "longitude": 12.501324,
+                    "latitude": 51.320499,
+                    "longitude": 12.378447,
                     "searchDetail": null,
-                    "caption": "<span class='highlighted'>\u0420\u0438\u043c</span>, \u0418\u0442\u0430\u043b\u0438\u044f (XRJ-\u0432\u043e\u043a\u0437\u0430\u043b \u0422\u0435\u0440\u043c\u0438\u043d\u0438)",
-                    "name": "\u0420\u0438\u043c (XRJ-\u0432\u043e\u043a\u0437\u0430\u043b \u0422\u0435\u0440\u043c\u0438\u043d\u0438)"
-                },
-                {
-                    "geoId": "5194566",
-                    "destinationId": "1636097",
-                    "landmarkCityDestinationId": null,
-                    "type": "AIRPORT",
-                    "redirectPage": "DEFAULT_PAGE",
-                    "latitude": 41.795617,
-                    "longitude": 12.251165,
-                    "searchDetail": null,
-                    "caption": "<span class='highlighted'>\u0420\u0438\u043c</span>, \u0418\u0442\u0430\u043b\u0438\u044f (FCO-\u0424\u044c\u044e\u043c\u0438\u0447\u0438\u043d\u043e - \u041b\u0435\u043e\u043d\u0430\u0440\u0434\u043e \u0434\u0430 \u0412\u0438\u043d\u0447\u0438, \u043c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0439)",
-                    "name": "\u0420\u0438\u043c (FCO-\u0424\u044c\u044e\u043c\u0438\u0447\u0438\u043d\u043e - \u041b\u0435\u043e\u043d\u0430\u0440\u0434\u043e \u0434\u0430 \u0412\u0438\u043d\u0447\u0438, \u043c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0439)"
-                },
-                {
-                    "geoId": "6022584",
-                    "destinationId": "1707502",
-                    "landmarkCityDestinationId": null,
-                    "type": "TRAIN_STATION",
-                    "redirectPage": "DEFAULT_PAGE",
-                    "latitude": 41.90132,
-                    "longitude": 12.501142,
-                    "searchDetail": null,
-                    "caption": "\u0421\u0442\u0430\u043d\u0446\u0438\u044f Roma Termini, <span class='highlighted'>\u0420\u0438\u043c</span>, \u041b\u0430\u0446\u0438\u043e, \u0418\u0442\u0430\u043b\u0438\u044f",
-                    "name": "\u0421\u0442\u0430\u043d\u0446\u0438\u044f Roma Termini"
+                    "caption": "\u041e\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 \u0442\u0440\u0430\u043c\u0432\u0430\u044f Kurt-Eisner-/Arthur-Hoffmann-Stra\u00dfe, \u041b\u0435\u0439\u043f\u0446\u0438\u0433, \u0421\u0430\u043a\u0441\u043e\u043d\u0438\u044f (\u0437\u0435\u043c\u043b\u044f), \u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f",
+                    "name": "\u041e\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 \u0442\u0440\u0430\u043c\u0432\u0430\u044f Kurt-Eisner-/Arthur-Hoffmann-Stra\u00dfe"
                 }
             ]
         }
