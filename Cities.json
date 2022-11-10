@@ -1,0 +1,210 @@
+{
+    "term": "\u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438",
+    "moresuggestions": 10,
+    "autoSuggestInstance": null,
+    "trackingID": "ce6c6a087dce424188aec185df3d9777",
+    "misspellingfallback": false,
+    "suggestions": [
+        {
+            "group": "CITY_GROUP",
+            "entities": [
+                {
+                    "geoId": "1443",
+                    "destinationId": "475103",
+                    "landmarkCityDestinationId": null,
+                    "type": "CITY",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 60.169857,
+                    "longitude": 24.938379,
+                    "searchDetail": null,
+                    "caption": "<span class='highlighted'>\u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438</span>, \u0423\u0443\u0441\u0438\u043c\u0430\u0430, \u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f",
+                    "name": "\u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438"
+                },
+                {
+                    "geoId": "553248633981744117",
+                    "destinationId": "10874249",
+                    "landmarkCityDestinationId": null,
+                    "type": "NEIGHBORHOOD",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 60.171264,
+                    "longitude": 24.956772,
+                    "searchDetail": null,
+                    "caption": "\u0426\u0435\u043d\u0442\u0440 \u0433\u043e\u0440\u043e\u0434\u0430 <span class='highlighted'>\u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438</span>, \u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438, \u0423\u0443\u0441\u0438\u043c\u0430\u0430, \u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f",
+                    "name": "\u0426\u0435\u043d\u0442\u0440 \u0433\u043e\u0440\u043e\u0434\u0430 \u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438"
+                },
+                {
+                    "geoId": "6278775",
+                    "destinationId": "1776284",
+                    "landmarkCityDestinationId": null,
+                    "type": "NEIGHBORHOOD",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 60.168535,
+                    "longitude": 24.930494,
+                    "searchDetail": null,
+                    "caption": "\u041a\u0430\u043c\u043f\u043f\u0438, <span class='highlighted'>\u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438</span>, \u0423\u0443\u0441\u0438\u043c\u0430\u0430, \u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f",
+                    "name": "\u041a\u0430\u043c\u043f\u043f\u0438"
+                },
+                {
+                    "geoId": "3000660985",
+                    "destinationId": "10565688",
+                    "landmarkCityDestinationId": null,
+                    "type": "NEIGHBORHOOD",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 60.14326918131747,
+                    "longitude": 24.921507695120514,
+                    "searchDetail": null,
+                    "caption": "\u042e\u0436\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433, <span class='highlighted'>\u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438</span>, \u0423\u0443\u0441\u0438\u043c\u0430\u0430, \u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f",
+                    "name": "\u042e\u0436\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433"
+                }
+            ]
+        },
+        {
+            "group": "HOTEL_GROUP",
+            "entities": [
+                {
+                    "geoId": "12923918",
+                    "destinationId": "414565376",
+                    "landmarkCityDestinationId": null,
+                    "type": "HOTEL",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 60.160054,
+                    "longitude": 24.921379,
+                    "searchDetail": null,
+                    "caption": "Clarion Hotel Helsinki, <span class='highlighted'>\u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438</span>, \u0423\u0443\u0441\u0438\u043c\u0430\u0430, \u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f",
+                    "name": "Clarion Hotel Helsinki"
+                },
+                {
+                    "geoId": "525647",
+                    "destinationId": "212459",
+                    "landmarkCityDestinationId": null,
+                    "type": "HOTEL",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 60.19276,
+                    "longitude": 24.87286,
+                    "searchDetail": null,
+                    "caption": "Hilton Helsinki Kalastajatorppa, <span class='highlighted'>\u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438</span>, \u0423\u0443\u0441\u0438\u043c\u0430\u0430, \u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f",
+                    "name": "Hilton Helsinki Kalastajatorppa"
+                },
+                {
+                    "geoId": "16398",
+                    "destinationId": "195093",
+                    "landmarkCityDestinationId": null,
+                    "type": "HOTEL",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 60.16178,
+                    "longitude": 24.92462,
+                    "searchDetail": null,
+                    "caption": "Radisson Blu Seaside Hotel, Helsinki, <span class='highlighted'>\u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438</span>, \u0423\u0443\u0441\u0438\u043c\u0430\u0430, \u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f",
+                    "name": "Radisson Blu Seaside Hotel, Helsinki"
+                },
+                {
+                    "geoId": "1540241",
+                    "destinationId": "248166",
+                    "landmarkCityDestinationId": null,
+                    "type": "HOTEL",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 60.16866,
+                    "longitude": 24.94753,
+                    "searchDetail": null,
+                    "caption": "GLO Hotel Helsinki Kluuvi, <span class='highlighted'>\u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438</span>, \u0423\u0443\u0441\u0438\u043c\u0430\u0430, \u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f",
+                    "name": "GLO Hotel Helsinki Kluuvi"
+                },
+                {
+                    "geoId": "221310",
+                    "destinationId": "178627",
+                    "landmarkCityDestinationId": null,
+                    "type": "HOTEL",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 60.172431,
+                    "longitude": 24.945204,
+                    "searchDetail": null,
+                    "caption": "Radisson Blu Plaza Hotel, Helsinki, <span class='highlighted'>\u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438</span>, \u0423\u0443\u0441\u0438\u043c\u0430\u0430, \u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f",
+                    "name": "Radisson Blu Plaza Hotel, Helsinki"
+                },
+                {
+                    "geoId": "21961",
+                    "destinationId": "208246",
+                    "landmarkCityDestinationId": null,
+                    "type": "HOTEL",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 60.17735,
+                    "longitude": 24.95183,
+                    "searchDetail": null,
+                    "caption": "Hilton Helsinki Strand, <span class='highlighted'>\u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438</span>, \u0423\u0443\u0441\u0438\u043c\u0430\u0430, \u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f",
+                    "name": "Hilton Helsinki Strand"
+                }
+            ]
+        },
+        {
+            "group": "LANDMARK_GROUP",
+            "entities": [
+                {
+                    "geoId": "6251859",
+                    "destinationId": "1762837",
+                    "landmarkCityDestinationId": "475103",
+                    "type": "LANDMARK",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 60.171683,
+                    "longitude": 24.944978,
+                    "searchDetail": null,
+                    "caption": "\u041a\u0430\u0437\u0438\u043d\u043e Grand Casino Helsinki, <span class='highlighted'>\u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438</span>, \u0423\u0443\u0441\u0438\u043c\u0430\u0430, \u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f",
+                    "name": "\u041a\u0430\u0437\u0438\u043d\u043e Grand Casino Helsinki"
+                },
+                {
+                    "geoId": "501191",
+                    "destinationId": "1651208",
+                    "landmarkCityDestinationId": "475103",
+                    "type": "LANDMARK",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 60.169962,
+                    "longitude": 24.952118,
+                    "searchDetail": null,
+                    "caption": "\u0421\u043e\u0431\u043e\u0440 <span class='highlighted'>\u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438</span>, \u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438, \u0423\u0443\u0441\u0438\u043c\u0430\u0430, \u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f",
+                    "name": "\u0421\u043e\u0431\u043e\u0440 \u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438"
+                }
+            ]
+        },
+        {
+            "group": "TRANSPORT_GROUP",
+            "entities": [
+                {
+                    "geoId": "4998472",
+                    "destinationId": "472558",
+                    "landmarkCityDestinationId": null,
+                    "type": "AIRPORT",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 60.31899,
+                    "longitude": 24.968057,
+                    "searchDetail": null,
+                    "caption": "<span class='highlighted'>\u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438</span>, \u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f (HEL-\u0412\u0430\u043d\u0442\u0430\u0430)",
+                    "name": "\u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438 (HEL-\u0412\u0430\u043d\u0442\u0430\u0430)"
+                },
+                {
+                    "geoId": "6172505",
+                    "destinationId": "1723437",
+                    "landmarkCityDestinationId": null,
+                    "type": "TRAIN_STATION",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 60.170768,
+                    "longitude": 24.941483,
+                    "searchDetail": null,
+                    "caption": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0432\u043e\u043a\u0437\u0430\u043b <span class='highlighted'>\u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438</span>, \u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438, \u0423\u0443\u0441\u0438\u043c\u0430\u0430, \u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f",
+                    "name": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0432\u043e\u043a\u0437\u0430\u043b \u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438"
+                },
+                {
+                    "geoId": "6193967",
+                    "destinationId": "1637591",
+                    "landmarkCityDestinationId": null,
+                    "type": "AIRPORT",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 60.248564,
+                    "longitude": 25.046153,
+                    "searchDetail": null,
+                    "caption": "<span class='highlighted'>\u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438</span>, \u0424\u0438\u043d\u043b\u044f\u043d\u0434\u0438\u044f (HEM-\u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438-\u041c\u0430\u043b\u043c\u0438)",
+                    "name": "\u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438 (HEM-\u0425\u0435\u043b\u044c\u0441\u0438\u043d\u043a\u0438-\u041c\u0430\u043b\u043c\u0438)"
+                }
+            ]
+        }
+    ],
+    "geocodeFallback": false
+}

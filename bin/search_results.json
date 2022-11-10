@@ -1,0 +1,51 @@
+{
+    "term": "\u0430\u043b\u043c\u0430\u0442\u044b",
+    "moresuggestions": 0,
+    "autoSuggestInstance": null,
+    "trackingID": "6097f029417e4c058480148777ab5aac",
+    "misspellingfallback": false,
+    "suggestions": [
+        {
+            "group": "CITY_GROUP",
+            "entities": [
+                {
+                    "geoId": "354",
+                    "destinationId": "737341",
+                    "landmarkCityDestinationId": null,
+                    "type": "CITY",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 43.222023,
+                    "longitude": 76.851253,
+                    "searchDetail": null,
+                    "caption": "Almaty, Kazakhstan",
+                    "name": "Almaty"
+                },
+                {
+                    "geoId": "91",
+                    "destinationId": "10233087",
+                    "landmarkCityDestinationId": null,
+                    "type": "COUNTRY",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 48.019573,
+                    "longitude": 66.923683,
+                    "searchDetail": null,
+                    "caption": "Kazakhstan",
+                    "name": "Kazakhstan"
+                }
+            ]
+        },
+        {
+            "group": "HOTEL_GROUP",
+            "entities": []
+        },
+        {
+            "group": "LANDMARK_GROUP",
+            "entities": []
+        },
+        {
+            "group": "TRANSPORT_GROUP",
+            "entities": []
+        }
+    ],
+    "geocodeFallback": false
+}
